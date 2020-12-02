@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='utf-8'?>
-<resources><string name="private">非公開</string>
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="private">非公開</string>
   <string name="myStudies">自分の研究</string>
   <string name="studiesIContributeTo">参加した研究</string>
   <string name="myPublicStudies">自分の公開研究</string>
@@ -66,6 +67,7 @@
   <string name="startAtX">%s に開始</string>
   <string name="embedInYourWebsite">自分のウェブサイト／ブログに埋め込む</string>
   <string name="readMoreAboutEmbedding">埋め込み（embedding）の説明</string>
+  <string name="onlyPublicStudiesCanBeEmbedded">Only public studies can be embedded!</string>
   <string name="open">開く</string>
   <string name="xBroughtToYouByY">%1$s を %2$s がお届けします</string>
   <string name="studyNotFound">研究が見つかりません</string>
