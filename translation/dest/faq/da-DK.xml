@@ -1,105 +1,143 @@
-<?xml version='1.0' encoding='utf-8'?>
-<resources><string name="faqAbbreviation">FAQ</string>
-  <string name="frequentlyAskedQuestions">Ofte stillede spørgsmål</string>
-  <string name="hearItPronouncedBySpecialist">Hør det udtalt af en specialist.</string>
-  <string name="whyLiveLightLibre">Live, fordi partier spilles og ses i realtid 24/7; light og libre eftersom Lishogi er open-source og ikke tynges af proprietært bras, der plager andre websteder.</string>
-  <string name="breakdownOfOurCosts">opgørelse af vores omkostninger</string>
-  <string name="otherWaysToHelp">andre måder at hjælpe</string>
-  <string name="fairPlay">Fair Play</string>
-  <string name="whyFlaggedRatingManipulationOrCheater">Hvorfor har jeg fået en anmærkning for kunstig rating-manipulation (sandbagging og boosting) eller computer-assistance?</string>
-  <string name="cheatDetectionMethods">Lishogi har stærke detektionsmetoder og en meget grundig proces til at gennemgå alle beviserne og træffe en beslutning. Processen involverer ofte mange moderatorer og kan tage lang tid. Bortset fra selve anmærkningen vil vi ikke gå ind ind de nærmere detaljer omkring beviser eller beslutningsprocessen for individuelle sager. Ellers ville det være lettere at undgå afsløring i fremtiden og være en invitation til uproduktive debatter. Den tid og kræfter bruges bedre på andre vigtige sager. Brugere kan appellere ved at maile %1$s, men afgørelser omstødes sjældent.</string>
-  <string name="whenAmIEligibleRatinRefund">Hvornår er jeg berettiget til den automatiske rating-refundering fra snydere?</string>
-  <string name="ratingRefundExplanation">Et minut efter en spiller får en anmærkning, bliver deres 40 seneste ratede sejre i løbet af de sidste 3 dage inddraget. Hvis du var deres modstander i de partier og din rating ikke var provisorisk, vil du få en rating-refundering. Størrelsen på refunderingen afgøres af din højeste rating og din rating-udvikling efter partiet. 
-  (Hvis for eksempel din rating steg markant efter de partier, får du måske ingen refundering eller kun en delvis refundering.) En refundering vil aldrig være på mere end 150 point.</string>
-  <string name="preventLeavingGameWithoutResigning">Hvad gøres der ved spillere, som forlader partier uden at opgive?</string>
-  <string name="leavingGameWithoutResigningExplanation">Hvis din modstander ofte afbryder / forlader spil, får de \"spilforbud\", hvilket betyder, at de får et midlertidigt forbud mod at spille. Dette er ikke offentliggjort på deres profil. Hvis denne opførsel fortsætter, øges spilleforbuddets længde - og en vedvarende opførsel af denne art kan føre til lukning af kontoen.</string>
-  <string name="howCanIBecomeModerator">Hvordan kan jeg blive moderator?</string>
-  <string name="youCannotApply">Det er ikke muligt at ansøge om at blive moderator. Hvis vi ser nogen, som vi tror ville være en god moderator, vil du kontakte dem direkte.</string>
-  <string name="gameplay">Spilforløb</string>
-  <string name="howBulletBlitzEtcDecided">Hvordan afgøres forskellen mellem Bullet, Blitz og andre tidskontroller?</string>
-  <string name="basedOnGameDuration">Tidskontroller på Lishogi er baseret på en estimeret varighed af partiet = %1$s
-  For eksempel er den estimeret varighed af et 5+3 parti 5 * 60 + 40 * 3 = 420 sekunder.</string>
-  <string name="durationFormula">(starttid på uret) + 40 * (tillægstid)</string>
-  <string name="inferiorThanXsEqualYtimeControl">≤ %1$ss = %2$s</string>
-  <string name="superiorThanXsEqualYtimeControl">≥ %1$ss = %2$s</string>
-  <string name="whatVariantsCanIplay">Hvilke varianter kan jeg spille på Lishogi?</string>
-  <string name="eightVariants">8 skakvarianter</string>
-  <string name="whatIsACPL">Hvad er \"Gennemsnitligt centibonde-tab\"/GCBT?</string>
-  <string name="acplExplanation">En centibonde er et mål, som bruges i skak som en repræsentation af fordelen. En centibonde svarer til en hundrededel af en bonde (1/100). Derfor er 100 centibønder = 1 bonde. Disse værdier spiller inden formel rolle i partiet, men er nyttige for spillerne og essentielle i computerskak ved evalueringen af positioner.
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="faqAbbreviation">FAQ</string>
+	<string name="frequentlyAskedQuestions">Frequently Asked Questions</string>
+	<string name="whyIsLishogiCalledLishogi">Why is Lishogi called Lishogi?</string>
+	<string name="forkedFromLichess">Lishogi is open source project forked from liсhess, but since it\'s for playing shogi, it\'s called lishogi.</string>
+	<string name="lishogiCombinationLiveLightLibrePronounced">Because it\'s derived from Liсhess. And Liсhess is called Liсhess because it\'s a combination of live/light/libre and chess. Lishogi is pronounced %1$s.</string>
+	<string name="leechess">lee-shogi</string>
+	<string name="hearItPronouncedBySpecialist">Hear it pronounced by a specialist.</string>
+	<string name="whyLiveLightLibre">Live, because games are played and watched in real-time 24/7; light and libre for the fact that Lishogi is open-source and unencumbered by proprietary junk that plagues other websites.</string>
+	<string name="whyIsLilaCalledLila">Similarly, the source code for Lishogi, %1$s, stands for li[shogi in sca]la, seeing as the bulk of Lishogi is written in %2$s, an intuitive programming language.</string>
+	<string name="howCanIContributeToLishogi">How can I contribute to Lishogi?</string>
+	<string name="lishogiPoweredByDonationsAndVolunteers">Lishogi is powered by donations from patrons and the efforts of a team of volunteers.</string>
+	<string name="findMoreAndSeeHowHelp">You can find out more about %1$s. If you want to help Lishogi by volunteering your time and skills, there are many %2$s.</string>
+	<string name="beingAPatron">Become a patron</string>
+	<string name="breakdownOfOurCosts">breakdown of our costs</string>
+	<string name="otherWaysToHelp">other ways to help</string>
+	<string name="areThereWebsitesBasedOnLishogi">Are there websites based on Lishogi?</string>
+	<string name="yesLishogiInspiredOtherOpenSourceWebsites">Yes. Lishogi has indeed inspired other open-source sites that use our %1$s, %2$s, or %3$s.</string>
+	<string name="fairPlay">Fair Play</string>
+	<string name="whyFlaggedRatingManipulationOrCheater">Why am I flagged for artificial rating manipulation (sandbagging and boosting) or computer assistance?</string>
+	<string name="cheatDetectionMethods">Lishogi has strong detection methods and a very thorough process for reviewing all the evidence and making a decision. The process often involves many moderators and can take a long time. Other than the mark itself, we will not go into details about evidence or the decision making process for individual cases. Doing so would make it easier to avoid detection in the future, and be an invitation to unproductive debates. That time and effort is better spent on other important cases. Users can appeal by emailing %1$s, but decisions are rarely overturned.</string>
+	<string name="whenAmIEligibleRatinRefund">When am I eligible for the automatic rating refund from cheaters?</string>
+	<string name="ratingRefundExplanation">One minute after a player is marked, their 40 latest rated games in the last 3 days are taken. If you are their opponent in those games, you lost rating (because of a loss or a draw), and your rating was not provisional, you get a rating refund. The refund is capped based on your peak rating and your rating progress after the game.
+  (For example, if your rating greatly increased after those games, you might get no refund or only a partial refund.) A refund will never exceed 150 points.</string>
+	<string name="preventLeavingGameWithoutResigning">What is done about players leaving games without resigning?</string>
+	<string name="leavingGameWithoutResigningExplanation">If your opponent frequently aborts/leaves games, they get \"play banned\", which means they\'re temporarily banned from playing games. This is not publically indicated on their profile. If this behaviour continues, the length of the playban increases - and prolonged behaviour of this nature may lead to account closure.</string>
+	<string name="howCanIBecomeModerator">How can I become a moderator?</string>
+	<string name="youCannotApply">It’s not possible to apply to become a moderator. If we see someone who we think would be good as a moderator, we will contact them directly.</string>
+	<string name="isCorrespondenceDifferent">Is correspondence different from normal shogi?</string>
+	<string name="youCanUseOpeningBookNoEngine">On Lishogi, the main difference in rules for correspondence shogi is that an opening book is allowed. The use of engines is still prohibited and will result in being flagged for engine assistance. Although ICCF allows engine use in correspondence, Lishogi does not.</string>
+	<string name="gameplay">Gameplay</string>
+	<string name="howBulletBlitzEtcDecided">How are Bullet, Blitz and other time controls decided?</string>
+	<string name="basedOnGameDuration">Lishogi time controls are based on estimated game duration = %1$s
+For instance, the estimated duration of a 5+3 game is 5 × 60 + 40 × 3 = 420 seconds.</string>
+	<string name="durationFormula">(clock initial time) + 40 × (clock increment)</string>
+	<string name="inferiorThanXsEqualYtimeControl">&lt; %1$ss = %2$s</string>
+	<string name="superiorThanXsEqualYtimeControl">≥ %1$ss = %2$s</string>
+	<string name="whatVariantsCanIplay">What variants can I play on Lishogi?</string>
+	<string name="lishogiSupportChessAnd">Lishogi supports standard shogi and %1$s.</string>
+	<string name="eightVariants">8 chess variants</string>
+	<string name="whatIsACPL">What is the average centipawn loss (ACPL)?</string>
+	<string name="acplExplanation">The centipawn is the unit of measure used in chess as representation of the advantage. A centipawn is equal to 1/100th of a pawn. Therefore 100 centipawns = 1 pawn. These values play no formal role in the game but are useful to players, and essential in computer chess, for evaluating positions.
 
-  Det bedste computertræk vil koste nul centibønder, mens svagere træk vil medføre en forværring af positionen, mål i centibønder.
+The top computer move will lose zero centipawns, but lesser moves will result in a deterioration of the position, measured in centipawns.
 
-  Denne værdi kan bruges som en indikator for spilkvalitet. Desto færre centibønder der tabes per træk, desto stærkere spilles der.
+This value can be used as an indicator of the quality of play. The fewer centipawns one loses per move, the stronger the play.
 
-  Computeranalysen på Lishogi drives af Stockfish.</string>
-  <string name="insufficientMaterial">Tabe på tid, remis og utilstrækkeligt materiale</string>
-  <string name="linkToFIDErules">FIDE håndbog §6.9, pdf</string>
-  <string name="discoveringEnPassant">Hvorfor kan en bonde tage en anden bonde, når den allerede er passeret? (en passant)</string>
-  <string name="explainingEnPassant">Dette er et lovligt træk kendt som \"en passant\". Wikipedia-artiklen giver en %1$s.
+The computer analysis on Lishogi is powered by Stockfish.</string>
+	<string name="insufficientMaterial">Losing on time, drawing and insufficient material</string>
+	<string name="lishogiFollowFIDErules">In the event of one player running out of time, that player will usually lose the game. However, the game is drawn if the position is such that the opponent cannot checkmate the player\'s king by any possible series of legal moves (%1$s).
 
-  Det beskrives i sektion 3.7 (d) af de %2$s:
+In rare cases this can be difficult to decide automatically (forced lines, fortresses). By default we always side with the player who did not run out of time.
 
-  \"En bonde på et felt på samme række og på en tilstødende linje af en modstanders bonde, som netop er flyttet to felter frem i ét træk fra dens oprindelige felt, må tage denne bonde fra modstanderen, som om den blot havde flyttet ét felt. Det er kun tilladt at tage bonden på denne måde i trækket umiddelbart efter denne fremrykning, og det kaldes for at tage bonden ‘en passant’.
-    
-  Tjek %3$s for dette træk og for at øve det.  </string>
-  <string name="goodIntroduction">god introduktion</string>
-  <string name="officialRulesPDF">officielle regler (pdf)</string>
-  <string name="threefoldRepetition">Trækgentagelse</string>
-  <string name="threefoldRepetitionExplanation">Hvis en position forekommer tre gange, kan spillerne kræve remis ved %1$s. Lishogi implementerer de officielle FIDE-regler som beskrevet i Artikel 9.2 (d) i %2$s.</string>
-  <string name="threefoldRepetitionLowerCase">trækgentagelse</string>
-  <string name="handBookPDF">håndbog (pdf)</string>
-  <string name="notRepeatedMoves">Vi gentog ikke træk. Hvorfor endte partiet alligevel med remis ved trækgentagelse?</string>
-  <string name="repeatedPositionsThatMatters">Trækgentagelse vedrører gentagende %1$s, ikke træk. Gentagelse behøver ikke at ske lige efter hinanden.</string>
-  <string name="positions">positioner</string>
-  <string name="weRepeatedthreeTimesPosButNoDraw">Vi gentog en position tre gange. Hvorfor var partiet ikke remis?</string>
-  <string name="threeFoldHasToBeClaimed">Trækgentagelse skal kræves af en af spillerne. Du kan gøre dette ved at trykke på knappen, som dukker op, eller ved at tilbyde remis før du laver dit endelige gentagende træk. Du kan også %1$s Lishogi til automatisk at kræve trækgentagelse for dig. Derudover vil femfoldig altid øjeblikkeligt afslutte partiet.</string>
-  <string name="configure">konfigurér</string>
-  <string name="accounts">Konti</string>
-  <string name="showYourTitle">Hvis du har en OTB-title, kan du anmode om at få denne vist på din konto ved at udfylde en %1$s, inklusiv et tydeligt billede af et identificerende dokument/kort og en selfie af dig, som holder dokumentet/kortet.
+Note that it can be possible to mate with a single knight or bishop if the opponent has a piece that could block the king.</string>
+	<string name="linkToFIDErules">FIDE handbook §6.9, PDF</string>
+	<string name="discoveringEnPassant">Why can a pawn capture another pawn when it is already passed? (en passant)</string>
+	<string name="explainingEnPassant">This is a legal move known as \"en passant\". The Wikipedia article gives a %1$s.
 
-  Verificering som titulær spiller på Lishogi giver adgang til at spille ved Titled Arena-begivenheder.
+It is described in section 3.7 (d) of the %2$s:
 
-  Endelig er der en ærestitel %2$s.</string>
-  <string name="asWellAsManyNMtitles">mange nationale mestertitler</string>
-  <string name="verificationForm">verifikationsformular</string>
-  <string name="canIbecomeLM">Kan jeg få Lishogi mester (LM) titlen?</string>
-  <string name="noUpperCaseDot">Nej.</string>
-  <string name="lMtitleComesToYouDoNotRequestIt">Denne ærestitel er uofficiel og eksisterer kun på Lishogi.
+\"A pawn occupying a square on the same rank as and on an adjacent file to an opponent’s pawn which has just advanced two squares in one move from its original square may capture this opponent’s pawn as though the latter had been moved only one square. This capture is only legal on the move following this advance and is called an ‘en passant’ capture.\"
 
-  Vi tildeler den en sjælden gang til bemærkelsesværdige spillere, som efter vores skøn er gode medborgere på Lishogi. Du kan ikke tilkæmpe dig en LM-titel, LM-titlen finder selv vej til dig. Hvis du kvalificerer dig, vil du få en besked fra os angående den og muligheden for at acceptere eller afslå den.
+See the %3$s on this move for some practice with it.</string>
+	<string name="goodIntroduction">good introduction</string>
+	<string name="officialRulesPDF">official rules (PDF)</string>
+	<string name="lishogiTraining">Lishogi training</string>
+	<string name="threefoldRepetition">Threefold repetition</string>
+	<string name="threefoldRepetitionExplanation">If a position occurs three times, players can claim a draw by %1$s. Lishogi implements the official FIDE rules, as described in Article 9.2 (d) of the %2$s.</string>
+	<string name="threefoldRepetitionLowerCase">threefold repetition</string>
+	<string name="handBookPDF">handbook (PDF)</string>
+	<string name="notRepeatedMoves">We did not repeat moves. Why was the game still drawn by repetition?</string>
+	<string name="repeatedPositionsThatMatters">Threefold repetition is about repeated %1$s, not moves. Repetition does not have to occur consecutively.</string>
+	<string name="positions">positions</string>
+	<string name="weRepeatedthreeTimesPosButNoDraw">We repeated a position three times. Why was the game not drawn?</string>
+	<string name="threeFoldHasToBeClaimed">Repetition needs to be claimed by one of the players. You can do so by pressing the button that is shown, or by offering a draw before your final repeating move, it won\'t matter if your opponent rejects the draw offer, the threefold repetition draw will be claimed anyway. You can also %1$s Lishogi to automatically claim repetitions for you. Additionally, fivefold repetition always immediately ends the game.</string>
+	<string name="configure">configure</string>
+	<string name="accounts">Accounts</string>
+	<string name="titlesAvailableOnLishogi">What titles are there on Lishogi?</string>
+	<string name="lishogiRecognizeAllOTBtitles">Lishogi recognises all FIDE titles gained from OTB (over the board) play, as well as %1$s. Here is a list of FIDE titles:</string>
+	<string name="showYourTitle">If you have an OTB title, you can apply to have this displayed on your account by completing the %1$s, including a clear image of an identifying document/card and a selfie of you holding the document/card.
 
-  Anmod ikke om at få LM-titlen.</string>
-  <string name="whatUsernameCanIchoose">Hvad kan mit brugernavn være?</string>
-  <string name="usernamesNotOffensive">Generelt bør brugernavne ikke: støde, udgive sig for en anden eller reklamere. Du kan læse mere om %1$s.</string>
-  <string name="guidelines">retningslinjer</string>
-  <string name="uniqueTrophies">Unikke trofæer</string>
-  <string name="ownerUniqueTrophies">Det trofæ er unikt i Lishogi\' historie. Ingen andre end %1$s vil nogensinde få det.</string>
-  <string name="wayOfBerserkExplanation">For at få det udfordrede hiimgosu sig selv til at berserke og vinde 100%% partier af %s.</string>
-  <string name="aHourlyBulletTournament">en time-Bullet turnering</string>
-  <string name="goldenZeeExplanation">ZugAddict streamede og havde de sidste to timer forgæves forsøgt at slå A.I. niveau 8 i et 1+0 spil. Thibault fortalte ham, at hvis det lykkedes ham at gøre det på stream, ville han få et unikt trofæ. En time senere knuste han Stockfish og løftet blev indfriet.</string>
-  <string name="whatIsProvisionalRating">Hvorfor er der et spørgsmålstegn (?) ved siden af en rating?</string>
-  <string name="provisionalRatingExplanation">Spørgsmålstegnet betyder at ratingen er provisorisk. Årsager inkluderer:</string>
-  <string name="notPlayedEnoughRatedGamesAgainstX">Spilleren har endnu ikke afsluttet nok ratede partier mod %1$s i rating-kategorien.</string>
-  <string name="similarOpponents">modstandere af tilsvarende styrke</string>
-  <string name="notPlayedRecently">Spilleren har ikke spillet nok partier fornylig. Afhængigt af antallet af partier du har spillet, kan det tage omkring et års inaktivitet for din rating at blive provisorisk igen.</string>
-  <string name="ratingDeviationMorethanOneHundredTen">Konkret betyder det, at Glicko-2 afvigelsen er større end 110. Afvigelsen er et udtryk for den tiltro, som systemet har til ratingen. Desto lavere afvigelse, desto mere stabil er en rating.</string>
-  <string name="howDoLeaderoardsWork">Hvordan fungerer rangering og klassementerne?</string>
-  <string name="inOrderToAppearsYouMust">For at blive opført i %1$s skal du:</string>
-  <string name="ratingLeaderboards">rating-klassementer:</string>
-  <string name="havePlayedMoreThanThirtyGamesInThatRating">have spillet mindst 30 ratede partier med en given rating,</string>
-  <string name="havePlayedARatedGameAtLeastOneWeekAgo">have spillet et ratet parti inden for den seneste uge ved denne rating,</string>
-  <string name="beInTopTen">være i top 10 for denne rating.</string>
-  <string name="secondRequirementToStopOldPlayersTrustingLeaderboards">Det andet krav sikrer at spillere, som ikke længere benytter deres konto, ikke fylder i klassementer.</string>
-  <string name="whyAreRatingHigher">Hvorfor er ratings højere sammenlignet med andre websteder og organisationer som FIDE, USCF og ICC?</string>
-  <string name="whyAreRatingHigherExplanation">Det er bedst ikke at tænke på ratings som absolutte tal eller at sammenligne dem med andre organisationers. Forskellige organisationer har forskellige niveauer af spillere, forskellige ratingsystemer (Elo, Glicko, Glicko-2 eller en modificeret udgave af de førnævnte). Disse faktorer kan drastisk påvirke de absolutte tal (ratings).
+Verifying as a titled player on Lishogi gives access to play in the Titled Arena events.
 
-  Det bedste er at tænke på ratings som \"relative\" tal (modsat \"absolutte\" tal): Indenfor en pulje af spillere vil deres relative rating-forskelle hjælpe dig med at vurdere, hvem der vil vinde/spille remis/tabe, og hvor ofte. At sige \"Jeg har en rating på X\" er meningsløs, medmindre der er andre spillere at sammenligne ratingen med.</string>
-  <string name="howToHideRatingWhilePlaying">Hvordan skjules ratings under spil?</string>
-  <string name="enableZenMode">Slå Zen-tilstand til i %1$s, eller ved at trykke %2$s under spillet.</string>
-  <string name="displayPreferences">indstillinger for visning</string>
-  <string name="connexionLostCanIGetMyRatingBack">Jeg har tabt et parti på grund af forsinket/mistet forbindelse. Kan jeg få mine rating-point tilbage?</string>
-  <string name="weCannotDoThatEvenIfItIsServerSideButThatsRare">Vi kan desværre ikke give ratingpoint tilbage for partier, der tabes på grund af forsinket eller tabt forbindelse, uanset om problemet var hos dig eller os. De sidste er dog meget sjældent. Bemærk også, at når Lishogi genstarter og du taber på tid på grund af dette, vil vi afbryde partiet for at forhindre et urimeligt nederlag.</string>
-  <string name="howToThreeDots">Hvordan kan jeg...</string>
-  <string name="enableDisableNotificationPopUps">Aktivere eller deaktivere pop-op-vinduer?</string>
-  <string name="viewSiteInformationPopUp">Se websted-information pop-op</string>
-  </resources>
+Finally there is an honorary %2$s title.</string>
+	<string name="asWellAsManyNMtitles">many national master titles</string>
+	<string name="verificationForm">verification form</string>
+	<string name="canIbecomeLM">Can I get the Lishogi Master (LM) title?</string>
+	<string name="noUpperCaseDot">No.</string>
+	<string name="lMtitleComesToYouDoNotRequestIt">This honorific title is unofficial and only exists on Lishogi.
+
+We rarely award it to highly notable players who are good citizens of Lishogi, at our discretion. You don\'t get the LM title, the LM title gets to you. If you qualify, you will get a message from us regarding it and the choice to accept or decline.
+
+Do not ask for the LM title.</string>
+	<string name="whatUsernameCanIchoose">What can my username be?</string>
+	<string name="usernamesNotOffensive">In general, usernames should not be: offensive, impersonating someone else, or advertising. You can read more about the %1$s.</string>
+	<string name="guidelines">guidelines</string>
+	<string name="uniqueTrophies">Unique trophies</string>
+	<string name="ownerUniqueTrophies">That trophy is unique in the history of Lishogi, nobody other than %1$s will ever have it.</string>
+	<string name="wayOfBerserkExplanation">To get it, hiimgosu challenged himself to berserk and win 100%% games of %s.</string>
+	<string name="aHourlyBulletTournament">a hourly Bullet tournament</string>
+	<string name="goldenZeeExplanation">ZugAddict was streaming and for the last 2 hours he had been trying to defeat A.I. level 8 in a 1+0 game, without success. Thibault told him that if he successfully did it on stream, he\'d get a unique trophy. One hour later, he smashed Stockfish, and the promise was honoured.</string>
+	<string name="lishogiRatings">Lishogi ratings</string>
+	<string name="whichRatingSystemUsedByLishogi">What rating system does Lishogi use?</string>
+	<string name="ratingSystemUsedByLishogi">Ratings are calculated using the Glicko-2 rating method developed by Mark Glickman. This is a very popular rating method, and is used by a significant number of chess organisations (FIDE being a notable counter-example, as they still use the dated Elo rating system).
+
+Fundamentally, Glicko ratings use \"confidence intervals\" when calculating and representing your rating. When you first start using the site, your rating starts at 1500 ± 700. The 1500 represents your rating, and the 700 represents the confidence interval.
+
+Basically, the system is 90% sure that your rating is somewhere between 800 and 2200. It is incredibly uncertain. Because of this, when a player is just starting out, their rating will change very dramatically, potentially several hundred points at a time. But after some games against established players the confidence interval will narrow, and the amount of points gained/lost after each game will decrease.
+
+Another point to note is that, as time passes, the confidence interval will increase. This allows you to gain/lose points points more rapidly to match any changes in your skill level over that time.</string>
+	<string name="whatIsProvisionalRating">Why is there a question mark (?) next to a rating?</string>
+	<string name="provisionalRatingExplanation">The question mark means the rating is provisional. Reasons include:</string>
+	<string name="notPlayedEnoughRatedGamesAgainstX">The player has not yet finished enough rated games against %1$s in the rating category.</string>
+	<string name="similarOpponents">opponents of similar strength</string>
+	<string name="notPlayedRecently">The player hasn\'t played enough recent games. Depending on the number of games you\'ve played, it might take around a year of inactivity for your rating to become provisional again.</string>
+	<string name="ratingDeviationMorethanOneHundredTen">Concretely, it means that the Glicko-2 deviation is greater than 110. The deviation is the level of confidence the system has in the rating. The lower the deviation, the more stable is a rating.</string>
+	<string name="howDoLeaderoardsWork">How do ranks and leaderboards work?</string>
+	<string name="inOrderToAppearsYouMust">In order to get on the %1$s you must:</string>
+	<string name="ratingLeaderboards">rating leaderboard</string>
+	<string name="havePlayedMoreThanThirtyGamesInThatRating">have played at least 30 rated games in a given rating,</string>
+	<string name="havePlayedARatedGameAtLeastOneWeekAgo">have played a rated game within the last week for this rating,</string>
+	<string name="ratingDeviationLowerThanXinChessYinVariants">have a rating deviation lower than %1$s, in standard shogi, and lower than %2$s in variants,</string>
+	<string name="beInTopTen">be in the top 10 in this rating.</string>
+	<string name="secondRequirementToStopOldPlayersTrustingLeaderboards">The 2nd requirement is so that players who no longer use their accounts stop populating leaderboards.</string>
+	<string name="whyAreRatingHigher">Why are ratings higher compared to other sites and organisations such as FIDE, USCF and the ICC?</string>
+	<string name="whyAreRatingHigherExplanation">It is best not to think of ratings as absolute numbers, or compare them against other organisations. Different organisations have different levels of players, different rating systems (Elo, Glicko, Glicko-2, or a modified version of the aforementioned). These factors can drastically affect the absolute numbers (ratings).
+
+It\'s best to think of ratings as \"relative\" figures (as opposed to \"absolute\" figures): Within a pool of players, their relative differences in ratings will help you estimate who will win/draw/lose, and how often. Saying \"I have X rating\" means nothing unless there are other players to compare that rating to.</string>
+	<string name="howToHideRatingWhilePlaying">How to hide ratings while playing?</string>
+	<string name="enableZenMode">Enable Zen-mode in the %1$s, or by pressing %2$s during a game.</string>
+	<string name="displayPreferences">display preferences</string>
+	<string name="connexionLostCanIGetMyRatingBack">I lost a game due to lag/disconnection. Can I get my rating points back?</string>
+	<string name="weCannotDoThatEvenIfItIsServerSideButThatsRare">Unfortunately, we cannot give back rating points for games lost due to lag or disconnection, regardless of whether the problem was at your end or our end. The latter is very rare though. Also note that when Lishogi restarts and you lose on time because of that, we abort the game to prevent an unfair loss.</string>
+	<string name="howToThreeDots">How to...</string>
+	<string name="enableDisableNotificationPopUps">Enable or disable notification popups?</string>
+	<string name="viewSiteInformationPopUp">View site information popup</string>
+	<string name="lishogiCanOptionnalySendPopUps">Lishogi can optionally send popup notifications, for example when it is your turn or you received a private message.
+
+Click the lock icon next to the lishogi.org address in the URL bar of your browser.
+
+Then select whether to allow or block notifications from Lishogi.</string>
+</resources>
