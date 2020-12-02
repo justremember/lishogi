@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<string name="coordinates">Coordinates</string>
-	<string name="coordinateTraining">Coordinate training</string>
-	<string name="averageScoreAsWhiteX">Average score as white: %s</string>
-	<string name="averageScoreAsBlackX">Average score as black: %s</string>
+	<string name="coordinates">Souřadnice</string>
+	<string name="coordinateTraining">Trénink souřadnic</string>
+	<string name="averageScoreAsWhiteX">Průměrné skóre jako bílý: %s</string>
+	<string name="averageScoreAsBlackX">Průměrné skóre jako černý: %s</string>
 	<string name="knowingTheShogiBoard">Knowing the shogiboard coordinates is a very important shogi skill:</string>
 	<string name="mostShogiCourses">All shogi courses and exercises use some kind of a shogi notation. You can pick between the Japanese one and the western one.</string>
 	<string name="talkToYourShogiFriends">It makes it easier to talk to your shogi friends, since you both understand the \'language of shogi\'.</string>
-	<string name="youCanAnalyseAGameMoreEffectively">You can analyse a game more effectively if you can quickly recognise coordinates.</string>
-	<string name="aSquareNameAppears">A coordinate appears on the board and you must click on the corresponding square. You have 30 seconds to correctly map as many squares as possible!</string>
-	<string name="startTraining">Start training</string>
+	<string name="youCanAnalyseAGameMoreEffectively">Můžete efektivněji analyzovat partie, pokud nebudete muset neustále hledat jména polí.</string>
+	<string name="aSquareNameAppears">Označení pole se objeví na šachovnici a Vy musíte kliknout na správné pole. Kolik polí stihnete správně určit během 30 vteřin?</string>
+	<string name="startTraining">Začít trénink</string>
 </resources>
