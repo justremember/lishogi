@@ -1,69 +1,70 @@
-<?xml version='1.0' encoding='utf-8'?>
-<resources><string name="activity">Δραστηριότητα</string>
-  <string name="hostedALiveStream">Μεταδίδει ζωντανά</string>
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="activity">Activity</string>
+  <string name="hostedALiveStream">Hosted a live stream</string>
   <plurals name="supportedNbMonths">
-    <item quantity="one">Υποστήριξε το lishogi για %1$s μήνα ως %2$s</item>
-    <item quantity="other">Υποστήριξε το lishogi για %1$s μήνες ως %2$s</item>
+    <item quantity="one">Supported lishogi.org for %1$s month as a %2$s</item>
+    <item quantity="other">Supported lishogi.org for %1$s months as a %2$s</item>
   </plurals>
   <plurals name="practicedNbPositions">
-    <item quantity="one">Εξασκήθηκε %1$s θέση σε %2$s</item>
-    <item quantity="other">Εξασκήθηκε %1$s θέσεις σε %2$s</item>
+    <item quantity="one">Practised %1$s position on %2$s</item>
+    <item quantity="other">Practised %1$s positions on %2$s</item>
   </plurals>
   <plurals name="solvedNbPuzzles">
-    <item quantity="one">Έλυσε %s τακτικό γρίφο</item>
-    <item quantity="other">Έλυσε %s τακτικούς γρίφους</item>
+    <item quantity="one">Solved %s tactical puzzle</item>
+    <item quantity="other">Solved %s tactical puzzles</item>
   </plurals>
   <plurals name="playedNbGames">
-    <item quantity="one">Έπαιξε %1$s παρτίδα %2$s</item>
-    <item quantity="other">Έπαιξε %1$s παρτίδες %2$s</item>
+    <item quantity="one">Played %1$s %2$s game</item>
+    <item quantity="other">Played %1$s %2$s games</item>
   </plurals>
   <plurals name="postedNbMessages">
-    <item quantity="one">Δημοσίευσε %1$s μήνυμα στο %2$s</item>
-    <item quantity="other">Δημοσίευσε %1$s μηνύματα στο %2$s</item>
+    <item quantity="one">Posted %1$s message in %2$s</item>
+    <item quantity="other">Posted %1$s messages in %2$s</item>
   </plurals>
   <plurals name="playedNbMoves">
-    <item quantity="one">Έπαιξε %1$s κίνηση</item>
-    <item quantity="other">Έπαιξε %1$s κινήσεις</item>
+    <item quantity="one">Played %1$s move</item>
+    <item quantity="other">Played %1$s moves</item>
   </plurals>
   <plurals name="inNbCorrespondenceGames">
-    <item quantity="one">σε %1$s παρτίδα αλληλογραφίας</item>
-    <item quantity="other">σε %1$s παρτίδες αλληλογραφίας</item>
+    <item quantity="one">in %1$s correspondence game</item>
+    <item quantity="other">in %1$s correspondence games</item>
   </plurals>
   <plurals name="completedNbGames">
-    <item quantity="one">Ολοκλήρωσε %s παρτίδα αλληλογραφίας</item>
-    <item quantity="other">Ολοκλήρωσε %s παρτίδες αλληλογραφίας</item>
+    <item quantity="one">Completed %s correspondence game</item>
+    <item quantity="other">Completed %s correspondence games</item>
   </plurals>
   <plurals name="followedNbPlayers">
-    <item quantity="one">Άρχισε να ακολουθεί %s παίκτη</item>
-    <item quantity="other">Άρχισε να ακολουθεί %s παίκτες</item>
+    <item quantity="one">Started following %s player</item>
+    <item quantity="other">Started following %s players</item>
   </plurals>
   <plurals name="gainedNbFollowers">
-    <item quantity="one">Απέκτησε %s νέο ακόλουθο</item>
-    <item quantity="other">Απέκτησε %s νέους ακόλουθους</item>
+    <item quantity="one">Gained %s new follower</item>
+    <item quantity="other">Gained %s new followers</item>
   </plurals>
   <plurals name="hostedNbSimuls">
-    <item quantity="one">Φιλοξένησε %s ταυτόχρονη έκθεση</item>
-    <item quantity="other">Φιλοξένησε %s ταυτόχρονες εκθέσεις</item>
+    <item quantity="one">Hosted %s simultaneous exhibition</item>
+    <item quantity="other">Hosted %s simultaneous exhibitions</item>
   </plurals>
   <plurals name="joinedNbSimuls">
-    <item quantity="one">Συμμετείχε σε %s ταυτόχρονη έκθεση</item>
-    <item quantity="other">Συμμετείχε σε %s ταυτόχρονες εκθέσεις</item>
+    <item quantity="one">Participated in %s simultaneous exhibition</item>
+    <item quantity="other">Participated in %s simultaneous exhibitions</item>
   </plurals>
   <plurals name="createdNbStudies">
-    <item quantity="one">Δημιούργησε %s νέα μελέτη</item>
-    <item quantity="other">Δημιούργησε %s νέες μελέτες</item>
+    <item quantity="one">Created %s new study</item>
+    <item quantity="other">Created %s new studies</item>
   </plurals>
   <plurals name="competedInNbTournaments">
-    <item quantity="one">Αγωνίστηκε σε %s πρωτάθλημα</item>
-    <item quantity="other">Αγωνίστηκε σε %s πρωταθλήματα</item>
+    <item quantity="one">Competed in %s tournament</item>
+    <item quantity="other">Competed in %s tournaments</item>
   </plurals>
   <plurals name="rankedInTournament">
-    <item quantity="one">Κατατάχθηκε #%1$s (κορυφαίος %2$s%%) με %3$s παιχνίδι σε %4$s</item>
-    <item quantity="other">Κατατάχθηκε #%1$s (κορυφαίος %2$s%%) με %3$s παιχνίδια σε %4$s</item>
+    <item quantity="one">Ranked #%1$s (top %2$s%%) with %3$s game in %4$s</item>
+    <item quantity="other">Ranked #%1$s (top %2$s%%) with %3$s games in %4$s</item>
   </plurals>
-  <string name="signedUp">Εγγεγραμμένοι στο lishogi</string>
+  <string name="signedUp">Signed up to lishogi.org</string>
   <plurals name="joinedNbTeams">
-    <item quantity="one">Έγινε μέλος %s ομάδας</item>
-    <item quantity="other">Έγινε μέλος %s ομαδών</item>
+    <item quantity="one">Joined %s team</item>
+    <item quantity="other">Joined %s teams</item>
   </plurals>
 </resources>
