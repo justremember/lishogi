@@ -1,69 +1,70 @@
-<?xml version='1.0' encoding='utf-8'?>
-<resources><string name="activity">Son Etkinlikler</string>
-  <string name="hostedALiveStream">Canlı yayın yaptı</string>
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="activity">Activity</string>
+  <string name="hostedALiveStream">Hosted a live stream</string>
   <plurals name="supportedNbMonths">
-    <item quantity="one">lishogi.org\'u %1$s aylığına %2$s olarak destekledi</item>
-    <item quantity="other">lishogi.org\'u %1$s aylığına %2$s olarak destekledi</item>
+    <item quantity="one">Supported lishogi.org for %1$s month as a %2$s</item>
+    <item quantity="other">Supported lishogi.org for %1$s months as a %2$s</item>
   </plurals>
   <plurals name="practicedNbPositions">
-    <item quantity="one">%2$s üzerine %1$s alıştırma yaptı</item>
-    <item quantity="other">%2$s üzerine %1$s alıştırma yaptı</item>
+    <item quantity="one">Practised %1$s position on %2$s</item>
+    <item quantity="other">Practised %1$s positions on %2$s</item>
   </plurals>
   <plurals name="solvedNbPuzzles">
-    <item quantity="one">%s bulmaca çözdü</item>
-    <item quantity="other">%s bulmacalar çözdü</item>
+    <item quantity="one">Solved %s tactical puzzle</item>
+    <item quantity="other">Solved %s tactical puzzles</item>
   </plurals>
   <plurals name="playedNbGames">
-    <item quantity="one">%1$s kez %2$s oynadı</item>
-    <item quantity="other">%1$s kez %2$s oynadı</item>
+    <item quantity="one">Played %1$s %2$s game</item>
+    <item quantity="other">Played %1$s %2$s games</item>
   </plurals>
   <plurals name="postedNbMessages">
-    <item quantity="one">Forumda %1$s mesaj paylaştı: %2$s</item>
-    <item quantity="other">%2$s forumunda %1$s mesaj paylaştı</item>
+    <item quantity="one">Posted %1$s message in %2$s</item>
+    <item quantity="other">Posted %1$s messages in %2$s</item>
   </plurals>
   <plurals name="playedNbMoves">
-    <item quantity="one">%1$s hamle yaptı</item>
-    <item quantity="other">%1$s hamle yaptı</item>
+    <item quantity="one">Played %1$s move</item>
+    <item quantity="other">Played %1$s moves</item>
   </plurals>
   <plurals name="inNbCorrespondenceGames">
-    <item quantity="one">(%1$s yazışmalı oyunda)</item>
-    <item quantity="other">(%1$s yazışmalı oyunda)</item>
+    <item quantity="one">in %1$s correspondence game</item>
+    <item quantity="other">in %1$s correspondence games</item>
   </plurals>
   <plurals name="completedNbGames">
-    <item quantity="one">%s adet yazışmalı oyun tamamladı</item>
-    <item quantity="other">%s adet yazışmalı oyun tamamladı</item>
+    <item quantity="one">Completed %s correspondence game</item>
+    <item quantity="other">Completed %s correspondence games</item>
   </plurals>
   <plurals name="followedNbPlayers">
-    <item quantity="one">%s oyuncuyu takip etmeye başladı</item>
-    <item quantity="other">%s oyuncuyu takip etmeye başladı</item>
+    <item quantity="one">Started following %s player</item>
+    <item quantity="other">Started following %s players</item>
   </plurals>
   <plurals name="gainedNbFollowers">
-    <item quantity="one">%s yeni takipçi kazandı</item>
-    <item quantity="other">%s yeni takipçi kazandı</item>
+    <item quantity="one">Gained %s new follower</item>
+    <item quantity="other">Gained %s new followers</item>
   </plurals>
   <plurals name="hostedNbSimuls">
-    <item quantity="one">%s simultaneye ev sahipliği yaptı</item>
-    <item quantity="other">%s eş zamanlı gösteriye ev sahipliği yaptı</item>
+    <item quantity="one">Hosted %s simultaneous exhibition</item>
+    <item quantity="other">Hosted %s simultaneous exhibitions</item>
   </plurals>
   <plurals name="joinedNbSimuls">
-    <item quantity="one">%s simultaneye katıldı</item>
-    <item quantity="other">%s eş zamanlı gösteriye katıldı</item>
+    <item quantity="one">Participated in %s simultaneous exhibition</item>
+    <item quantity="other">Participated in %s simultaneous exhibitions</item>
   </plurals>
   <plurals name="createdNbStudies">
-    <item quantity="one">%s yeni çalışma oluşturdu</item>
-    <item quantity="other">%s yeni çalışma oluşturdu</item>
+    <item quantity="one">Created %s new study</item>
+    <item quantity="other">Created %s new studies</item>
   </plurals>
   <plurals name="competedInNbTournaments">
-    <item quantity="one">%s turnuvaya katıldı</item>
-    <item quantity="other">%s turnuvaya katıldı</item>
+    <item quantity="one">Competed in %s tournament</item>
+    <item quantity="other">Competed in %s tournaments</item>
   </plurals>
   <plurals name="rankedInTournament">
-    <item quantity="one">%3$s oyun oynayarak %4$s turnuvasında %1$s. oldu (en iyi%2$s%% içinde)</item>
-    <item quantity="other">%3$s oyun oynayarak %4$s turnuvasında %1$s. oldu (en iyi %2$s%% içinde)</item>
+    <item quantity="one">Ranked #%1$s (top %2$s%%) with %3$s game in %4$s</item>
+    <item quantity="other">Ranked #%1$s (top %2$s%%) with %3$s games in %4$s</item>
   </plurals>
-  <string name="signedUp">lishogi.org\'a üye oldu</string>
+  <string name="signedUp">Signed up to lishogi.org</string>
   <plurals name="joinedNbTeams">
-    <item quantity="one">%s takıma katıldı</item>
-    <item quantity="other">%s takıma katıldı</item>
+    <item quantity="one">Joined %s team</item>
+    <item quantity="other">Joined %s teams</item>
   </plurals>
 </resources>
