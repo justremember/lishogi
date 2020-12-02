@@ -2,10 +2,10 @@
 <resources>
   <string name="isLishogiLagging">Is Lishogi lagging?</string>
   <string name="measurementInProgressThreeDot">Measurements in progress...</string>
-  <string name="noAndYourNetworkIsGood">No. And your network is good.</string>
-  <string name="noAndYourNetworkIsBad">No. And your network is bad.</string>
-  <string name="yesItWillBeFixedSoon">Yes. It will be fixed soon!</string>
-  <string name="andNowTheLongAnswerLagComposedOfTwoValues">And now, the long answer! Game lag is composed of two unrelated values (lower is better):</string>
+  <string name="noAndYourNetworkIsGood">Όχι. Η σύνδεση σας είναι καλή.</string>
+  <string name="noAndYourNetworkIsBad">Όχι. Η σύνδεση σας είναι κακή.</string>
+  <string name="yesItWillBeFixedSoon">Ναι. Θα διορθωθεί σύντομα!</string>
+  <string name="andNowTheLongAnswerLagComposedOfTwoValues">Και τώρα, η μεγαλύτερη απάντηση! Η καθυστέρηση του παιχνιδιού εξαρτάται από δύο ανεξάρτητες τιμές ( χαμηλότερη τιμή είναι καλύτερη):</string>
   <string name="lishogiServerLatency">Lishogi server latency</string>
   <string name="lishogiServerLatencyExplanation">The time it takes to process a move on the server. It\'s the same for everybody, and only depends on the server load. The more players and the higher it gets, but Lishogi developers do their best to keep it low. It rarely exceeds 10ms.</string>
   <string name="networkBetweenLishogiAndYou">Network between Lishogi and you</string>
