@@ -3,43 +3,43 @@
   <string name="team">Team</string>
   <string name="teams">Teams</string>
   <plurals name="nbMembers">
-    <item quantity="one">%s member</item>
-    <item quantity="other">%s members</item>
+    <item quantity="one">%s lid</item>
+    <item quantity="other">%s leden</item>
   </plurals>
-  <string name="allTeams">All teams</string>
-  <string name="newTeam">New team</string>
-  <string name="myTeams">My teams</string>
-  <string name="noTeamFound">No team found</string>
-  <string name="joinTeam">Join team</string>
-  <string name="quitTeam">Leave team</string>
-  <string name="anyoneCanJoin">Free for all</string>
-  <string name="aConfirmationIsRequiredToJoin">A confirmation is required to join</string>
-  <string name="joiningPolicy">Joining policy</string>
+  <string name="allTeams">Alle teams</string>
+  <string name="newTeam">Nieuw team</string>
+  <string name="myTeams">Mijn teams</string>
+  <string name="noTeamFound">Geen team gevonden</string>
+  <string name="joinTeam">Word lid van het team</string>
+  <string name="quitTeam">Verlaat het team</string>
+  <string name="anyoneCanJoin">Iedereen kan lid worden</string>
+  <string name="aConfirmationIsRequiredToJoin">Een bevestiging is nodig om lid te worden</string>
+  <string name="joiningPolicy">Deelnamebeleid</string>
   <plurals name="teamLeaders">
-    <item quantity="one">Team leader</item>
-    <item quantity="other">Team leaders</item>
+    <item quantity="one">Teamleider</item>
+    <item quantity="other">Teamleiders</item>
   </plurals>
-  <string name="teamBestPlayers">Best players</string>
-  <string name="teamRecentMembers">Recent members</string>
-  <string name="kickSomeone">Kick someone out of the team</string>
-  <string name="whoToKick">Who do you want to kick out of the team?</string>
+  <string name="teamBestPlayers">Beste spelers</string>
+  <string name="teamRecentMembers">Recente teamleden</string>
+  <string name="kickSomeone">Verwijder iemand uit het team</string>
+  <string name="whoToKick">Wie wil je uit het team zetten?</string>
   <plurals name="xJoinRequests">
-    <item quantity="one">%s join request</item>
-    <item quantity="other">%s join requests</item>
+    <item quantity="one">%s verzoek tot deelname</item>
+    <item quantity="other">%s verzoeken tot deelname</item>
   </plurals>
-  <string name="willBeReviewed">Your join request will be reviewed by the team leader.</string>
-  <string name="beingReviewed">Your join request is being reviewed by the team leader.</string>
-  <string name="teamBattle">Team Battle</string>
-  <string name="teamBattleOverview">A battle of multiple teams, each player scores points for their team</string>
-  <string name="teamTournament">Team tournament</string>
-  <string name="teamTournamentOverview">An Arena tournament that only members of your team can join</string>
-  <string name="messageAllMembers">Message all members</string>
-  <string name="messageAllMembersOverview">Send a private message to every member of the team</string>
-  <string name="messageAllMembersLongDescription">Send a private message to ALL members of the team.
-You can use this to call players to join a tournament or a team battle.
-Players who don\'t like receiving your messages might leave the team.</string>
-  <string name="teamsIlead">Teams I lead</string>
-  <string name="youWayWantToLinkOneOfTheseTournaments">You may want to link one of these upcoming tournaments?</string>
-  <string name="usersWhoCanManageThisTeam">Users who can manage this team</string>
-  <string name="leadersChat">Leaders chat</string>
+  <string name="willBeReviewed">Je verzoek tot deelname zal worden beoordeeld door de teamleider.</string>
+  <string name="beingReviewed">Je verzoek tot deelname wordt beoordeeld door de teamleider.</string>
+  <string name="teamBattle">Teamcompetitie</string>
+  <string name="teamBattleOverview">Een wedstrijd met meerdere teams, iedere speler scoort punten voor zijn/haar team</string>
+  <string name="teamTournament">Teamtoernooi</string>
+  <string name="teamTournamentOverview">Een Arenatoernooi waaraan alleen leden van je team mee kunnen doen</string>
+  <string name="messageAllMembers">Stuur bericht aan alle leden</string>
+  <string name="messageAllMembersOverview">Stuur een privébericht aan alle leden van het team</string>
+  <string name="messageAllMembersLongDescription">Stuur een privébericht naar alle leden van het team.
+Je kunt dit gebruiken om spelers op te roepen om deel te nemen aan een toernooi of een teamgevecht.
+Spelers die je berichten niet willen ontvangen kunnen het team verlaten.</string>
+  <string name="teamsIlead">Teams die ik leid</string>
+  <string name="youWayWantToLinkOneOfTheseTournaments">Misschien wil je de link van een van deze komende toernooien delen?</string>
+  <string name="usersWhoCanManageThisTeam">Gebruikers die dit team beheren</string>
+  <string name="leadersChat">Teamleiderschat</string>
 </resources>
