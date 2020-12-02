@@ -1,41 +1,44 @@
-<?xml version='1.0' encoding='utf-8'?>
-<resources><string name="arenaTournaments">Турнири у арени</string>
-  <string name="isItRated">Да ли је рејтован?</string>
-  <string name="willBeNotified">Бићете обавештени када турнир почне, тако да можете играти партију у другом прозору док чекате.</string>
-  <string name="isRated">Овај турнир је рејтован и утицаће на ваш рејтинг.</string>
-  <string name="isNotRated">Овај турнир *није* рејтован и *неће* утицати на ваш рејтинг.</string>
-  <string name="someRated">Неки турнири су рејтовани и утицаће на ваш рејтинг.</string>
-  <string name="howAreScoresCalculated">Како су бодови рачунати?</string>
-  <string name="howAreScoresCalculatedAnswer">Добитак вам доноси 2 поена, реми вам доноси 1 поен, а губитак вам не доноси ниједан поен. 
-Ако добијете две партије узастопно добијаћете дупле поене, представљене иконом пламена.
-Следеће партије ће наставити да вам доносе дупле поене све док не добијете партију.
-То јест, добитак ће вам донети 4 поена, реми 2 поена, а губитак вам не доноси ниједан поен.
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="arenaTournaments">Arena tournaments</string>
+  <string name="isItRated">Is it rated?</string>
+  <string name="willBeNotified">You will be notified when the tournament starts, so it is safe to play in another tab while waiting.</string>
+  <string name="isRated">This tournament is rated and will affect your rating.</string>
+  <string name="isNotRated">This tournament is *not* rated and will *not* affect your rating.</string>
+  <string name="someRated">Some tournaments are rated and will affect your rating.</string>
+  <string name="howAreScoresCalculated">How are scores calculated?</string>
+  <string name="howAreScoresCalculatedAnswer">A win has a base score of 2 points, a draw 1 point, and a loss is worth no points.
+If you win two games consecutively you will start a double point streak, represented by a flame icon.
+The following games will continue to be worth double points until you fail to win a game.
+That is, a win will be worth 4 points, a draw 2 points, and a loss will still not award any points.
 
-На пример, два добитка па реми вреди 6 поена: 2 + 2 + (2 x 1)</string>
-  <string name="berserk">\"Berserk\" у арени</string>
-  <string name="berserkAnswer">Када играч кликне дугме \"Полуди\" на почетку партије, изгуби пола свог времена, али добитак вреди један више турнирски поен.
+For example, two wins followed by a draw will be worth 6 points: 2 + 2 + (2 x 1)</string>
+  <string name="berserk">Arena Berserk</string>
+  <string name="berserkAnswer">When a player clicks the Berserk button at the beginning of the game, they lose half of their clock time, but the win is worth one extra tournament point.
 
-Ако \"Полудите\" у временским контролама са инкрементом такође вам се поништава инкремент. (1+2 је изузетак, даје вам 1+0)
+Going Berserk in time controls with an increment also cancels the increment (1+2 is an exception, it gives 1+0).
 
-Дугме \"Полуди\", није доступно у партијама са почетним временом нула (0+1, 0+2).
+Berserk is not available for games with zero initial time (0+1, 0+2).
 
-Да би добили још један поен, такође морате одиграти бар првих 7 потеза у партији.</string>
-  <string name="howIsTheWinnerDecided">Како је победник одлучен?</string>
-  <string name="howIsTheWinnerDecidedAnswer">Играч(и) са највише поена на крају турнира ће бити проглашен(и) победником/цима.</string>
-  <string name="howDoesPairingWork">Како ради упаривање?</string>
-  <string name="howDoesPairingWorkAnswer">На почетку турнира, играчи су упарени по њиховом рејтингу.
-Чим завршите партију, вратите се у турнир, тад ће те бити упарени са играчем близу вашег места у турниру. То осигурава минимално чекање, међутим можда нећете играти против свих играча у турниру.
-Играјте брзо и вратите се у турнир да играте још игара и освојите још поена.</string>
-  <string name="howDoesItEnd">Како се завршава?</string>
-  <string name="howDoesItEndAnswer">Турнир има сат који одбројава. Када сат стигне до нуле, сва места су замрзнута и победник је проглашен. Партије које још трају се морају завршити, али се не рачунају у турниру.</string>
-  <string name="otherRules">Остала важна правила</string>
-  <string name="thereIsACountdown">Постоји одбројавање за твој први потез. Не прављење потеза у овом периоду ће предати игру твом противнику.</string>
+Berserk only grants an extra point if you play at least 7 moves in the game.</string>
+  <string name="howIsTheWinnerDecided">How is the winner decided?</string>
+  <string name="howIsTheWinnerDecidedAnswer">The player(s) with the most points at the conclusion of the tournament\'s set time limit will be announced winner(s).
+
+When two or more players have the same number of points, the tournament performance is the tie break.</string>
+  <string name="howDoesPairingWork">How does the pairing work?</string>
+  <string name="howDoesPairingWorkAnswer">At the beginning of the tournament, players are paired based on their rating.
+As soon as you finish a game, return to the tournament lobby: you will then be paired with a player close to your ranking. This ensures minimum wait time, however you may not face all other players in the tournament.
+Play fast and return to the lobby to play more games and win more points.</string>
+  <string name="howDoesItEnd">How does it end?</string>
+  <string name="howDoesItEndAnswer">The tournament has a countdown clock. When it reaches zero, the tournament rankings are frozen, and the winner is announced. Games in progress must be finished, however they don\'t count for the tournament.</string>
+  <string name="otherRules">Other important rules</string>
+  <string name="thereIsACountdown">There is a countdown for your first move. Failing to make a move within this time will forfeit the game to your opponent.</string>
   <plurals name="drawingWithinNbMoves">
-    <item quantity="one">Изједначење игре у првом %s потезу неће донети поене ни једном играчу.</item>
-    <item quantity="few">Изједначење у првих %s потеза неће донети поене ниједном играчу.</item>
-    <item quantity="other">Изједначење у првих %s потеза неће донети поене ниједном играчу.</item>
+    <item quantity="one">Drawing the game within the first %s move will earn neither player any points.</item>
+    <item quantity="few">Drawing the game within the first %s moves will earn neither player any points.</item>
+    <item quantity="other">Drawing the game within the first %s moves will earn neither player any points.</item>
   </plurals>
-  <string name="thisIsPrivate">Ово је приватан турнир</string>
-  <string name="shareUrl">Делите линк да се играчи прикључе: %s</string>
-  <string name="drawStreak">Узастопни реми: Када играч има неколико узастопних ремија у арени, само први реми ће му донети поен или ремији који су дужи од %s потеза. Серија ремија може бити прекинута само победом, не поразом или новим ремијем.</string>
+  <string name="thisIsPrivate">This is a private tournament</string>
+  <string name="shareUrl">Share this URL to let people join: %s</string>
+  <string name="drawStreak">Draw streaks: When a player has consecutive draws in an arena, only the first draw will result in a point, or draws lasting more than %s moves. The draw streak can only be broken by a win, not a loss or a draw.</string>
 </resources>
