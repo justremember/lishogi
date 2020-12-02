@@ -1,38 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="team">Team</string>
-  <string name="teams">Teams</string>
+  <string name="team">Echipă</string>
+  <string name="teams">Echipe</string>
   <plurals name="nbMembers">
-    <item quantity="one">%s member</item>
-    <item quantity="few">%s members</item>
-    <item quantity="other">%s members</item>
+    <item quantity="one">%s membru</item>
+    <item quantity="few">%s membri</item>
+    <item quantity="other">%s membri</item>
   </plurals>
-  <string name="allTeams">All teams</string>
-  <string name="newTeam">New team</string>
-  <string name="myTeams">My teams</string>
-  <string name="noTeamFound">No team found</string>
-  <string name="joinTeam">Join team</string>
-  <string name="quitTeam">Leave team</string>
-  <string name="anyoneCanJoin">Free for all</string>
-  <string name="aConfirmationIsRequiredToJoin">A confirmation is required to join</string>
-  <string name="joiningPolicy">Joining policy</string>
+  <string name="allTeams">Toate echipele</string>
+  <string name="newTeam">Echipă nouă</string>
+  <string name="myTeams">Echipele mele</string>
+  <string name="noTeamFound">Nu s-a găsit nicio echipă</string>
+  <string name="joinTeam">Intră în echipă</string>
+  <string name="quitTeam">Ieşi din echipă</string>
+  <string name="anyoneCanJoin">Gratuit pentru toți</string>
+  <string name="aConfirmationIsRequiredToJoin">Este necesară o confirmare pentru a intra</string>
+  <string name="joiningPolicy">Politică de intrare</string>
   <plurals name="teamLeaders">
     <item quantity="one">Team leader</item>
     <item quantity="few">Team leaders</item>
     <item quantity="other">Team leaders</item>
   </plurals>
-  <string name="teamBestPlayers">Best players</string>
-  <string name="teamRecentMembers">Recent members</string>
-  <string name="kickSomeone">Kick someone out of the team</string>
-  <string name="whoToKick">Who do you want to kick out of the team?</string>
+  <string name="teamBestPlayers">Cei mai buni jucători</string>
+  <string name="teamRecentMembers">Cei mai recenţi membri</string>
+  <string name="kickSomeone">Dă afară pe cineva din echipă</string>
+  <string name="whoToKick">Pe cine vrei să dai afară din echipă?</string>
   <plurals name="xJoinRequests">
-    <item quantity="one">%s join request</item>
-    <item quantity="few">%s join requests</item>
-    <item quantity="other">%s join requests</item>
+    <item quantity="one">%s cerere de alăturare</item>
+    <item quantity="few">%s cereri de alăturare</item>
+    <item quantity="other">%s cereri de alăturare</item>
   </plurals>
-  <string name="willBeReviewed">Your join request will be reviewed by the team leader.</string>
-  <string name="beingReviewed">Your join request is being reviewed by the team leader.</string>
-  <string name="teamBattle">Team Battle</string>
+  <string name="willBeReviewed">Cererea ta va fi revizuită de către liderul echipei.</string>
+  <string name="beingReviewed">Cererea ta este revizuită de către liderul echipei.</string>
+  <string name="teamBattle">Luptă în echipă</string>
   <string name="teamBattleOverview">A battle of multiple teams, each player scores points for their team</string>
   <string name="teamTournament">Team tournament</string>
   <string name="teamTournamentOverview">An Arena tournament that only members of your team can join</string>
