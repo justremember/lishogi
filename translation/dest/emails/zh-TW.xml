@@ -1,20 +1,22 @@
-<?xml version='1.0' encoding='utf-8'?>
-<resources><string name="emailConfirm_subject">確認您的 lishogi.org 帳戶，%s</string>
-  <string name="emailConfirm_click">按一下連結以啟用您的 lishogi 帳戶:</string>
-  <string name="emailConfirm_ignore">如果您沒有向 lishogi 註冊，則可以安全地忽略此消息。</string>
-  <string name="passwordReset_subject">重設您的 lishogi.org 密碼，%s</string>
-  <string name="passwordReset_intro">我們收到了重設您帳戶密碼的請求。</string>
-  <string name="passwordReset_clickOrIgnore">如果您提出此請求，請按一下下面的連結。如果沒有，您可以忽略此電子郵件。</string>
-  <string name="emailChange_subject">確認新的電子郵件地址，%s</string>
-  <string name="emailChange_intro">您已要求更改您的電子郵件地址。</string>
-  <string name="emailChange_click">要確認您是否能夠使用此電子郵件，請點擊以下連結:</string>
-  <string name="welcome_subject">歡迎來到 lishogi.org，%s</string>
-  <string name="welcome_text">您已成功在 https://lishogi.org 創建了帳戶。
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="emailConfirm_subject">Confirm your lishogi.org account, %s</string>
+  <string name="emailConfirm_click">Click the link to enable your Lishogi account:</string>
+  <string name="emailConfirm_ignore">If you did not register with Lishogi you can safely ignore this message.</string>
+  <string name="passwordReset_subject">Reset your lishogi.org password, %s</string>
+  <string name="passwordReset_intro">We received a request to reset the password for your account.</string>
+  <string name="passwordReset_clickOrIgnore">If you made this request, click the link below. If not, you can ignore this email.</string>
+  <string name="emailChange_subject">Confirm new email address, %s</string>
+  <string name="emailChange_intro">You have requested to change your email address.</string>
+  <string name="emailChange_click">To confirm you have access to this email, please click the link below:</string>
+  <string name="welcome_subject">Welcome to lishogi.org, %s</string>
+  <string name="welcome_text">You have successfully created your account on https://lishogi.org.
 
-這是您的個人資料頁面: %1$s。您可以在 %2$s 上進行個人化設定。
+Here is your profile page: %1$s. You can personalise it on %2$s.
 
-祝您玩得開心，希望您旗開得勝！</string>
-  <string name="common_orPaste">(點擊無效？嘗試將連結貼上到您的瀏覽器！)</string>
-  <string name="common_note">這是一封與您使用 %s 相關的服務電子郵件。</string>
-  <string name="common_contact">如需聯繫我們，請使用 %s。</string>
+Have fun, and may your pieces always find their way to your opponent\'s king!</string>
+  <string name="logInToLishogi">Log in to lishogi.org, %s</string>
+  <string name="common_orPaste">(Clicking not working? Try pasting it into your browser!)</string>
+  <string name="common_note">This is a service email related to your use of %s.</string>
+  <string name="common_contact">To contact us, please use %s.</string>
 </resources>
