@@ -1,20 +1,21 @@
-<?xml version='1.0' encoding='utf-8'?>
-<resources><string name="broadcasts">Трансляции</string>
-  <string name="liveBroadcasts">Прямые трансляции турнира</string>
-  <string name="newBroadcast">Новая прямая трансляция</string>
-  <string name="ongoing">Текущие</string>
-  <string name="upcoming">Предстоящие</string>
-  <string name="completed">Завершённые</string>
-  <string name="eventName">Название события</string>
-  <string name="eventDescription">Краткое описание события</string>
-  <string name="fullDescription">Полное описание события</string>
-  <string name="fullDescriptionHelp">Необязательное полное описание трансляции. Доступна разметка %1$s. Длина должна быть меньше %2$s символов.</string>
-  <string name="sourceUrl">URL источника</string>
-  <string name="sourceUrlHelp">URL-адрес, с которого Lishogi будет получать обновление PGN. Он должен быть доступен для получения из Интернета.</string>
-  <string name="roundNumber">Номер тура</string>
-  <string name="startDate">Дата начала в вашем часовом поясе</string>
-  <string name="startDateHelp">Дополнительно, если вы знаете, когда событие начнётся</string>
-  <string name="credits">Признательность</string>
-  <string name="cloneBroadcast">Клонировать трансляцию</string>
-  <string name="resetBroadcast">Сбросить трансляцию</string>
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="broadcasts">Broadcasts</string>
+  <string name="liveBroadcasts">Live tournament broadcasts</string>
+  <string name="newBroadcast">New live broadcast</string>
+  <string name="ongoing">Ongoing</string>
+  <string name="upcoming">Upcoming</string>
+  <string name="completed">Completed</string>
+  <string name="eventName">Event name</string>
+  <string name="eventDescription">Short event description</string>
+  <string name="fullDescription">Full event description</string>
+  <string name="fullDescriptionHelp">Optional long description of the broadcast. %1$s is available. Length must be less than %2$s characters.</string>
+  <string name="sourceUrl">Source URL</string>
+  <string name="sourceUrlHelp">URL that Lishogi will check to get PGN updates. It must be publicly accessible from the Internet.</string>
+  <string name="roundNumber">Round number</string>
+  <string name="startDate">Start date in your own timezone</string>
+  <string name="startDateHelp">Optional, if you know when the event starts</string>
+  <string name="credits">Credit the source</string>
+  <string name="cloneBroadcast">Clone the broadcast</string>
+  <string name="resetBroadcast">Reset the broadcast</string>
 </resources>
