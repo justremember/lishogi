@@ -1,40 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="team">Team</string>
-  <string name="teams">Teams</string>
+  <string name="team">Span</string>
+  <string name="teams">Spanne</string>
   <plurals name="nbMembers">
-    <item quantity="one">%s member</item>
-    <item quantity="other">%s members</item>
+    <item quantity="one">%s lede</item>
+    <item quantity="other">%s lede</item>
   </plurals>
-  <string name="allTeams">All teams</string>
-  <string name="newTeam">New team</string>
-  <string name="myTeams">My teams</string>
-  <string name="noTeamFound">No team found</string>
-  <string name="joinTeam">Join team</string>
-  <string name="quitTeam">Leave team</string>
-  <string name="anyoneCanJoin">Free for all</string>
-  <string name="aConfirmationIsRequiredToJoin">A confirmation is required to join</string>
-  <string name="joiningPolicy">Joining policy</string>
+  <string name="allTeams">Alle spanne</string>
+  <string name="newTeam">Nuwe span</string>
+  <string name="myTeams">My spanne</string>
+  <string name="noTeamFound">Geen span gevind nie</string>
+  <string name="joinTeam">Sluit aan by die span</string>
+  <string name="quitTeam">Verlaat die span</string>
+  <string name="anyoneCanJoin">Enige persoon mag aansluit</string>
+  <string name="aConfirmationIsRequiredToJoin">\'n Bevestiging is nodig om aan te sluit</string>
+  <string name="joiningPolicy">Voorwaardes vir aansluiting</string>
   <plurals name="teamLeaders">
     <item quantity="one">Team leader</item>
     <item quantity="other">Team leaders</item>
   </plurals>
-  <string name="teamBestPlayers">Best players</string>
-  <string name="teamRecentMembers">Recent members</string>
-  <string name="kickSomeone">Kick someone out of the team</string>
-  <string name="whoToKick">Who do you want to kick out of the team?</string>
+  <string name="teamBestPlayers">Beste spanlede</string>
+  <string name="teamRecentMembers">Onlangse spanlede</string>
+  <string name="kickSomeone">Skop iemand uit die span uit</string>
+  <string name="whoToKick">Wie wil jy uit die span uit skop?</string>
   <plurals name="xJoinRequests">
-    <item quantity="one">%s join request</item>
-    <item quantity="other">%s join requests</item>
+    <item quantity="one">%s Aansluitingsversoek</item>
+    <item quantity="other">%s Aansluitingsversoeke</item>
   </plurals>
-  <string name="willBeReviewed">Your join request will be reviewed by the team leader.</string>
-  <string name="beingReviewed">Your join request is being reviewed by the team leader.</string>
-  <string name="teamBattle">Team Battle</string>
-  <string name="teamBattleOverview">A battle of multiple teams, each player scores points for their team</string>
-  <string name="teamTournament">Team tournament</string>
-  <string name="teamTournamentOverview">An Arena tournament that only members of your team can join</string>
-  <string name="messageAllMembers">Message all members</string>
-  <string name="messageAllMembersOverview">Send a private message to every member of the team</string>
+  <string name="willBeReviewed">Jou aansluitingsversoek sal deur die spanleier geëvalueer word.</string>
+  <string name="beingReviewed">Jou aansluitingsversoek word tans deur die spanleier geëvalueer.</string>
+  <string name="teamBattle">Span Stryd</string>
+  <string name="teamBattleOverview">\'n Geveg tussen verskeie spanne, elke speler kry punte vir hulle span</string>
+  <string name="teamTournament">Span toernooi</string>
+  <string name="teamTournamentOverview">\'n Arena toernooi waarby net mense van jou span kan aansluit</string>
+  <string name="messageAllMembers">Stuur \'n boodskap aan alle lede</string>
+  <string name="messageAllMembersOverview">Stuur \'n private boodskap na elke lid van die span</string>
   <string name="messageAllMembersLongDescription">Send a private message to ALL members of the team.
 You can use this to call players to join a tournament or a team battle.
 Players who don\'t like receiving your messages might leave the team.</string>
