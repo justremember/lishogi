@@ -1,44 +1,45 @@
-<?xml version='1.0' encoding='utf-8'?>
-<resources><string name="team">Ομάδα</string>
-  <string name="teams">Ομάδες</string>
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="team">Team</string>
+  <string name="teams">Teams</string>
   <plurals name="nbMembers">
-    <item quantity="one">%s μέλος</item>
-    <item quantity="other">%s μέλη</item>
+    <item quantity="one">%s member</item>
+    <item quantity="other">%s members</item>
   </plurals>
-  <string name="allTeams">Όλες οι ομάδες</string>
-  <string name="newTeam">Νέα ομάδα</string>
-  <string name="myTeams">Οι ομάδες μου</string>
-  <string name="noTeamFound">Δε βρέθηκε ομάδα</string>
-  <string name="joinTeam">Συμμετοχή στην ομάδα</string>
-  <string name="quitTeam">Αποχώρηση από την ομάδα</string>
-  <string name="anyoneCanJoin">Ανοιχτό σε όλα τα μέλη</string>
-  <string name="aConfirmationIsRequiredToJoin">Απαιτείται επιβεβαίωση για να εγγραφείτε</string>
-  <string name="joiningPolicy">Πολιτική εγγραφής</string>
+  <string name="allTeams">All teams</string>
+  <string name="newTeam">New team</string>
+  <string name="myTeams">My teams</string>
+  <string name="noTeamFound">No team found</string>
+  <string name="joinTeam">Join team</string>
+  <string name="quitTeam">Leave team</string>
+  <string name="anyoneCanJoin">Free for all</string>
+  <string name="aConfirmationIsRequiredToJoin">A confirmation is required to join</string>
+  <string name="joiningPolicy">Joining policy</string>
   <plurals name="teamLeaders">
-    <item quantity="one">Αρχηγός ομάδας</item>
-    <item quantity="other">Αρχηγοί ομάδας</item>
+    <item quantity="one">Team leader</item>
+    <item quantity="other">Team leaders</item>
   </plurals>
-  <string name="teamBestPlayers">Καλύτεροι παίκτες ομάδας</string>
-  <string name="teamRecentMembers">Πρόσφατα μέλη ομάδας</string>
-  <string name="kickSomeone">Απομάκρυνση κάποιου από την ομάδα</string>
-  <string name="whoToKick">Ποιον επιθυμείτε να απομακρύνετε από την ομάδα;</string>
+  <string name="teamBestPlayers">Best players</string>
+  <string name="teamRecentMembers">Recent members</string>
+  <string name="kickSomeone">Kick someone out of the team</string>
+  <string name="whoToKick">Who do you want to kick out of the team?</string>
   <plurals name="xJoinRequests">
-    <item quantity="one">%s αίτημα σύνδεσης</item>
-    <item quantity="other">%s αιτήματα σύνδεσης</item>
+    <item quantity="one">%s join request</item>
+    <item quantity="other">%s join requests</item>
   </plurals>
-  <string name="willBeReviewed">Το αίτημα σύνδεσης θα αξιολογηθεί από τον αρχηγό ομάδας.</string>
-  <string name="beingReviewed">Το αίτημα σύνδεσης αξιολογείται από τον αρχηγό ομάδας.</string>
-  <string name="teamBattle">Μάχη ομάδας</string>
-  <string name="teamBattleOverview">Μια μάχη μεταξύ πολλών ομάδων που ο κάθε παίκτης κερδίζει πόντους για την ομάδα του</string>
-  <string name="teamTournament">Τουρνουά ομάδας</string>
-  <string name="teamTournamentOverview">Ένα Αρένα τουρνουά στο οποίο μπορούν να συμμετέχουν μόνο παίκτες της ομάδας σου</string>
-  <string name="messageAllMembers">Στείλτε μήνυμα σε όλα τα μέλη</string>
-  <string name="messageAllMembersOverview">Στείλτε προσωπικό μήνυμα σε κάθε μέλος της ομάδας</string>
-  <string name="messageAllMembersLongDescription">Στείλτε ένα προσωπικό μήνυμα σε όλα τα μέλη της ομάδας σας.
-Μπορείτε να χρησιμοποιήσετε αυτή τη δυνατότητα για να καλέσετε τους παίκτες να συμμετέχουν σε ένα τουρνουά ή σε μια ομαδική μάχη.
-Οι παίκτες που πιθανόν δεν θέλουν να λαμβάνουν τα μηνύματά σας μπορεί να αποχωρήσουν από την ομάδα.</string>
-  <string name="teamsIlead">Ομάδες που είμαι αρχηγός</string>
-  <string name="youWayWantToLinkOneOfTheseTournaments">Μήπως θα θέλατε να στείλετε τον σύνδεσμο του επερχόμενου τουρνουά;</string>
-  <string name="usersWhoCanManageThisTeam">Χρήστες που μπορούν να διαχειριστούν αυτή την ομάδα</string>
-  <string name="leadersChat">Chat αρχηγών</string>
+  <string name="willBeReviewed">Your join request will be reviewed by the team leader.</string>
+  <string name="beingReviewed">Your join request is being reviewed by the team leader.</string>
+  <string name="teamBattle">Team Battle</string>
+  <string name="teamBattleOverview">A battle of multiple teams, each player scores points for their team</string>
+  <string name="teamTournament">Team tournament</string>
+  <string name="teamTournamentOverview">An Arena tournament that only members of your team can join</string>
+  <string name="messageAllMembers">Message all members</string>
+  <string name="messageAllMembersOverview">Send a private message to every member of the team</string>
+  <string name="messageAllMembersLongDescription">Send a private message to ALL members of the team.
+You can use this to call players to join a tournament or a team battle.
+Players who don\'t like receiving your messages might leave the team.</string>
+  <string name="teamsIlead">Teams I lead</string>
+  <string name="youWayWantToLinkOneOfTheseTournaments">You may want to link one of these upcoming tournaments?</string>
+  <string name="usersWhoCanManageThisTeam">Users who can manage this team</string>
+  <string name="leadersChat">Leaders chat</string>
 </resources>
