@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="emailConfirm_subject">Confirm your lishogi.org account, %s</string>
-  <string name="emailConfirm_click">Click the link to enable your Lishogi account:</string>
-  <string name="emailConfirm_ignore">If you did not register with Lishogi you can safely ignore this message.</string>
-  <string name="passwordReset_subject">Reset your lishogi.org password, %s</string>
-  <string name="passwordReset_intro">We received a request to reset the password for your account.</string>
-  <string name="passwordReset_clickOrIgnore">If you made this request, click the link below. If not, you can ignore this email.</string>
-  <string name="emailChange_subject">Confirm new email address, %s</string>
-  <string name="emailChange_intro">You have requested to change your email address.</string>
-  <string name="emailChange_click">To confirm you have access to this email, please click the link below:</string>
-  <string name="welcome_subject">Welcome to lishogi.org, %s</string>
-  <string name="welcome_text">You have successfully created your account on https://lishogi.org.
+  <string name="emailConfirm_subject">Potvrďte svůj účet na lishogi.org, %s</string>
+  <string name="emailConfirm_click">Klikněte na tento link pro potvrzení vašeho Lishogi účtu:</string>
+  <string name="emailConfirm_ignore">Pokud jste se neregistroval/a na Lishogi, ignorujte tento e-mail.</string>
+  <string name="passwordReset_subject">Obnovení hesla lishogi.org, %s</string>
+  <string name="passwordReset_intro">Dostali jsme žádost k obnovení hesla k tvému účtu.</string>
+  <string name="passwordReset_clickOrIgnore">Pokud jste provedli tento požadavek, klepněte na odkaz níže. Pokud tomu tak není, můžete ignorovat tento email.</string>
+  <string name="emailChange_subject">Potvrďte emailovou adresu, %s</string>
+  <string name="emailChange_intro">Požádali jste o změnu vašé emailové adresy.</string>
+  <string name="emailChange_click">Pro ověření, zda máte přístup k tomuto e-mailu, klikněte na odkaz níže:</string>
+  <string name="welcome_subject">Vítejte na lishogi.org, %s</string>
+  <string name="welcome_text">Úspěšně jste vytvořili svůj účet na https://lishogi.org.
 
-Here is your profile page: %1$s. You can personalise it on %2$s.
+Zde naleznete stránku s Vašim profilem: %1$s. Přizpůsobit si jej můžete zde - %2$s.
 
-Have fun, and may your pieces always find their way to your opponent\'s king!</string>
+Hodně zábavy a ať si Vaše figury vždy najdou cestu k soupeřovu králi!</string>
   <string name="logInToLishogi">Log in to lishogi.org, %s</string>
-  <string name="common_orPaste">(Clicking not working? Try pasting it into your browser!)</string>
-  <string name="common_note">This is a service email related to your use of %s.</string>
-  <string name="common_contact">To contact us, please use %s.</string>
+  <string name="common_orPaste">(Odkaz nefunguje? Zkuste jej zkopírovat do vašeho prohlížeče!)</string>
+  <string name="common_note">Tohle je automatický e-mail související s vaším používáním %s.</string>
+  <string name="common_contact">Použij %s k tomu, aby jsi nás kontaktoval.</string>
 </resources>
