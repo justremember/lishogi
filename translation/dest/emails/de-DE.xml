@@ -1,20 +1,22 @@
-<?xml version='1.0' encoding='utf-8'?>
-<resources><string name="emailConfirm_subject">Bestätige dein Benutzerkonto auf lishogi.org, %s</string>
-  <string name="emailConfirm_click">Klicke auf den Link, um dein Benutzerkonto bei Lishogi zu aktivieren:</string>
-  <string name="emailConfirm_ignore">Wenn Du dich nicht bei Lishogi registriert hast, kannst Du diese Nachricht ignorieren.</string>
-  <string name="passwordReset_subject">Setze dein Passwort für lishogi.org zurück, %s</string>
-  <string name="passwordReset_intro">Wir haben eine Anfrage zum Zurücksetzen deines Passworts erhalten.</string>
-  <string name="passwordReset_clickOrIgnore">Wenn Du diese Anfrage gemacht hast, klicke auf den untenstehenden Link. Falls nicht, ignoriere diese E-Mail.</string>
-  <string name="emailChange_subject">Bestätige die neue E-Mail-Adresse, %s</string>
-  <string name="emailChange_intro">Du hast eine Änderung deiner E-Mail-Adresse angefordert.</string>
-  <string name="emailChange_click">Um zu bestätigen, dass Du Zugriff auf diese E-Mail hast, klicke bitte auf den untenstehenden Link:</string>
-  <string name="welcome_subject">Herzlich willkommen bei lishogi.org, %s</string>
-  <string name="welcome_text">Du hast erfolgreich dein Benutzerkonto auf https://lishogi.org erstellt.
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="emailConfirm_subject">Confirm your lishogi.org account, %s</string>
+  <string name="emailConfirm_click">Click the link to enable your Lishogi account:</string>
+  <string name="emailConfirm_ignore">If you did not register with Lishogi you can safely ignore this message.</string>
+  <string name="passwordReset_subject">Reset your lishogi.org password, %s</string>
+  <string name="passwordReset_intro">We received a request to reset the password for your account.</string>
+  <string name="passwordReset_clickOrIgnore">If you made this request, click the link below. If not, you can ignore this email.</string>
+  <string name="emailChange_subject">Confirm new email address, %s</string>
+  <string name="emailChange_intro">You have requested to change your email address.</string>
+  <string name="emailChange_click">To confirm you have access to this email, please click the link below:</string>
+  <string name="welcome_subject">Welcome to lishogi.org, %s</string>
+  <string name="welcome_text">You have successfully created your account on https://lishogi.org.
 
-Hier geht es zu deiner Profil-Seite: %1$s. Du kannst sie auf %2$s personalisieren.
+Here is your profile page: %1$s. You can personalise it on %2$s.
 
-Viel Spaß und mögen deine Figuren immer den Weg zum gegnerischen König finden!</string>
-  <string name="common_orPaste">(Klicken funktioniert nicht? Versuche den Link in deinen Browser einzufügen!)</string>
-  <string name="common_note">Dies ist eine Service-E-Mail im Zusammenhang mit deiner Nutzung von %s.</string>
-  <string name="common_contact">Um uns zu kontaktieren, benutze bitte %s.</string>
+Have fun, and may your pieces always find their way to your opponent\'s king!</string>
+  <string name="logInToLishogi">Log in to lishogi.org, %s</string>
+  <string name="common_orPaste">(Clicking not working? Try pasting it into your browser!)</string>
+  <string name="common_note">This is a service email related to your use of %s.</string>
+  <string name="common_contact">To contact us, please use %s.</string>
 </resources>
