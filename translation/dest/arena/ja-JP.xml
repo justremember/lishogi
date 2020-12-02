@@ -1,42 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="arenaTournaments">Arena tournaments</string>
-  <string name="isItRated">Is it rated?</string>
-  <string name="willBeNotified">You will be notified when the tournament starts, so it is safe to play in another tab while waiting.</string>
-  <string name="isRated">This tournament is rated and will affect your rating.</string>
-  <string name="isNotRated">This tournament is *not* rated and will *not* affect your rating.</string>
-  <string name="someRated">Some tournaments are rated and will affect your rating.</string>
-  <string name="howAreScoresCalculated">How are scores calculated?</string>
-  <string name="howAreScoresCalculatedAnswer">A win has a base score of 2 points, a draw 1 point, and a loss is worth no points.
-If you win two games consecutively you will start a double point streak, represented by a flame icon.
-The following games will continue to be worth double points until you fail to win a game.
-That is, a win will be worth 4 points, a draw 2 points, and a loss will still not award any points.
-
-For example, two wins followed by a draw will be worth 6 points: 2 + 2 + (2 x 1)</string>
-  <string name="berserk">Arena Berserk</string>
-  <string name="berserkAnswer">When a player clicks the Berserk button at the beginning of the game, they lose half of their clock time, but the win is worth one extra tournament point.
-
-Going Berserk in time controls with an increment also cancels the increment (1+2 is an exception, it gives 1+0).
-
-Berserk is not available for games with zero initial time (0+1, 0+2).
-
-Berserk only grants an extra point if you play at least 7 moves in the game.</string>
-  <string name="howIsTheWinnerDecided">How is the winner decided?</string>
-  <string name="howIsTheWinnerDecidedAnswer">The player(s) with the most points at the conclusion of the tournament\'s set time limit will be announced winner(s).
-
-When two or more players have the same number of points, the tournament performance is the tie break.</string>
-  <string name="howDoesPairingWork">How does the pairing work?</string>
-  <string name="howDoesPairingWorkAnswer">At the beginning of the tournament, players are paired based on their rating.
-As soon as you finish a game, return to the tournament lobby: you will then be paired with a player close to your ranking. This ensures minimum wait time, however you may not face all other players in the tournament.
-Play fast and return to the lobby to play more games and win more points.</string>
-  <string name="howDoesItEnd">How does it end?</string>
-  <string name="howDoesItEndAnswer">The tournament has a countdown clock. When it reaches zero, the tournament rankings are frozen, and the winner is announced. Games in progress must be finished, however they don\'t count for the tournament.</string>
-  <string name="otherRules">Other important rules</string>
-  <string name="thereIsACountdown">There is a countdown for your first move. Failing to make a move within this time will forfeit the game to your opponent.</string>
+  <string name="arenaTournaments">アリーナ トーナメント</string>
+  <string name="isItRated">レート戦ですか？</string>
+  <string name="willBeNotified">トーナメントが始まると通知が来るので、それまで別のタブでプレイしていても大丈夫です。</string>
+  <string name="isRated">このトーナメントはレート戦で、レーティングが変動します。</string>
+  <string name="isNotRated">このトーナメントはレート戦ではなく、レーティングは変動しません。</string>
+  <string name="someRated">一部のトーナメントはレート戦で、レーティングが変動します。</string>
+  <string name="howAreScoresCalculated">スコアの計算方法は？</string>
+  <string name="howAreScoresCalculatedAnswer">基本は勝ちが 2 点、ドローが 1 点、負けが 0 点です。
+2 連勝すると次のゲームから「2倍ボーナス」となり、炎のアイコンが表示されます。
+連勝後のゲームは、連勝が途切れるまで基本の点が 2 倍になります。つまり勝ちが 4 点、ドローが 2 点です。
+たとえば 2 連勝の後ドローなら合計は 2 + 2 + (2 x 1) = 6 点になります。</string>
+  <string name="berserk">バーサーク（Berserk）</string>
+  <string name="berserkAnswer">ゲーム開始時に時計の横の「バーサーク (berserk) 」ボタンをクリックすると、持時間が半分に減る代わりに勝った時に 1 点のボーナス点がもらえます。
+追加秒のある場合は追加秒もなくなります（ただし 1+2 は例外で 1+0 になります）。
+持時間が「0分+追加秒」の場合（0+1、0+2）はバーサークできません。
+バーサーク勝ちのボーナス点を得るには少なくとも 7 手指す必要があります。</string>
+  <string name="howIsTheWinnerDecided">優勝者の決め方は？</string>
+  <string name="howIsTheWinnerDecidedAnswer">トーナメントの予定終了時刻の時点でもっともポイント数の多いプレイヤーが優勝です。</string>
+  <string name="howDoesPairingWork">対戦組み合わせはどう決まりますか？</string>
+  <string name="howDoesPairingWorkAnswer">トーナメントの最初はレーティングによって組み合わせが決まります。ゲームが終わったらすぐにトーナメント・ロビーに戻ってください。間もなく順位の近い相手と対戦組み合わせが決まります。これによって待ち時間は少なくなりますが、ただし他のすべての参加者とは対戦しないかもしれません。
+早く指して早くロビーに戻れば、それだけ対戦数が増えてポイントも増えるでしょう。</string>
+  <string name="howDoesItEnd">終了のしかたは？</string>
+  <string name="howDoesItEndAnswer">トーナメントには時間制限があります。残り時間がゼロになるとその時点で順位が確定し、優勝者が発表されます。この時に進行中のゲームは完了する必要がありますが、トーナメントの結果には算入しません。</string>
+  <string name="otherRules">その他のルール</string>
+  <string name="thereIsACountdown">初手にはカウントダウン・タイマーがあります。制限時間内に初手を指さないと不戦敗になります。</string>
   <plurals name="drawingWithinNbMoves">
-    <item quantity="other">Drawing the game within the first %s moves will earn neither player any points.</item>
+    <item quantity="other">%s 手以内のドローでは双方ともポイントが得られません。</item>
   </plurals>
-  <string name="thisIsPrivate">This is a private tournament</string>
-  <string name="shareUrl">Share this URL to let people join: %s</string>
-  <string name="drawStreak">Draw streaks: When a player has consecutive draws in an arena, only the first draw will result in a point, or draws lasting more than %s moves. The draw streak can only be broken by a win, not a loss or a draw.</string>
+  <string name="thisIsPrivate">これはプライベートのトーナメントです</string>
+  <string name="shareUrl">誰もが参加できるようにシェアして: %s</string>
+  <string name="drawStreak">連続ドロー：ドローが連続した場合、手数が%s手を超えたゲームしかポイントが得られません（最初のドローは手数を問わない）。連続ドローが途切れるのは勝った時だけで、負けでは途切れたことになりません。</string>
 </resources>
