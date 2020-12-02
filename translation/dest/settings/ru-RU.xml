@@ -1,9 +1,10 @@
-<?xml version='1.0' encoding='utf-8'?>
-<resources><string name="settings">Настройки</string>
-  <string name="closeAccount">Удалить учётную запись</string>
-  <string name="closingIsDefinitive">Закрытие невозможно будет отменить. Вы уверены?</string>
-  <string name="cantOpenSimilarAccount">Вы не сможете создать новый аккаунт с таким же именем, даже если регистр символов отличается.</string>
-  <string name="changedMindDoNotCloseAccount">Я передумал, не закрывайте мой аккаунт</string>
-  <string name="closeAccountExplanation">Вы уверены, что хотите закрыть свой аккаунт? Закрытие аккаунта необратимо. Вы никогда не сможете войти в него опять.</string>
-  <string name="thisAccountIsClosed">Этот аккаунт закрыт.</string>
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="settings">Settings</string>
+  <string name="closeAccount">Close account</string>
+  <string name="closingIsDefinitive">Closing is definitive. There is no going back. Are you sure?</string>
+  <string name="cantOpenSimilarAccount">You will not be allowed to open a new account with the same name, even if the case is different.</string>
+  <string name="changedMindDoNotCloseAccount">I changed my mind, don\'t close my account</string>
+  <string name="closeAccountExplanation">Are you sure you want to close your account? Closing your account is a permanent decision. You will NEVER be able to log in EVER AGAIN.</string>
+  <string name="thisAccountIsClosed">This account is closed.</string>
 </resources>
