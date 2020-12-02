@@ -1,34 +1,42 @@
-<?xml version='1.0' encoding='utf-8'?>
-<resources><string name="team">팀</string>
-  <string name="teams">팀</string>
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="team">Team</string>
+  <string name="teams">Teams</string>
   <plurals name="nbMembers">
-    <item quantity="other">멤버 %s명</item>
+    <item quantity="other">%s members</item>
   </plurals>
-  <string name="allTeams">모든 팀</string>
-  <string name="newTeam">팀 만들기</string>
-  <string name="myTeams">소속된 팀</string>
-  <string name="noTeamFound">팀을 찾지 못했습니다</string>
-  <string name="joinTeam">팀 가입</string>
-  <string name="quitTeam">팀 탈퇴</string>
-  <string name="anyoneCanJoin">승인 없이 아무나 가입할 수 있습니다</string>
-  <string name="aConfirmationIsRequiredToJoin">가입하기 위해선 승인이 필요합니다</string>
-  <string name="joiningPolicy">가입 정책</string>
+  <string name="allTeams">All teams</string>
+  <string name="newTeam">New team</string>
+  <string name="myTeams">My teams</string>
+  <string name="noTeamFound">No team found</string>
+  <string name="joinTeam">Join team</string>
+  <string name="quitTeam">Leave team</string>
+  <string name="anyoneCanJoin">Free for all</string>
+  <string name="aConfirmationIsRequiredToJoin">A confirmation is required to join</string>
+  <string name="joiningPolicy">Joining policy</string>
   <plurals name="teamLeaders">
-    <item quantity="other">팀 운영자</item>
+    <item quantity="other">Team leaders</item>
   </plurals>
-  <string name="teamBestPlayers">팀 내 최고 플레이어</string>
-  <string name="teamRecentMembers">최근 가입 멤버</string>
+  <string name="teamBestPlayers">Best players</string>
+  <string name="teamRecentMembers">Recent members</string>
+  <string name="kickSomeone">Kick someone out of the team</string>
+  <string name="whoToKick">Who do you want to kick out of the team?</string>
   <plurals name="xJoinRequests">
-    <item quantity="other">%s개의 가입 요청</item>
+    <item quantity="other">%s join requests</item>
   </plurals>
-  <string name="willBeReviewed">팀 운영자가 가입 요청을 검토할 것입니다.</string>
-  <string name="beingReviewed">팀 운영자가 가입 요청을 검토하고 있습니다.</string>
-  <string name="teamBattle">팀 배틀</string>
-  <string name="teamBattleOverview">각각의 플레이어가 팀의 점수를 올리는 여러 팀간의 대결</string>
-  <string name="teamTournament">팀내 대결</string>
-  <string name="teamTournamentOverview">팀원만 참가할 수 있는 아레나 대회</string>
-  <string name="messageAllMembers">팀원 전원에게 메시지 보내기</string>
-  <string name="messageAllMembersOverview">팀원 전원에게 메시지 보내기</string>
-  <string name="messageAllMembersLongDescription">팀원 전원에게 메시지 보내기. 팀 내 대회나 팀 배틀에 참가를 독려하기 위해 사용할 수 있습니다. 메시지를 받기 싫어하는 팀원이 팀을 탈퇴할 수 있습니다.</string>
-  <string name="usersWhoCanManageThisTeam">팀 관리자</string>
+  <string name="willBeReviewed">Your join request will be reviewed by the team leader.</string>
+  <string name="beingReviewed">Your join request is being reviewed by the team leader.</string>
+  <string name="teamBattle">Team Battle</string>
+  <string name="teamBattleOverview">A battle of multiple teams, each player scores points for their team</string>
+  <string name="teamTournament">Team tournament</string>
+  <string name="teamTournamentOverview">An Arena tournament that only members of your team can join</string>
+  <string name="messageAllMembers">Message all members</string>
+  <string name="messageAllMembersOverview">Send a private message to every member of the team</string>
+  <string name="messageAllMembersLongDescription">Send a private message to ALL members of the team.
+You can use this to call players to join a tournament or a team battle.
+Players who don\'t like receiving your messages might leave the team.</string>
+  <string name="teamsIlead">Teams I lead</string>
+  <string name="youWayWantToLinkOneOfTheseTournaments">You may want to link one of these upcoming tournaments?</string>
+  <string name="usersWhoCanManageThisTeam">Users who can manage this team</string>
+  <string name="leadersChat">Leaders chat</string>
 </resources>
