@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="team">Team</string>
-  <string name="teams">Teams</string>
+  <string name="team">فريق</string>
+  <string name="teams">الفِرق</string>
   <plurals name="nbMembers">
-    <item quantity="zero">%s members</item>
-    <item quantity="one">%s member</item>
-    <item quantity="two">%s members</item>
-    <item quantity="few">%s members</item>
-    <item quantity="many">%s members</item>
-    <item quantity="other">%s members</item>
+    <item quantity="zero">%s عضو</item>
+    <item quantity="one">%s عضو</item>
+    <item quantity="two">%s عضو</item>
+    <item quantity="few">%s عضو</item>
+    <item quantity="many">%s عضو</item>
+    <item quantity="other">%s عضو</item>
   </plurals>
-  <string name="allTeams">All teams</string>
-  <string name="newTeam">New team</string>
-  <string name="myTeams">My teams</string>
-  <string name="noTeamFound">No team found</string>
-  <string name="joinTeam">Join team</string>
-  <string name="quitTeam">Leave team</string>
-  <string name="anyoneCanJoin">Free for all</string>
-  <string name="aConfirmationIsRequiredToJoin">A confirmation is required to join</string>
-  <string name="joiningPolicy">Joining policy</string>
+  <string name="allTeams">كل الفِرق</string>
+  <string name="newTeam">فريق جديد</string>
+  <string name="myTeams">فرقي</string>
+  <string name="noTeamFound">لايوجد فريق</string>
+  <string name="joinTeam">انضم للفريق</string>
+  <string name="quitTeam">انسحب من الفريق</string>
+  <string name="anyoneCanJoin">مفتوح للجميع</string>
+  <string name="aConfirmationIsRequiredToJoin">الانضمام بموافقة قائد الفريق</string>
+  <string name="joiningPolicy">قوانين الانضمام</string>
   <plurals name="teamLeaders">
     <item quantity="zero">Team leaders</item>
     <item quantity="one">Team leader</item>
@@ -27,9 +27,9 @@
     <item quantity="many">Team leaders</item>
     <item quantity="other">Team leaders</item>
   </plurals>
-  <string name="teamBestPlayers">Best players</string>
-  <string name="teamRecentMembers">Recent members</string>
-  <string name="kickSomeone">Kick someone out of the team</string>
+  <string name="teamBestPlayers">أفضل اللاعبين</string>
+  <string name="teamRecentMembers">آخر الأعضاء</string>
+  <string name="kickSomeone">طرد أحداً ما من الفريق</string>
   <string name="whoToKick">Who do you want to kick out of the team?</string>
   <plurals name="xJoinRequests">
     <item quantity="zero">%s join requests</item>
@@ -39,8 +39,8 @@
     <item quantity="many">%s join requests</item>
     <item quantity="other">%s join requests</item>
   </plurals>
-  <string name="willBeReviewed">Your join request will be reviewed by the team leader.</string>
-  <string name="beingReviewed">Your join request is being reviewed by the team leader.</string>
+  <string name="willBeReviewed">سيتم النظر في طلب انضمامك من قبل قائد الفريق.</string>
+  <string name="beingReviewed">طلب انضمامك مازال يتم النظر فيه من قبل قائد الفريق.</string>
   <string name="teamBattle">Team Battle</string>
   <string name="teamBattleOverview">A battle of multiple teams, each player scores points for their team</string>
   <string name="teamTournament">Team tournament</string>
