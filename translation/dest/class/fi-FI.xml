@@ -1,87 +1,98 @@
-<?xml version='1.0' encoding='utf-8'?>
-<resources><string name="features">Toiminnot</string>
-  <string name="quicklyGenerateSafeUsernames">Luo nopeasti turvallisia käyttäjänimiä ja salasanoja oppilaille</string>
-  <string name="trackStudentProgress">Seuraa oppilaiden edistymistä peleissä ja tehtävissä</string>
-  <string name="messageAllStudents">Lähetä luokan uusista materiaaleista viesti kaikille oppilaille</string>
-  <string name="freeForAllForever">Aina 100% ilmainen kaikille, ilman mainoksia tai seurantaa</string>
-  <string name="noClassesYet">Luokkia ei vielä ole.</string>
-  <string name="teachersX">Opettajat: %s</string>
-  <string name="newClass">Uusi luokka</string>
-  <string name="closeClass">Sulje luokka</string>
-  <string name="closedByX">%s on sulkenut tunnuksesi</string>
-  <string name="reopen">Avaa uudelleen</string>
-  <string name="removeStudent">Poista oppilas</string>
-  <string name="removedStudents">Poistettu</string>
-  <string name="inviteTheStudentBack">Kutsu oppilas takaisin</string>
-  <string name="sendAMessage">Lähetä viesti kaikille oppilaille.</string>
-  <string name="aLinkToTheClassWillBeAdded">Linkki luokkaan lisätään automaattisesti jokaisen viestin loppuun, joten sinun ei tarvitse lisätä sitä itse.</string>
-  <string name="className">Luokan nimi</string>
-  <string name="classDescription">Luokan kuvaus</string>
-  <string name="visibleByBothStudentsAndTeachers">Näkyy luokan opettajille ja oppilaille</string>
-  <string name="teachersOfTheClass">Luokan opettajat</string>
-  <string name="theyMustFirstApply">Heidän täytyy ensin jättää hakemus Lishogi-opettajaksi.</string>
-  <string name="resetPassword">Nollaa salasana</string>
-  <string name="makeSureToCopy">Huolehdi nyt siitä, että kopioit tai kirjoitat ylös salasanasi. Et näe sitä enää toiste!</string>
-  <string name="passwordX">Salasana: %s</string>
-  <string name="generateANewPassword">Luo oppilaalle uusi salasana</string>
-  <string name="invitedToXByY">Kutsuttu %1$s-luokkaan (kutsuja: %2$s)</string>
-  <string name="realName">Oikea nimi</string>
-  <string name="privateWillNeverBeShown">Yksityinen. Ei näy koskaan luokan ulkopuolella. Auttaa muistamaan kuka oppilas on.</string>
-  <string name="addStudent">Lisää oppilas</string>
-  <string name="studentCredentials">Oppilas: %1$s
-Käyttäjänimi: %2$s
-Salasana: %3$s</string>
-  <string name="inviteDesc1">Jos oppilaalla on jo Lishogi-tunnus, voit kutsua hänet luokkaan.</string>
-  <string name="inviteDesc2">Hän saa Lishogiissä viestin, jossa olevaa linkkiä seuraamalla hän voi liittyä luokkaan.</string>
-  <string name="inviteDesc3">Tärkeää: kutsu vain oppilaita, jotka tunnet ja jotka todella haluavat liittyä luokkaan.</string>
-  <string name="inviteDesc4">Älä koskaan lähetä epätoivottuja kutsuja satunnaisille pelaajille.</string>
-  <string name="createDesc1">Jos oppilaalla ei ole vielä Lishogi-tunnusta, voit luoda sellaisen hänelle tästä.</string>
-  <string name="createDesc2">Sähköpostiosoitetta ei tarvita. Oppilaalle luodaan salasana, ja se pitää antaa hänelle, jotta hän pääsee kirjautumaan sisään.</string>
-  <string name="createDesc3">Tärkeää: oppilaalla ei saa olla useita käyttäjätunnuksia.</string>
-  <string name="createDesc4">Jos hänellä on jo tunnus, käytä sen sijaan kutsulomaketta.</string>
-  <string name="generateANewUsername">Luo uusi käyttäjänimi</string>
-  <string name="welcomeToClass">Tervetuloa luokkaasi: %s.
-Tässä on linkki, josta pääset luokkaan.</string>
-  <string name="invitationToClass">Sinut on kutsuttu liittymään oppilaana luokkaan \"%s\".</string>
-  <string name="clickToViewInvitation">Katso kutsu napsauttamalla tätä linkkiä:</string>
-  <plurals name="nbPendingInvitations">
-    <item quantity="one">Yksi odottava kutsu</item>
-    <item quantity="other">%s odottavaa kutsua</item>
-  </plurals>
-  <string name="noPendingInvitations">Ei odottavia kutsuja</string>
-  <string name="onlyVisibleToTeachers">Näkyy vain luokan opettajille</string>
-  <string name="lastActiveDate">Aktiivinen</string>
-  <string name="managed">Hallinnoitu</string>
-  <string name="thisStudentAccountIsManaged">Tämä oppilaan tunnus on hallinnassa</string>
-  <string name="upgradeFromManaged">Korota hallinnoidusta itsenäiseksi</string>
-  <string name="release">Vapauta</string>
-  <string name="releaseTheAccount">Vapauta käyttäjätunnus, jotta oppilas voi hallita sitä itsenäisesti.</string>
-  <string name="releaseDesc1">Vapautettua käyttäjätiliä ei voi myöhemmin enää ottaa hallintaan. Oppilas voi itsenäisesti kytkeä lapsitilan pois päältä ja nollata salasanan.</string>
-  <string name="releaseDesc2">Oppilas pysyy luokassa senkin jälkeen, kun käyttäjätili on vapautettu.</string>
-  <string name="realUniqueEmail">Oppilaan todellinen ja yksilöllinen sähköpostiosoite. Lähetämme siihen vahvistussähköpostilla linkin, jolla käyttäjätunnuksen voi vapauttaa.</string>
-  <string name="teachers">Opettajat</string>
-  <plurals name="nbTeachers">
-    <item quantity="one">Opettaja</item>
-    <item quantity="other">%s opettajaa</item>
-  </plurals>
-  <plurals name="nbStudents">
-    <item quantity="one">Oppilas</item>
-    <item quantity="other">%s oppilasta</item>
-  </plurals>
-  <string name="students">Oppilaat</string>
-  <string name="progress">Edistyminen</string>
-  <string name="noStudents">Luokassa ei vielä ole oppilaita.</string>
-  <string name="noRemovedStudents">Ei poistettuja oppilaita.</string>
-  <string name="timePlaying">Pelattu aika</string>
-  <string name="winrate">Voittoprosentti</string>
-  <string name="na">Ei saatavilla</string>
-  <string name="news">Luokan uutiset</string>
-  <string name="editNews">Muokkaa uutisia</string>
-  <string name="notifyAllStudents">Ilmoita kaikille oppilaille</string>
-  <string name="nothingHere">Täällä ei ole vielä mitään.</string>
-  <string name="newsEdit1">Kaikki oppitunnin uutiset yhdessä kentässä.</string>
-  <string name="newsEdit2">Lisää tuoreet uutiset ylimmäksi. Älä poista aiempia uutisia.</string>
-  <string name="newsEdit3">Erottele uutiset näin: --- 
-Se luo vaakasuoran erotinviivan.</string>
-  <string name="markdownAvailable">%s-muotoilua voi käyttää edistyneempään muotoiluun.</string>
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="lishogiClasses">Classes</string>
+	<string name="teachClassesOfChessStudents">Teach classes of shogi students with the Lishogi Classes tool suite.</string>
+	<string name="features">Features</string>
+	<string name="quicklyGenerateSafeUsernames">Quickly generate safe usernames and passwords for students</string>
+	<string name="trackStudentProgress">Track student progress in games and puzzles</string>
+	<string name="messageAllStudents">Message all students about new class material</string>
+	<string name="freeForAllForever">100% free for all, forever, with no ads or trackers</string>
+	<string name="applyToBeLishogiTeacher">Apply to be a Lishogi Teacher</string>
+	<string name="noClassesYet">No classes yet.</string>
+	<string name="teachersX">Teachers: %s</string>
+	<string name="newClass">New class</string>
+	<string name="closeClass">Close class</string>
+	<string name="closedByX">Closed by %s</string>
+	<string name="reopen">Reopen</string>
+	<string name="removeStudent">Remove student</string>
+	<string name="removedStudents">Removed</string>
+	<string name="inviteTheStudentBack">Invite the student back</string>
+	<string name="sendAMessage">Send a message to all students.</string>
+	<string name="aLinkToTheClassWillBeAdded">A link to the class will be automatically added at the end of the message, so you don\'t need to include it yourself.</string>
+	<string name="className">Class name</string>
+	<string name="classDescription">Class description</string>
+	<string name="visibleByBothStudentsAndTeachers">Visible by both teachers and students of the class</string>
+	<string name="teachersOfTheClass">Teachers of the class</string>
+	<string name="addLishogiUsernames">Add Lishogi usernames to invite them as teachers. One per line.</string>
+	<string name="theyMustFirstApply">They must first apply to be Lishogi Teachers.</string>
+	<string name="resetPassword">Reset password</string>
+	<string name="makeSureToCopy">Make sure to copy or write down the password now. You won’t be able to see it again!</string>
+	<string name="passwordX">Password: %s</string>
+	<string name="generateANewPassword">Generate a new password for the student</string>
+	<string name="invitedToXByY">Invited to %1$s by %2$s</string>
+	<string name="realName">Real name</string>
+	<string name="privateWillNeverBeShown">Private. Will never be shown outside the class. Helps remember who the student is.</string>
+	<string name="addStudent">Add student</string>
+	<string name="lishogiProfileXCreatedForY">Lishogi profile %1$s created for %2$s.</string>
+	<string name="studentCredentials">Student:  %1$s
+Username: %2$s
+Password: %3$s</string>
+	<string name="inviteALishogiAccount">Invite a Lishogi account</string>
+	<string name="inviteDesc1">If the student already has a Lishogi account, you can invite them to the class.</string>
+	<string name="inviteDesc2">They will receive a message on Lishogi with a link to join the class.</string>
+	<string name="inviteDesc3">Important: only invite students you know, and who actively want to join the class.</string>
+	<string name="inviteDesc4">Never send unsolicited invites to arbitrary players.</string>
+	<string name="createANewLishogiAccount">Create a new Lishogi account</string>
+	<string name="createDesc1">If the student doesn\'t have a Lishogi account yet, you can create one for them here.</string>
+	<string name="createDesc2">No email address is required. A password will be generated, and you will have to transmit it to the student, so they can log in.</string>
+	<string name="createDesc3">Important: a student must not have multiple accounts.</string>
+	<string name="createDesc4">If they already have one, use the invite form instead.</string>
+	<string name="lishogiUsername">Lishogi username</string>
+	<string name="generateANewUsername">Generate a new username</string>
+	<string name="welcomeToClass">Welcome to your class: %s.
+Here is the link to access the class.</string>
+	<string name="invitationToClass">You are invited to join the class \"%s\" as a student.</string>
+	<string name="clickToViewInvitation">Click the link to view the invitation:</string>
+	<plurals name="nbPendingInvitations">
+		<item quantity="one">One pending invitation</item>
+		<item quantity="other">%s pending invitations</item>
+	</plurals>
+	<string name="noPendingInvitations">No pending invitations</string>
+	<string name="onlyVisibleToTeachers">Only visible to the class teachers</string>
+	<string name="lastActiveDate">Active</string>
+	<string name="managed">Managed</string>
+	<string name="thisStudentAccountIsManaged">This student account is managed</string>
+	<string name="upgradeFromManaged">Upgrade from managed to autonomous</string>
+	<string name="release">Release</string>
+	<string name="releaseTheAccount">Release the account so the student can manage it autonomously.</string>
+	<string name="releaseDesc1">A released account cannot be made managed again. The student will be able to toggle kid mode and reset password themselves.</string>
+	<string name="releaseDesc2">The student will remain in the class after their account is released.</string>
+	<string name="realUniqueEmail">Real, unique email address of the student. We will send a confirmation email to it, with a link to release the account.</string>
+	<string name="teachers">Teachers</string>
+	<plurals name="nbTeachers">
+		<item quantity="one">Teacher</item>
+		<item quantity="other">%s teachers</item>
+	</plurals>
+	<plurals name="nbStudents">
+		<item quantity="one">Student</item>
+		<item quantity="other">%s students</item>
+	</plurals>
+	<string name="students">Students</string>
+	<string name="progress">Progress</string>
+	<string name="noStudents">No students in the class, yet.</string>
+	<string name="noRemovedStudents">No removed students.</string>
+	<string name="overDays">Over days</string>
+	<string name="timePlaying">Time playing</string>
+	<string name="variantXOverLastY">%1$s over last %2$s</string>
+	<string name="winrate">Win rate</string>
+	<string name="na">N/A</string>
+	<string name="news">Class news</string>
+	<string name="editNews">Edit news</string>
+	<string name="notifyAllStudents">Notify all students</string>
+	<string name="nothingHere">Nothing here, yet.</string>
+	<string name="newsEdit1">All class news in a single field.</string>
+	<string name="newsEdit2">Add the recent news at the top. Don\'t delete previous news.</string>
+	<string name="newsEdit3">Separate news with ---
+It will display a horizontal line.</string>
+	<string name="markdownAvailable">%s is available for more advanced syntax.</string>
 </resources>
