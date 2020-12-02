@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="emailConfirm_subject">Confirm your lishogi.org account, %s</string>
-  <string name="emailConfirm_click">Click the link to enable your Lishogi account:</string>
-  <string name="emailConfirm_ignore">If you did not register with Lishogi you can safely ignore this message.</string>
-  <string name="passwordReset_subject">Reset your lishogi.org password, %s</string>
-  <string name="passwordReset_intro">We received a request to reset the password for your account.</string>
-  <string name="passwordReset_clickOrIgnore">If you made this request, click the link below. If not, you can ignore this email.</string>
-  <string name="emailChange_subject">Confirm new email address, %s</string>
-  <string name="emailChange_intro">You have requested to change your email address.</string>
-  <string name="emailChange_click">To confirm you have access to this email, please click the link below:</string>
-  <string name="welcome_subject">Welcome to lishogi.org, %s</string>
-  <string name="welcome_text">You have successfully created your account on https://lishogi.org.
+  <string name="emailConfirm_subject">Confirma el teu compte de lishogi.org, %s</string>
+  <string name="emailConfirm_click">Clica l\'enllaç per activar el teu compte de Lishogi:</string>
+  <string name="emailConfirm_ignore">Si no t\'has registrat a Lishogi, pots ignorar tranquil·lament aquest missatge.</string>
+  <string name="passwordReset_subject">Restableix la teva contrasenya de lishogi.org, %s</string>
+  <string name="passwordReset_intro">Recentment hi ha hagut una sol·licitud per canviar la contrasenya del vostre compte.</string>
+  <string name="passwordReset_clickOrIgnore">Si has fet aquesta petició, clica l\'enllaç de sota. Sino, pots ignorar aquest correu.</string>
+  <string name="emailChange_subject">Confirma l\'adreça de correu electrònic, %s</string>
+  <string name="emailChange_intro">Heu demanat canviar el correu electrònic.</string>
+  <string name="emailChange_click">Per confirmar que teniu accés a aquest correu electrònic, feu clic a l\'enllaç següent:</string>
+  <string name="welcome_subject">Benvinguts a lishogi.org, %s</string>
+  <string name="welcome_text">Heu creat correctament el vostre compte en https://lishogi.org.
 
-Here is your profile page: %1$s. You can personalise it on %2$s.
+Aquí teniu la pàgina del perfil: %1$s. Podeu personalitzar-la a %2$s.
 
-Have fun, and may your pieces always find their way to your opponent\'s king!</string>
+Divertiu-vos, i porteu les peces sempre a trobar el seu camí cap al rei del teu oponent!</string>
   <string name="logInToLishogi">Log in to lishogi.org, %s</string>
-  <string name="common_orPaste">(Clicking not working? Try pasting it into your browser!)</string>
-  <string name="common_note">This is a service email related to your use of %s.</string>
-  <string name="common_contact">To contact us, please use %s.</string>
+  <string name="common_orPaste">(No funciona clicar? Prova enganxant-ho en el navegador!)</string>
+  <string name="common_note">Aquest és un correu de servei relatiu al teu ús de %s.</string>
+  <string name="common_contact">Per contactar amb nosaltres, si us plau usa %s.</string>
 </resources>
