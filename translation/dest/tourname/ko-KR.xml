@@ -42,8 +42,8 @@
   <string name="xShield">%s Shield</string>
   <string name="openingRapidArena">%s Rapid Arena</string>
   <string name="openingRapid">%s Rapid</string>
-  <string name="xTeamBattle">%s Team Battle</string>
-  <string name="eliteXArena">Elite %s Arena</string>
-  <string name="eliteX">Elite %s</string>
-  <string name="xArena">%s Arena</string>
+  <string name="xTeamBattle">%s 팀 배틀</string>
+  <string name="eliteXArena">엘리트 %s 아레나</string>
+  <string name="eliteX">엘리트 %s</string>
+  <string name="xArena">%s 아레나</string>
 </resources>
