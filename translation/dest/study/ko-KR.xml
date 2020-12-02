@@ -1,34 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="private">Private</string>
-  <string name="myStudies">My studies</string>
+  <string name="private">개인</string>
+  <string name="myStudies">나의 연구</string>
   <string name="studiesIContributeTo">Studies I contribute to</string>
-  <string name="myPublicStudies">My public studies</string>
-  <string name="myPrivateStudies">My private studies</string>
-  <string name="myFavoriteStudies">My favourite studies</string>
+  <string name="myPublicStudies">내 공개 연구</string>
+  <string name="myPrivateStudies">내 개인 연구</string>
+  <string name="myFavoriteStudies">내가 즐겨찾는 연구</string>
   <string name="whatAreStudies">What are studies?</string>
-  <string name="allStudies">All studies</string>
+  <string name="allStudies">모든 연구</string>
   <string name="studiesCreatedByX">Studies created by %s</string>
-  <string name="noneYet">None yet.</string>
-  <string name="hot">Hot</string>
+  <string name="noneYet">아직 없음</string>
+  <string name="hot">인기있는</string>
   <string name="dateAddedNewest">Date added (newest)</string>
   <string name="dateAddedOldest">Date added (oldest)</string>
-  <string name="recentlyUpdated">Recently updated</string>
-  <string name="mostPopular">Most popular</string>
-  <string name="addNewChapter">Add a new chapter</string>
+  <string name="recentlyUpdated">최근에 업데이트된 순</string>
+  <string name="mostPopular">인기 많은 순</string>
+  <string name="addNewChapter">새 챕터 추가하기</string>
   <plurals name="nbChapters">
-    <item quantity="other">%s Chapters</item>
+    <item quantity="other">%s 챕터</item>
   </plurals>
   <plurals name="nbGames">
-    <item quantity="other">%s Games</item>
+    <item quantity="other">%s 게임</item>
   </plurals>
-  <string name="addMembers">Add members</string>
+  <string name="addMembers">멤버 추가</string>
   <plurals name="nbMembers">
     <item quantity="other">%s Members</item>
   </plurals>
   <string name="inviteToTheStudy">Invite to the study</string>
   <string name="pleaseOnlyInvitePeopleYouKnow">Please only invite people you know, and who actively want to join this study.</string>
-  <string name="searchByUsername">Search by username</string>
+  <string name="searchByUsername">사용자 이름으로 검색</string>
   <string name="spectator">Spectator</string>
   <string name="contributor">Contributor</string>
   <string name="kick">Kick</string>
@@ -41,7 +41,7 @@
   <string name="commentThisPosition">Comment on this position</string>
   <string name="commentThisMove">Comment on this move</string>
   <string name="annotateWithGlyphs">Annotate with glyphs</string>
-  <string name="theChapterIsTooShortToBeAnalysed">The chapter is too short to be analysed.</string>
+  <string name="theChapterIsTooShortToBeAnalysed">분석되기 너무 짧은 챕터입니다.</string>
   <string name="onlyContributorsCanRequestAnalysis">Only the study contributors can request a computer analysis.</string>
   <string name="getAFullComputerAnalysis">Get a full server-side computer analysis of the mainline.</string>
   <string name="makeSureTheChapterIsComplete">Make sure the chapter is complete. You can only request analysis once.</string>
@@ -49,9 +49,9 @@
   <string name="shareChanges">Share changes with spectators and save them on the server</string>
   <string name="playing">Playing</string>
   <string name="first">First</string>
-  <string name="previous">Previous</string>
-  <string name="next">Next</string>
-  <string name="last">Last</string>
+  <string name="previous">이전</string>
+  <string name="next">다음</string>
+  <string name="last">마지막</string>
   <string name="shareAndExport">Share &amp; export</string>
   <string name="cloneStudy">Clone</string>
   <string name="studyPgn">Study PGN</string>
@@ -86,7 +86,7 @@
   <string name="normalAnalysis">Normal analysis</string>
   <string name="hideNextMoves">Hide next moves</string>
   <string name="interactiveLesson">Interactive lesson</string>
-  <string name="chapterX">Chapter %s</string>
+  <string name="chapterX">챕터 %s</string>
   <string name="empty">Empty</string>
   <string name="startFromInitialPosition">Start from initial position</string>
   <string name="editor">Editor</string>
