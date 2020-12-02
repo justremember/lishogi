@@ -1,53 +1,58 @@
-<?xml version='1.0' encoding='utf-8'?>
-<resources><string name="live">JUURI NYT!</string>
-  <string name="offline">POISSA</string>
-  <string name="currentlyStreaming">Parhaillaan striimaavat: %s</string>
-  <string name="lastStream">Viimeisin striimi %s</string>
-  <string name="becomeStreamer">Ryhdy Lishogi-striimaajaksi</string>
-  <string name="doYouHaveStream">Onko sinulla Twitch- tai YouTube-kanava?</string>
-  <string name="hereWeGo">Menoksi!</string>
-  <string name="allStreamers">Kaikki striimaajat</string>
-  <string name="editPage">Muokkaa striimaajasivuasi</string>
-  <string name="yourPage">Striimaajasivusi</string>
-  <string name="downloadKit">Lataa striimaajan tarvikkeet</string>
-  <string name="xIsStreaming">%s striimaa</string>
-  <string name="rules">Striimaussäännöt</string>
-  <string name="rule1">Sisällytä avainsana \"lishogi.org\" striimisi otsikkoon kun striimaat Lishogi-sisältöä.</string>
-  <string name="rule2">Poista avainsana, kun striimaat Lishogiiin liittymätöntä sisältöä.</string>
-  <string name="rule3">Lishogi havaitsee striimisi automaattisesti ja tarjoaa etuja:</string>
-  <string name="perks">Avainsanalla striimaamisen hyödyt</string>
-  <string name="perk1">Lishogi-profiiliisi ilmestyy liekehtivä striimausikoni.</string>
-  <string name="perk2">Nouset striimaajalistauksen keulille.</string>
-  <string name="perk3">Lishogi-seuraajasi saavat ilmoituksen.</string>
-  <string name="perk4">Striimi näkyy peleissäsi, turnauksissasi ja tutkielmissasi.</string>
-  <string name="approved">Striimisi hyväksyttiin.</string>
-  <string name="pendingReview">Striimisi on moderaattorien arvioitavana.</string>
-  <string name="pleaseFillIn">Syötä striimaajatiedot ja lataa kuva.</string>
-  <string name="whenReady">Kun haluat Lishogi-striimaajien listalle, %s</string>
-  <string name="requestReview">pyydä moderaattorin arviointia</string>
-  <string name="anotherLanguage">Jos striimisi ei ole englanninkielinen, laita striimisi otsikon alkuun oikea kielitunniste (%s) hakasulkujen sisään.
-Esimerkiksi \"[FI]\" on suomen kielen, \"[SV]\" ruotsin kielen ja \"[DE]\" saksan kielen tunniste jne. Laita tämä striimin otsikkoon Twitch- tai Youtube-sivulla, älä Lishogiin striimiasetuksissa. Jos striimaat englanniksi, ei ole tarpeen sisällyttää kielitunnistetta.</string>
-  <string name="twitchUsername">Twitch-käyttäjänimesi tai URL</string>
-  <string name="optionalOrEmpty">Ei-pakollinen. Jätä tyhjäksi jollei sinulla ole</string>
-  <string name="youtubeChannel">YouTube-kanavasi kanava-ID tai URL</string>
-  <string name="streamerName">Striimaajanimesi Lishogiissä</string>
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="lishogiStreamers">Lishogi streamers</string>
+  <string name="lishogiStreamer">Lishogi streamer</string>
+  <string name="live">LIVE!</string>
+  <string name="offline">OFFLINE</string>
+  <string name="currentlyStreaming">Currently streaming: %s</string>
+  <string name="lastStream">Last stream %s</string>
+  <string name="becomeStreamer">Become a Lishogi streamer</string>
+  <string name="doYouHaveStream">Do you have a Twitch or YouTube channel?</string>
+  <string name="hereWeGo">Here we go!</string>
+  <string name="allStreamers">All streamers</string>
+  <string name="editPage">Edit streamer page</string>
+  <string name="yourPage">Your streamer page</string>
+  <string name="downloadKit">Download streamer kit</string>
+  <string name="xIsStreaming">%s is streaming</string>
+  <string name="rules">Streaming rules</string>
+  <string name="rule1">Include the keyword \"lishogi.org\" in your stream title and use the category \"Chess\" when you stream on Lishogi.</string>
+  <string name="rule2">Remove the keyword when you stream non-Lishogi stuff.</string>
+  <string name="rule3">Lishogi will detect your stream automatically and enable the following perks:</string>
+  <string name="perks">Benefits of streaming with the keyword</string>
+  <string name="perk1">Get a flaming streamer icon on your Lishogi profile.</string>
+  <string name="perk2">Get bumped up to the top of the streamers list.</string>
+  <string name="perk3">Notify your Lishogi followers.</string>
+  <string name="perk4">Show your stream in your games, tournaments and studies.</string>
+  <string name="approved">Your stream is approved.</string>
+  <string name="pendingReview">Your stream is being reviewed by moderators.</string>
+  <string name="pleaseFillIn">Please fill in your streamer information, and upload a picture.</string>
+  <string name="whenReady">When you are ready to be listed as a Lishogi streamer, %s</string>
+  <string name="requestReview">request a moderator review</string>
+  <string name="anotherLanguage">If your stream is in a language other than English, include the correct language tag (%s), enclosed in square brackets, at the start of your stream title.
+As examples, you can include \"[RU]\" for Russian, \"[TR]\" for Turkish, \"[FR]\" for French, etc.
+Put this in the stream title in the Twitch or YouTube page, not in the Lishogi stream settings.
+If your stream is in English, there is no need to include a language tag.</string>
+  <string name="twitchUsername">Your Twitch username or URL</string>
+  <string name="optionalOrEmpty">Optional. Leave empty if none</string>
+  <string name="youtubeChannel">Your YouTube channel ID or URL</string>
+  <string name="streamerName">Your streamer name on Lishogi</string>
   <plurals name="keepItShort">
-    <item quantity="one">Pidä se lyhyenä: %s merkki enintään</item>
-    <item quantity="other">Pidä se lyhyenä: %s merkkiä enintään</item>
+    <item quantity="one">Keep it short: %s character max</item>
+    <item quantity="other">Keep it short: %s characters max</item>
   </plurals>
-  <string name="visibility">Näkyy striimaajat-sivulla</string>
-  <string name="whenApproved">Kun moderaattori hyväksyy</string>
-  <string name="headline">Otsikko</string>
-  <string name="tellUsAboutTheStream">Kerro striimistäsi yhdellä lauseella</string>
-  <string name="longDescription">Pitkä kuvaus</string>
-  <string name="xStreamerPicture">%s striimaajakuva</string>
-  <string name="changePicture">Vaihda/poista kuva</string>
-  <string name="uploadPicture">Lataa kuva</string>
-  <string name="deletePicture">Poista kuva</string>
-  <string name="maxSize">Enimmäiskoko: %s</string>
-  <string name="installBlocker">Asenna virustorjuntaohjelma!</string>
-  <string name="beSafe">Välty mainoksilta ja seurantaohjelmilta
-jotka Twitchiä ja Youtubea vaivaavat.
-Lishogi suosittaa uBlock Originia
-joka on ilmainen ja avointa lähdekoodia.</string>
+  <string name="visibility">Visible on the streamers page</string>
+  <string name="whenApproved">When approved by moderators</string>
+  <string name="headline">Headline</string>
+  <string name="tellUsAboutTheStream">Tell us about your stream in one sentence</string>
+  <string name="longDescription">Long description</string>
+  <string name="xStreamerPicture">%s streamer picture</string>
+  <string name="changePicture">Change/delete your picture</string>
+  <string name="uploadPicture">Upload a picture</string>
+  <string name="deletePicture">Delete picture</string>
+  <string name="maxSize">Max size: %s</string>
+  <string name="installBlocker">Install a malware blocker!</string>
+  <string name="beSafe">Be safe from ads and trackers
+infesting Twitch and YouTube.
+Lishogi recommends uBlock Origin
+which is free and open-source.</string>
 </resources>
