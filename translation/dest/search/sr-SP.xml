@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<string name="search">Search</string>
-	<string name="advancedSearch">Advanced search</string>
+	<string name="search">Претрага</string>
+	<string name="advancedSearch">Напредна претрага</string>
 	<plurals name="searchInXGames">
 		<item quantity="one">Search in %s shogi game</item>
 		<item quantity="few">Search in %s shogi games</item>
