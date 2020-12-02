@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<string name="faqAbbreviation">FAQ</string>
-	<string name="frequentlyAskedQuestions">Frequently Asked Questions</string>
+	<string name="faqAbbreviation">Často kladené dotazy (FAQ)</string>
+	<string name="frequentlyAskedQuestions">Často kladené otázky</string>
 	<string name="whyIsLishogiCalledLishogi">Why is Lishogi called Lishogi?</string>
 	<string name="forkedFromLichess">Lishogi is open source project forked from liсhess, but since it\'s for playing shogi, it\'s called lishogi.</string>
 	<string name="lishogiCombinationLiveLightLibrePronounced">Because it\'s derived from Liсhess. And Liсhess is called Liсhess because it\'s a combination of live/light/libre and chess. Lishogi is pronounced %1$s.</string>
 	<string name="leechess">lee-shogi</string>
-	<string name="hearItPronouncedBySpecialist">Hear it pronounced by a specialist.</string>
-	<string name="whyLiveLightLibre">Live, because games are played and watched in real-time 24/7; light and libre for the fact that Lishogi is open-source and unencumbered by proprietary junk that plagues other websites.</string>
+	<string name="hearItPronouncedBySpecialist">Poslechněte si, jak je vyslovováno profesionálem.</string>
+	<string name="whyLiveLightLibre">Živé, protože hry jsou hrány a sledovány v reálném čase 24/7; lehké a volné, protože Lishogi má otevřený zdrojový kód a je nezatížené proprietárním nepořádkem, který zaplavuje ostatní weby.</string>
 	<string name="whyIsLilaCalledLila">Similarly, the source code for Lishogi, %1$s, stands for li[shogi in sca]la, seeing as the bulk of Lishogi is written in %2$s, an intuitive programming language.</string>
 	<string name="howCanIContributeToLishogi">How can I contribute to Lishogi?</string>
 	<string name="lishogiPoweredByDonationsAndVolunteers">Lishogi is powered by donations from patrons and the efforts of a team of volunteers.</string>
 	<string name="findMoreAndSeeHowHelp">You can find out more about %1$s. If you want to help Lishogi by volunteering your time and skills, there are many %2$s.</string>
 	<string name="beingAPatron">Become a patron</string>
-	<string name="breakdownOfOurCosts">breakdown of our costs</string>
-	<string name="otherWaysToHelp">other ways to help</string>
+	<string name="breakdownOfOurCosts">rozložení našich nákladů</string>
+	<string name="otherWaysToHelp">další způsoby jak pomoci</string>
 	<string name="areThereWebsitesBasedOnLishogi">Are there websites based on Lishogi?</string>
 	<string name="yesLishogiInspiredOtherOpenSourceWebsites">Yes. Lishogi has indeed inspired other open-source sites that use our %1$s, %2$s, or %3$s.</string>
 	<string name="fairPlay">Fair Play</string>
@@ -25,20 +25,20 @@
   (For example, if your rating greatly increased after those games, you might get no refund or only a partial refund.) A refund will never exceed 150 points.</string>
 	<string name="preventLeavingGameWithoutResigning">What is done about players leaving games without resigning?</string>
 	<string name="leavingGameWithoutResigningExplanation">If your opponent frequently aborts/leaves games, they get \"play banned\", which means they\'re temporarily banned from playing games. This is not publically indicated on their profile. If this behaviour continues, the length of the playban increases - and prolonged behaviour of this nature may lead to account closure.</string>
-	<string name="howCanIBecomeModerator">How can I become a moderator?</string>
+	<string name="howCanIBecomeModerator">Jak se mohu stát moderátorem?</string>
 	<string name="youCannotApply">It’s not possible to apply to become a moderator. If we see someone who we think would be good as a moderator, we will contact them directly.</string>
 	<string name="isCorrespondenceDifferent">Is correspondence different from normal shogi?</string>
 	<string name="youCanUseOpeningBookNoEngine">On Lishogi, the main difference in rules for correspondence shogi is that an opening book is allowed. The use of engines is still prohibited and will result in being flagged for engine assistance. Although ICCF allows engine use in correspondence, Lishogi does not.</string>
-	<string name="gameplay">Gameplay</string>
+	<string name="gameplay">Hraní hry</string>
 	<string name="howBulletBlitzEtcDecided">How are Bullet, Blitz and other time controls decided?</string>
 	<string name="basedOnGameDuration">Lishogi time controls are based on estimated game duration = %1$s
 For instance, the estimated duration of a 5+3 game is 5 × 60 + 40 × 3 = 420 seconds.</string>
 	<string name="durationFormula">(clock initial time) + 40 × (clock increment)</string>
 	<string name="inferiorThanXsEqualYtimeControl">&lt; %1$ss = %2$s</string>
 	<string name="superiorThanXsEqualYtimeControl">≥ %1$ss = %2$s</string>
-	<string name="whatVariantsCanIplay">What variants can I play on Lishogi?</string>
+	<string name="whatVariantsCanIplay">Jaké varianty mohu hrát na Lishogi?</string>
 	<string name="lishogiSupportChessAnd">Lishogi supports standard shogi and %1$s.</string>
-	<string name="eightVariants">8 chess variants</string>
+	<string name="eightVariants">8 variant šachu</string>
 	<string name="whatIsACPL">What is the average centipawn loss (ACPL)?</string>
 	<string name="acplExplanation">The centipawn is the unit of measure used in chess as representation of the advantage. A centipawn is equal to 1/100th of a pawn. Therefore 100 centipawns = 1 pawn. These values play no formal role in the game but are useful to players, and essential in computer chess, for evaluating positions.
 
@@ -62,7 +62,7 @@ It is described in section 3.7 (d) of the %2$s:
 \"A pawn occupying a square on the same rank as and on an adjacent file to an opponent’s pawn which has just advanced two squares in one move from its original square may capture this opponent’s pawn as though the latter had been moved only one square. This capture is only legal on the move following this advance and is called an ‘en passant’ capture.\"
 
 See the %3$s on this move for some practice with it.</string>
-	<string name="goodIntroduction">good introduction</string>
+	<string name="goodIntroduction">dobré zahájení</string>
 	<string name="officialRulesPDF">official rules (PDF)</string>
 	<string name="lishogiTraining">Lishogi training</string>
 	<string name="threefoldRepetition">Threefold repetition</string>
@@ -71,8 +71,8 @@ See the %3$s on this move for some practice with it.</string>
 	<string name="handBookPDF">handbook (PDF)</string>
 	<string name="notRepeatedMoves">We did not repeat moves. Why was the game still drawn by repetition?</string>
 	<string name="repeatedPositionsThatMatters">Threefold repetition is about repeated %1$s, not moves. Repetition does not have to occur consecutively.</string>
-	<string name="positions">positions</string>
-	<string name="weRepeatedthreeTimesPosButNoDraw">We repeated a position three times. Why was the game not drawn?</string>
+	<string name="positions">pozice</string>
+	<string name="weRepeatedthreeTimesPosButNoDraw">Třikrát jsme zopakovali stejnou pozici. Proč hra neskončila remízou?</string>
 	<string name="threeFoldHasToBeClaimed">Repetition needs to be claimed by one of the players. You can do so by pressing the button that is shown, or by offering a draw before your final repeating move, it won\'t matter if your opponent rejects the draw offer, the threefold repetition draw will be claimed anyway. You can also %1$s Lishogi to automatically claim repetitions for you. Additionally, fivefold repetition always immediately ends the game.</string>
 	<string name="configure">configure</string>
 	<string name="accounts">Accounts</string>
