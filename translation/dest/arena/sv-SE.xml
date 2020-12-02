@@ -1,34 +1,43 @@
-<?xml version='1.0' encoding='utf-8'?>
-<resources><string name="arenaTournaments">Arena-turneringar</string>
-  <string name="isItRated">Räknas rating?</string>
-  <string name="willBeNotified">Du får ett meddelande när turneringen startar, så du kan utan problem spela i en annan flik medan du väntar.</string>
-  <string name="isRated">Turneringen är rankad och kommer påverka din rating.</string>
-  <string name="isNotRated">Turneringen är *inte* rankad och kommer *inte* att påverka din rating.</string>
-  <string name="someRated">Vissa turneringar är rankade och kommer att påverka din rating.</string>
-  <string name="howAreScoresCalculated">Hur räknas poängen?</string>
-  <string name="howAreScoresCalculatedAnswer">En vinst har baspoäng 2, remi 1 och förlust 0 poäng. Om du vinner två partier i rad så startar en dubbelpoängserie representerad av en flamma som ikon. Efterföljande partier är då värda dubbla poäng tills du misslyckas med att vinna ett parti. En vinst är då värd 4 poäng, remi 2 och förlust 0 poäng.
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="arenaTournaments">Arena tournaments</string>
+  <string name="isItRated">Is it rated?</string>
+  <string name="willBeNotified">You will be notified when the tournament starts, so it is safe to play in another tab while waiting.</string>
+  <string name="isRated">This tournament is rated and will affect your rating.</string>
+  <string name="isNotRated">This tournament is *not* rated and will *not* affect your rating.</string>
+  <string name="someRated">Some tournaments are rated and will affect your rating.</string>
+  <string name="howAreScoresCalculated">How are scores calculated?</string>
+  <string name="howAreScoresCalculatedAnswer">A win has a base score of 2 points, a draw 1 point, and a loss is worth no points.
+If you win two games consecutively you will start a double point streak, represented by a flame icon.
+The following games will continue to be worth double points until you fail to win a game.
+That is, a win will be worth 4 points, a draw 2 points, and a loss will still not award any points.
 
-Ett exempel, två vinster följt av en remi är värt 6 poäng: 2 + 2 + (2 x 1)</string>
+For example, two wins followed by a draw will be worth 6 points: 2 + 2 + (2 x 1)</string>
   <string name="berserk">Arena Berserk</string>
-  <string name="berserkAnswer">När en spelare klickar på Berserk-knappen i början av partiet, halveras dennes betänketid, men en vinst blir värd en extra turneringspoäng. Att gå Berserk vid tidskontroller med tidstillägg medför också att tidstillägget förloras. 
-(1+2 är ett undantag, vilket blir 1+0)
+  <string name="berserkAnswer">When a player clicks the Berserk button at the beginning of the game, they lose half of their clock time, but the win is worth one extra tournament point.
 
-Berserk är ej möjligt för partier med 0 i initialtid (0+1, 0+2).
+Going Berserk in time controls with an increment also cancels the increment (1+2 is an exception, it gives 1+0).
 
-Berserk ger en extrapoäng endast om du spelar minst 7 drag i partiet.</string>
-  <string name="howIsTheWinnerDecided">Hur avgörs vem som vunnit turneringen?</string>
-  <string name="howIsTheWinnerDecidedAnswer">Den/de spelare som har flest poäng när turneringstiden går ut utropas till turneringsvinnare.</string>
-  <string name="howDoesPairingWork">Hur fungerar lottningen?</string>
-  <string name="howDoesPairingWorkAnswer">I början av turneringen lottas spelarna baserat på deras rating. Så snart du avslutat ett parti och återvänt till turneringslobbyn, kommer du lottas med en spelare som ligger nära dig poängmässigt. Detta garanterar minimal väntetid, men samtidigt är det inte säkert att du får möta alla deltagare i turneringen. Ett tips är att spela fort och återvända till lobbyn snarast möjligt för chans till fler partier och fler poäng.</string>
-  <string name="howDoesItEnd">Hur slutar turneringen?</string>
-  <string name="howDoesItEndAnswer">Turneringen har en tidsnedräkning. När den nått noll, fryses turneringsplaceringarna och vinnaren annonseras. Turneringspartier som då pågår spelas klart men poängen räknas inte in i turneringsresultatet.</string>
-  <string name="otherRules">Andra viktiga regler.</string>
-  <string name="thereIsACountdown">Det finns en nedräkning för ditt första drag. Om du inte gör ett drag inom denna tid kommer du att förlora partiet.</string>
+Berserk is not available for games with zero initial time (0+1, 0+2).
+
+Berserk only grants an extra point if you play at least 7 moves in the game.</string>
+  <string name="howIsTheWinnerDecided">How is the winner decided?</string>
+  <string name="howIsTheWinnerDecidedAnswer">The player(s) with the most points at the conclusion of the tournament\'s set time limit will be announced winner(s).
+
+When two or more players have the same number of points, the tournament performance is the tie break.</string>
+  <string name="howDoesPairingWork">How does the pairing work?</string>
+  <string name="howDoesPairingWorkAnswer">At the beginning of the tournament, players are paired based on their rating.
+As soon as you finish a game, return to the tournament lobby: you will then be paired with a player close to your ranking. This ensures minimum wait time, however you may not face all other players in the tournament.
+Play fast and return to the lobby to play more games and win more points.</string>
+  <string name="howDoesItEnd">How does it end?</string>
+  <string name="howDoesItEndAnswer">The tournament has a countdown clock. When it reaches zero, the tournament rankings are frozen, and the winner is announced. Games in progress must be finished, however they don\'t count for the tournament.</string>
+  <string name="otherRules">Other important rules</string>
+  <string name="thereIsACountdown">There is a countdown for your first move. Failing to make a move within this time will forfeit the game to your opponent.</string>
   <plurals name="drawingWithinNbMoves">
-    <item quantity="one">Att göra remi inom %s drag kommer inte ge poäng till någon av spelarna.</item>
-    <item quantity="other">Att göra remi inom %s drag kommer inte ge poäng till någon av spelarna.</item>
+    <item quantity="one">Drawing the game within the first %s move will earn neither player any points.</item>
+    <item quantity="other">Drawing the game within the first %s moves will earn neither player any points.</item>
   </plurals>
-  <string name="thisIsPrivate">Detta är en privat turnering</string>
-  <string name="shareUrl">Dela denna länk för att låta spelare delta: %s</string>
-  <string name="drawStreak">Remi-streaks: När en spelare har efterföljande remier i en arena, kommer bara den första remin att resultera i en poäng, eller om remin varat fler än %s drag. Remi-streaken kan bara avbrytas av en vinst, inte av förlust eller remi.</string>
+  <string name="thisIsPrivate">This is a private tournament</string>
+  <string name="shareUrl">Share this URL to let people join: %s</string>
+  <string name="drawStreak">Draw streaks: When a player has consecutive draws in an arena, only the first draw will result in a point, or draws lasting more than %s moves. The draw streak can only be broken by a win, not a loss or a draw.</string>
 </resources>
