@@ -2,57 +2,57 @@
 <resources>
   <string name="lishogiStreamers">Lishogi streamers</string>
   <string name="lishogiStreamer">Lishogi streamer</string>
-  <string name="live">LIVE!</string>
-  <string name="offline">OFFLINE</string>
-  <string name="currentlyStreaming">Currently streaming: %s</string>
-  <string name="lastStream">Last stream %s</string>
-  <string name="becomeStreamer">Become a Lishogi streamer</string>
-  <string name="doYouHaveStream">Do you have a Twitch or YouTube channel?</string>
-  <string name="hereWeGo">Here we go!</string>
-  <string name="allStreamers">All streamers</string>
-  <string name="editPage">Edit streamer page</string>
-  <string name="yourPage">Your streamer page</string>
-  <string name="downloadKit">Download streamer kit</string>
-  <string name="xIsStreaming">%s is streaming</string>
-  <string name="rules">Streaming rules</string>
-  <string name="rule1">Include the keyword \"lishogi.org\" in your stream title and use the category \"Chess\" when you stream on Lishogi.</string>
-  <string name="rule2">Remove the keyword when you stream non-Lishogi stuff.</string>
-  <string name="rule3">Lishogi will detect your stream automatically and enable the following perks:</string>
-  <string name="perks">Benefits of streaming with the keyword</string>
-  <string name="perk1">Get a flaming streamer icon on your Lishogi profile.</string>
-  <string name="perk2">Get bumped up to the top of the streamers list.</string>
-  <string name="perk3">Notify your Lishogi followers.</string>
-  <string name="perk4">Show your stream in your games, tournaments and studies.</string>
-  <string name="approved">Your stream is approved.</string>
-  <string name="pendingReview">Your stream is being reviewed by moderators.</string>
-  <string name="pleaseFillIn">Please fill in your streamer information, and upload a picture.</string>
-  <string name="whenReady">When you are ready to be listed as a Lishogi streamer, %s</string>
-  <string name="requestReview">request a moderator review</string>
-  <string name="anotherLanguage">If your stream is in a language other than English, include the correct language tag (%s), enclosed in square brackets, at the start of your stream title.
-As examples, you can include \"[RU]\" for Russian, \"[TR]\" for Turkish, \"[FR]\" for French, etc.
-Put this in the stream title in the Twitch or YouTube page, not in the Lishogi stream settings.
-If your stream is in English, there is no need to include a language tag.</string>
-  <string name="twitchUsername">Your Twitch username or URL</string>
-  <string name="optionalOrEmpty">Optional. Leave empty if none</string>
-  <string name="youtubeChannel">Your YouTube channel ID or URL</string>
-  <string name="streamerName">Your streamer name on Lishogi</string>
+  <string name="live">Regstreeks!</string>
+  <string name="offline">AFLYN</string>
+  <string name="currentlyStreaming">Saai tans uit: %s</string>
+  <string name="lastStream">Laaste uitsending %s</string>
+  <string name="becomeStreamer">Word \'n Lishogi aanbieder</string>
+  <string name="doYouHaveStream">Het jy \'n Twitch of YouTube kanaal?</string>
+  <string name="hereWeGo">Hier gaan ons!</string>
+  <string name="allStreamers">Alle aanbieders</string>
+  <string name="editPage">Verander aan die aanbieder se blad</string>
+  <string name="yourPage">Jou aanbiedings blad</string>
+  <string name="downloadKit">Laai aanbieders gereedskapskas af</string>
+  <string name="xIsStreaming">%s is besig om uit te saai</string>
+  <string name="rules">Uitsaai reëls</string>
+  <string name="rule1">Sluit die sleutelwoord \"lishogi.org\" in jou uitsendingstitel in wanneer jy op Lichss uitsaai.</string>
+  <string name="rule2">Verwyder die sleutelwoord as jy nie-Lishogi dinge uitsaai.</string>
+  <string name="rule3">Lishogi sal outomaties die uitsending opmerk en vir jou die volgende voordele gee:</string>
+  <string name="perks">Voordele om met die sleutelwoord uit te saai</string>
+  <string name="perk1">Kry \'n vlam uitsaai ikoon op jou Lishogi profiel.</string>
+  <string name="perk2">Word na die bopunt van die aanbieders lys geneem.</string>
+  <string name="perk3">Stel die wat jou op Lishogi volg in kennis.</string>
+  <string name="perk4">Wys jou uitsending in jou spelle, toernooie en studies.</string>
+  <string name="approved">Jou uitsending is goedgekeur.</string>
+  <string name="pendingReview">Jou uitsending word deur moderators hersien.</string>
+  <string name="pleaseFillIn">Vul asseblief jou uitsending inligting in en laai \'n prent op.</string>
+  <string name="whenReady">Sodra jy gereed is om as \'n Lishogi aanbieder te verskyn, %s</string>
+  <string name="requestReview">versoek hersiening deur \'n moderator</string>
+  <string name="anotherLanguage">Indien jou uitsending in \'n taal anders as Engels is, voeg die korrekte taal etiket (%s), in blokhakies aan die begin van die uitsending titel.
+Byvoorbeeld: Voeg \"[AF]\" vir Afrikaans, \"[RU]\" vir Russies, \"[FR]\" vir Frans, ens.
+Plaas dit in die uitsendingstitel in die Twitch of Youtube blad, nie in die Lishogi uitsendings verstellings nie.
+As jou uitsending in Engels is, hoef daar nie \'n taal etiket bygevoeg te word nie.</string>
+  <string name="twitchUsername">Jou Twitch gebruikersnaam of URL</string>
+  <string name="optionalOrEmpty">Optioneel. Los leeg indien jy nie een het nie</string>
+  <string name="youtubeChannel">Jou YouTube kanaal ID of URL</string>
+  <string name="streamerName">Jou uitsendingsnaam op Lishogi</string>
   <plurals name="keepItShort">
-    <item quantity="one">Keep it short: %s character max</item>
-    <item quantity="other">Keep it short: %s characters max</item>
+    <item quantity="one">Hou dit kort: %s karakter maks</item>
+    <item quantity="other">Hou dit kort: %s karakters maks</item>
   </plurals>
-  <string name="visibility">Visible on the streamers page</string>
-  <string name="whenApproved">When approved by moderators</string>
-  <string name="headline">Headline</string>
-  <string name="tellUsAboutTheStream">Tell us about your stream in one sentence</string>
-  <string name="longDescription">Long description</string>
-  <string name="xStreamerPicture">%s streamer picture</string>
-  <string name="changePicture">Change/delete your picture</string>
-  <string name="uploadPicture">Upload a picture</string>
-  <string name="deletePicture">Delete picture</string>
-  <string name="maxSize">Max size: %s</string>
-  <string name="installBlocker">Install a malware blocker!</string>
-  <string name="beSafe">Be safe from ads and trackers
-infesting Twitch and YouTube.
-Lishogi recommends uBlock Origin
-which is free and open-source.</string>
+  <string name="visibility">Sigbaar op die aanbiederblad</string>
+  <string name="whenApproved">Wanneer moderator dit goedkeur</string>
+  <string name="headline">Hoofopskrif</string>
+  <string name="tellUsAboutTheStream">Vertel ons meer van jou uitsending in een sin</string>
+  <string name="longDescription">Lang uitbreiding</string>
+  <string name="xStreamerPicture">%s aanbieder foto</string>
+  <string name="changePicture">Verander/verwyder jou prent</string>
+  <string name="uploadPicture">Laai prent op</string>
+  <string name="deletePicture">Verwyder prent</string>
+  <string name="maxSize">Maksimum grootte: %s</string>
+  <string name="installBlocker">Instaleer \'n muur teen malware!</string>
+  <string name="beSafe">Wees veilig teen advertensies en koekies
+wat Twitch en YouTube kontamineer.
+Lishogi stel uBlock Origin voor
+wat gratis en oop-bron is.</string>
 </resources>
