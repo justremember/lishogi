@@ -1,47 +1,43 @@
-<?xml version='1.0' encoding='utf-8'?>
-<resources><string name="arenaTournaments">Tornei arena</string>
-  <string name="isItRated">Questo torneo è classificato?</string>
-  <string name="willBeNotified">Riceverai una notifica quando il torneo inizierà. Durante l\'attesa puoi tranquillamente giocare in un\'altra scheda.</string>
-  <string name="isRated">Questo torneo è classificato e influenzerà il tuo punteggio.</string>
-  <string name="isNotRated">Questo torneo *non* è classificato e *non* influenzerà il tuo punteggio.</string>
-  <string name="someRated">Alcuni tornei sono classificati e pertanto influenzeranno il tuo punteggio.</string>
-  <string name="howAreScoresCalculated">Come sono calcolati i punteggi del torneo?</string>
-  <string name="howAreScoresCalculatedAnswer">Una vittoria ha un punteggio base di 2 punti, una patta 1 punto e una sconfitta 0 punti.
-Se vinci due partite consecutivamente, ogni partita successiva varrà il doppio dei punti rispetto al punteggio base. Ciò sarà indicato dall\'icona di una fiamma.
-Il raddoppio del punteggio significa che una vittoria varrà 4 punti, una patta 2 punti e una sconfitta 0.
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="arenaTournaments">Arena tournaments</string>
+  <string name="isItRated">Is it rated?</string>
+  <string name="willBeNotified">You will be notified when the tournament starts, so it is safe to play in another tab while waiting.</string>
+  <string name="isRated">This tournament is rated and will affect your rating.</string>
+  <string name="isNotRated">This tournament is *not* rated and will *not* affect your rating.</string>
+  <string name="someRated">Some tournaments are rated and will affect your rating.</string>
+  <string name="howAreScoresCalculated">How are scores calculated?</string>
+  <string name="howAreScoresCalculatedAnswer">A win has a base score of 2 points, a draw 1 point, and a loss is worth no points.
+If you win two games consecutively you will start a double point streak, represented by a flame icon.
+The following games will continue to be worth double points until you fail to win a game.
+That is, a win will be worth 4 points, a draw 2 points, and a loss will still not award any points.
 
-Vittorie consecutive continueranno a dare il doppio punteggio.
-Non appena pareggi o perdi, il punteggio smetterà di essere raddoppiato.
-
-Per esempio:
-- Tre vittorie consecutive valgono 8 punti: 2 + 2 + (2 x 2)
-- Due vittorie, una patta e una vittoria valgono 8 punti: 2 + 2 + (2 x 1) + 2
-- Due vittorie, una sconfitta e una patta valgono 5 punti: 2 + 2 + (2 x 0) + 1</string>
+For example, two wins followed by a draw will be worth 6 points: 2 + 2 + (2 x 1)</string>
   <string name="berserk">Arena Berserk</string>
-  <string name="berserkAnswer">Quando un giocatore clicca sul pulsante Berserk, all\'inzio di una partita, il tempo a sua disposizione viene dimezzato, ma in caso di vittoria si otterrà un punto del torneo in più.
+  <string name="berserkAnswer">When a player clicks the Berserk button at the beginning of the game, they lose half of their clock time, but the win is worth one extra tournament point.
 
-Inoltre, se la cadenza di gioco prevede un incremento, la modalità Berserk lo elimina. (1+2 diventa eccezionalmente 1+0 invece di ½+0).
+Going Berserk in time controls with an increment also cancels the increment (1+2 is an exception, it gives 1+0).
 
-La modalità Berserk non è disponibile per le partite senza un tempo iniziale (es. 0+1, 0+2).
+Berserk is not available for games with zero initial time (0+1, 0+2).
 
-Una partita Berserk vinta varrà un punto in più solo se giocherai almeno 7 mosse.</string>
-  <string name="howIsTheWinnerDecided">Come viene deciso il vincitore?</string>
-  <string name="howIsTheWinnerDecidedAnswer">Saranno proclamati vincitori i tre giocatori che abbiano il maggior numero di punti allo scadere del tempo previsto per il torneo.
+Berserk only grants an extra point if you play at least 7 moves in the game.</string>
+  <string name="howIsTheWinnerDecided">How is the winner decided?</string>
+  <string name="howIsTheWinnerDecidedAnswer">The player(s) with the most points at the conclusion of the tournament\'s set time limit will be announced winner(s).
 
-Se due o più giocatori hanno lo stesso numero di punti, lo spareggio avverrà in base alla performance del torneo, valutata dal Tournament Performance Rating, calcolato come [Somma dei punteggi degli avversari + 400×(Vittorie - Sconfitte)] / Partite giocate.</string>
-  <string name="howDoesPairingWork">Come funziona l\'accoppiamento?</string>
-  <string name="howDoesPairingWorkAnswer">All\'inizio del torneo i giocatori sono accoppiati sulla base del loro punteggio individuale.
-Non appena finisci una partita, ritorna nella lobby del torneo e attendi: verrai nuovamente accoppiato con un altro giocatore con un punteggio simile al tuo. Il tempo di attesa è minimo; tuttavia, potresti non affrontare tutti i giocatori partecipanti al torneo.
-Gioca in fretta e ritorna nella lobby per avere la possibilità di giocare più partite e ottenere più punti.</string>
-  <string name="howDoesItEnd">Come finisce il torneo?</string>
-  <string name="howDoesItEndAnswer">Il torneo ha un limite di tempo. Quando il tempo scade, le classifiche del torneo vengono bloccate e viene proclamato il vincitore. Le partite ancora in corso continueranno, ma non varranno ai fini del torneo.</string>
-  <string name="otherRules">Altre regole importanti</string>
-  <string name="thereIsACountdown">Se non fai la prima mossa entro il conto alla rovescia, il tuo avversario vincerà la partita per forfait.</string>
+When two or more players have the same number of points, the tournament performance is the tie break.</string>
+  <string name="howDoesPairingWork">How does the pairing work?</string>
+  <string name="howDoesPairingWorkAnswer">At the beginning of the tournament, players are paired based on their rating.
+As soon as you finish a game, return to the tournament lobby: you will then be paired with a player close to your ranking. This ensures minimum wait time, however you may not face all other players in the tournament.
+Play fast and return to the lobby to play more games and win more points.</string>
+  <string name="howDoesItEnd">How does it end?</string>
+  <string name="howDoesItEndAnswer">The tournament has a countdown clock. When it reaches zero, the tournament rankings are frozen, and the winner is announced. Games in progress must be finished, however they don\'t count for the tournament.</string>
+  <string name="otherRules">Other important rules</string>
+  <string name="thereIsACountdown">There is a countdown for your first move. Failing to make a move within this time will forfeit the game to your opponent.</string>
   <plurals name="drawingWithinNbMoves">
-    <item quantity="one">Pattare la partita entro la prima mossa non assegnerà punti né a te né al tuo avversario.</item>
-    <item quantity="other">Pattare la partita entro le prime %s mosse non assegnerà punti né a te né al tuo avversario.</item>
+    <item quantity="one">Drawing the game within the first %s move will earn neither player any points.</item>
+    <item quantity="other">Drawing the game within the first %s moves will earn neither player any points.</item>
   </plurals>
-  <string name="thisIsPrivate">Questo torneo è privato</string>
-  <string name="shareUrl">Condividi questo URL per permettere alle persone di unirsi: %s</string>
-  <string name="drawStreak">Serie di patte: quando in un\'arena un giocatore pareggia in partite consecutive viene assegnato un punto solo per il primo pareggio o per ogni patta in cui sono state effettuate più di %s mosse. La serie di patte può essere interrotta solo da una vittoria, non da una sconfitta o da un\'ulteriore patta.</string>
+  <string name="thisIsPrivate">This is a private tournament</string>
+  <string name="shareUrl">Share this URL to let people join: %s</string>
+  <string name="drawStreak">Draw streaks: When a player has consecutive draws in an arena, only the first draw will result in a point, or draws lasting more than %s moves. The draw streak can only be broken by a win, not a loss or a draw.</string>
 </resources>
