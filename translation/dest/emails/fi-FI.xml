@@ -1,20 +1,22 @@
-<?xml version='1.0' encoding='utf-8'?>
-<resources><string name="emailConfirm_subject">Vahvista lishogi.org -tunnuksesi %s</string>
-  <string name="emailConfirm_click">Vahvista Lishogi-tunnuksesi klikkaamalla linkkiä:</string>
-  <string name="emailConfirm_ignore">Jos et rekisteröitynyt Lishogiiin, voit jättää tämän viestin huomiotta.</string>
-  <string name="passwordReset_subject">Nollaa lishogi.org-salasanasi %s</string>
-  <string name="passwordReset_intro">Olemme saaneet pyynnön nollata tunnuksesi salasana.</string>
-  <string name="passwordReset_clickOrIgnore">Jos pyyntö tuli sinulta, klikkaa alla olevaa linkkiä. Jos ei, voit jättää tämän viestin huomiotta.</string>
-  <string name="emailChange_subject">Vahvista uusi sähköpostiosoite, %s</string>
-  <string name="emailChange_intro">Olet pyytänyt sähköpostiosoitteen vaihtoa.</string>
-  <string name="emailChange_click">Klikkaa tätä linkkiä vahvistaaksesi, että sinulla on pääsy tähän sähköpostiosoitteeseen:</string>
-  <string name="welcome_subject">Tervetuloa lishogi.orgiin, %s</string>
-  <string name="welcome_text">Olet luonut itsellesi käyttäjätilin sivustolle https://lishogi.org.
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="emailConfirm_subject">Confirm your lishogi.org account, %s</string>
+  <string name="emailConfirm_click">Click the link to enable your Lishogi account:</string>
+  <string name="emailConfirm_ignore">If you did not register with Lishogi you can safely ignore this message.</string>
+  <string name="passwordReset_subject">Reset your lishogi.org password, %s</string>
+  <string name="passwordReset_intro">We received a request to reset the password for your account.</string>
+  <string name="passwordReset_clickOrIgnore">If you made this request, click the link below. If not, you can ignore this email.</string>
+  <string name="emailChange_subject">Confirm new email address, %s</string>
+  <string name="emailChange_intro">You have requested to change your email address.</string>
+  <string name="emailChange_click">To confirm you have access to this email, please click the link below:</string>
+  <string name="welcome_subject">Welcome to lishogi.org, %s</string>
+  <string name="welcome_text">You have successfully created your account on https://lishogi.org.
 
-Tässä on profiilisivusi: %1$s. Voit muokata sitä täällä: %2$s.
+Here is your profile page: %1$s. You can personalise it on %2$s.
 
-Pidä hauskaa. Löytäköön nappulasi aina tien vastustajan kuninkaan luo!</string>
-  <string name="common_orPaste">(Eikö klikkaaminen onnistunut? Kokeile liittää osoite selaimeesi!)</string>
-  <string name="common_note">Tämä sähköposti liittyy sivuston %s käyttöön.</string>
-  <string name="common_contact">Meihin saa yhteyden täältä: %s.</string>
+Have fun, and may your pieces always find their way to your opponent\'s king!</string>
+  <string name="logInToLishogi">Log in to lishogi.org, %s</string>
+  <string name="common_orPaste">(Clicking not working? Try pasting it into your browser!)</string>
+  <string name="common_note">This is a service email related to your use of %s.</string>
+  <string name="common_contact">To contact us, please use %s.</string>
 </resources>
