@@ -34,6 +34,6 @@
 	</plurals>
 	<string name="thankYouForReview">Thank you for the review!</string>
 	<string name="xWillApproveIt">%s will approve it very soon, or a moderator will have a look at it.</string>
-	<string name="reviewCoach">Review this coach</string>
+	<string name="reviewCoach">قيم المدرب</string>
 	<string name="describeExperienceWith">Describe your coaching experience with %s</string>
 </resources>
