@@ -1,41 +1,42 @@
-<?xml version='1.0' encoding='utf-8'?>
-<resources><string name="team">チーム</string>
-  <string name="teams">チーム</string>
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="team">Team</string>
+  <string name="teams">Teams</string>
   <plurals name="nbMembers">
-    <item quantity="other">%s 人のメンバー</item>
+    <item quantity="other">%s members</item>
   </plurals>
-  <string name="allTeams">すべてのチーム</string>
-  <string name="newTeam">チームを作る</string>
-  <string name="myTeams">自分の所属チーム</string>
-  <string name="noTeamFound">チームが見つかりませんでした</string>
-  <string name="joinTeam">チームに参加</string>
-  <string name="quitTeam">チームを辞める</string>
-  <string name="anyoneCanJoin">誰でも参加可能</string>
-  <string name="aConfirmationIsRequiredToJoin">参加には確認が必要</string>
-  <string name="joiningPolicy">参加条件</string>
+  <string name="allTeams">All teams</string>
+  <string name="newTeam">New team</string>
+  <string name="myTeams">My teams</string>
+  <string name="noTeamFound">No team found</string>
+  <string name="joinTeam">Join team</string>
+  <string name="quitTeam">Leave team</string>
+  <string name="anyoneCanJoin">Free for all</string>
+  <string name="aConfirmationIsRequiredToJoin">A confirmation is required to join</string>
+  <string name="joiningPolicy">Joining policy</string>
   <plurals name="teamLeaders">
-    <item quantity="other">チームリーダー</item>
+    <item quantity="other">Team leaders</item>
   </plurals>
-  <string name="teamBestPlayers">チームのベストプレイヤー</string>
-  <string name="teamRecentMembers">最新チームメンバー</string>
-  <string name="kickSomeone">チームから追放</string>
-  <string name="whoToKick">誰をチームから追放しますか？</string>
+  <string name="teamBestPlayers">Best players</string>
+  <string name="teamRecentMembers">Recent members</string>
+  <string name="kickSomeone">Kick someone out of the team</string>
+  <string name="whoToKick">Who do you want to kick out of the team?</string>
   <plurals name="xJoinRequests">
-    <item quantity="other">%s の加入申請</item>
+    <item quantity="other">%s join requests</item>
   </plurals>
-  <string name="willBeReviewed">あなたの加入申請はチームリーダーが審査します。</string>
-  <string name="beingReviewed">あなたの加入申請はチームリーダーが審査中です。</string>
-  <string name="teamBattle">チームバトル</string>
-  <string name="teamBattleOverview">複数チームの団体戦で、所属プレイヤーのポイント合計を争う</string>
-  <string name="teamTournament">チーム内トーナメント</string>
-  <string name="teamTournamentOverview">チーム所属メンバーだけが参加できるアリーナトーナメント</string>
-  <string name="messageAllMembers">全メンバーにメッセージ</string>
-  <string name="messageAllMembersOverview">チームの全メンバーにプライベートメッセージを送る</string>
-  <string name="messageAllMembersLongDescription">チームの全員にメッセージを送ります。
-トーナメントやチームバトルへの参加呼びかけに使えます。
-メッセージを受けたくない人はチームを離れるかもしれません。</string>
-  <string name="teamsIlead">リーダーを務めるチーム</string>
-  <string name="youWayWantToLinkOneOfTheseTournaments">開催予定のトーナメントをリンクしますか？</string>
-  <string name="usersWhoCanManageThisTeam">チームを管理できるユーザー</string>
-  <string name="leadersChat">リーダー・チャット</string>
+  <string name="willBeReviewed">Your join request will be reviewed by the team leader.</string>
+  <string name="beingReviewed">Your join request is being reviewed by the team leader.</string>
+  <string name="teamBattle">Team Battle</string>
+  <string name="teamBattleOverview">A battle of multiple teams, each player scores points for their team</string>
+  <string name="teamTournament">Team tournament</string>
+  <string name="teamTournamentOverview">An Arena tournament that only members of your team can join</string>
+  <string name="messageAllMembers">Message all members</string>
+  <string name="messageAllMembersOverview">Send a private message to every member of the team</string>
+  <string name="messageAllMembersLongDescription">Send a private message to ALL members of the team.
+You can use this to call players to join a tournament or a team battle.
+Players who don\'t like receiving your messages might leave the team.</string>
+  <string name="teamsIlead">Teams I lead</string>
+  <string name="youWayWantToLinkOneOfTheseTournaments">You may want to link one of these upcoming tournaments?</string>
+  <string name="usersWhoCanManageThisTeam">Users who can manage this team</string>
+  <string name="leadersChat">Leaders chat</string>
 </resources>
