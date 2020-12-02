@@ -1,9 +1,10 @@
-<?xml version='1.0' encoding='utf-8'?>
-<resources><string name="settings">Επιλογές</string>
-  <string name="closeAccount">Κλείσιμο λογαριασμού</string>
-  <string name="closingIsDefinitive">Η Απενεργοποίηση είναι οριστική. Δεν υπάρχει τρόπος ανάκλησης. Είστε σίγουρος;</string>
-  <string name="cantOpenSimilarAccount">Δεν θα σας επιτραπεί η δημιουργία νέου λογαριασμού με το ίδιο όνομα, ακόμα και αν οι χαρακτήρες σε κεφαλαία-μικρά είναι διαφορετικοί.</string>
-  <string name="changedMindDoNotCloseAccount">Άλλαξα γνώμη, μην κλείσετε τον λογαριασμό μου</string>
-  <string name="closeAccountExplanation">Είστε σίγουροι για την απενεργοποίηση του λογαριασμού σας; Η απενεργοποίηση είναι μια μόνιμη απόφαση. ΠΟΤΕ ΞΑΝΑ δεν θα μπορέσετε να συνδεθείτε.</string>
-  <string name="thisAccountIsClosed">Αυτός ο λογαριασμός έχει κλείσει.</string>
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="settings">Settings</string>
+  <string name="closeAccount">Close account</string>
+  <string name="closingIsDefinitive">Closing is definitive. There is no going back. Are you sure?</string>
+  <string name="cantOpenSimilarAccount">You will not be allowed to open a new account with the same name, even if the case is different.</string>
+  <string name="changedMindDoNotCloseAccount">I changed my mind, don\'t close my account</string>
+  <string name="closeAccountExplanation">Are you sure you want to close your account? Closing your account is a permanent decision. You will NEVER be able to log in EVER AGAIN.</string>
+  <string name="thisAccountIsClosed">This account is closed.</string>
 </resources>
