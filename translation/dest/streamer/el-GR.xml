@@ -1,55 +1,58 @@
-<?xml version='1.0' encoding='utf-8'?>
-<resources><string name="live">ΖΩΝΤΑΝΑ!</string>
-  <string name="offline">ΕΚΤΟΣ ΣΥΝΔΕΣΗΣ</string>
-  <string name="currentlyStreaming">Αυτή τη στιγμή μεταδίδουν: %s</string>
-  <string name="lastStream">Τελευταία μετάδοση %s</string>
-  <string name="becomeStreamer">Γίνετε Lishogi μεταδότης</string>
-  <string name="doYouHaveStream">Έχετε μια μετάδοση Twitch ή YouTube;</string>
-  <string name="hereWeGo">Ξεκινάμε!</string>
-  <string name="allStreamers">Όλοι οι μεταδότες</string>
-  <string name="editPage">Διόρθωση σελίδας μεταδότη</string>
-  <string name="yourPage">Η σελίδα σας ως μεταδότης</string>
-  <string name="downloadKit">Κατέβασμα πακέτου μετάδοσης</string>
-  <string name="xIsStreaming">%s μεταδίδει</string>
-  <string name="rules">Κανόνες μετάδοσης</string>
-  <string name="rule1">Συμπεριλάβετε την λέξη \"lishogi.org\" στο τίτλο μετάδοσης όταν μεταδίδετε στο Lishogi.</string>
-  <string name="rule2">Διαγράψτε την λέξη όταν μεταδίδετε μη-Lishogi θέματα.</string>
-  <string name="rule3">Το Lishogi θα ανιχνεύσει την μετάδοσή σας αυτόματα και θα ενεργοποιήσει τα ακόλουθα σημάδια:</string>
-  <string name="perks">Πλεονεκτήματα μετάδοσης με λέξη</string>
-  <string name="perk1">Λήψη φλεγόμενου εικονιδίου στο προφίλ σας στο Lishogi.</string>
-  <string name="perk2">Ανεβείτε στη κορυφή της λίστας μεταδοτών.</string>
-  <string name="perk3">Ενημέρωση των ακολούθων σας στο Lishogi.</string>
-  <string name="perk4">Εμφάνιση της μετάδοσής σας στα παιχνίδια, τουρνουά και μελέτες.</string>
-  <string name="approved">Η μετάδοσή σας εγκρίθηκε.</string>
-  <string name="pendingReview">Η μετάδοσή σας αξιολογείται από τους διαχειριστές.</string>
-  <string name="pleaseFillIn">Παρακαλώ συμπληρώστε τις πληροφορίες μεταδότη, και ανεβάστε μια εικόνα.</string>
-  <string name="whenReady">Όταν είστε έτοιμος να εμφανίζεστε ως Lishogi μεταδότης, %s</string>
-  <string name="requestReview">αιτηθείτε μια αξιολόγηση από διαχειριστή</string>
-  <string name="anotherLanguage">Αν η μετάδοσή σας είναι σε γλώσσα διαφορετικά από τα Αγγλικά, συμπεριλάβετε την σωστή ετικέτα γλώσσας (%s), σε ορθογώνιες αγκύλες, στην αρχή του τίτλου μετάδοσης.
-Παράδειγμα, συμπεριλάβετε \"[RU]\" για Ρώσικα, \"[GR]\" για Ελληνικά, \"[FR]\" για Γαλλικά, κ. ο. κ.
-Τοποθετήστε το στο τίτλο μετάδοσης στη σελίδα του Twitch ή YouTube, και όχι στις ρυθμίσεις μετάδοσης του Lishogi.
-Αν η μετάδοσή σας είναι στα Αγγλικά, δεν χρειάζεται να συμπεριλάβετε μια ετικέτα γλώσσας.</string>
-  <string name="twitchUsername">Το όνομα χρήστη σας στο Twitch ή URL</string>
-  <string name="optionalOrEmpty">Προαιρετικό. Αφήστε το κενό αν δεν υπάρχει</string>
-  <string name="youtubeChannel">Το ID καναλιού σας στο YouTube ή URL</string>
-  <string name="streamerName">Το όνομα μεταδότη στο Lishogi</string>
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="lishogiStreamers">Lishogi streamers</string>
+  <string name="lishogiStreamer">Lishogi streamer</string>
+  <string name="live">LIVE!</string>
+  <string name="offline">OFFLINE</string>
+  <string name="currentlyStreaming">Currently streaming: %s</string>
+  <string name="lastStream">Last stream %s</string>
+  <string name="becomeStreamer">Become a Lishogi streamer</string>
+  <string name="doYouHaveStream">Do you have a Twitch or YouTube channel?</string>
+  <string name="hereWeGo">Here we go!</string>
+  <string name="allStreamers">All streamers</string>
+  <string name="editPage">Edit streamer page</string>
+  <string name="yourPage">Your streamer page</string>
+  <string name="downloadKit">Download streamer kit</string>
+  <string name="xIsStreaming">%s is streaming</string>
+  <string name="rules">Streaming rules</string>
+  <string name="rule1">Include the keyword \"lishogi.org\" in your stream title and use the category \"Chess\" when you stream on Lishogi.</string>
+  <string name="rule2">Remove the keyword when you stream non-Lishogi stuff.</string>
+  <string name="rule3">Lishogi will detect your stream automatically and enable the following perks:</string>
+  <string name="perks">Benefits of streaming with the keyword</string>
+  <string name="perk1">Get a flaming streamer icon on your Lishogi profile.</string>
+  <string name="perk2">Get bumped up to the top of the streamers list.</string>
+  <string name="perk3">Notify your Lishogi followers.</string>
+  <string name="perk4">Show your stream in your games, tournaments and studies.</string>
+  <string name="approved">Your stream is approved.</string>
+  <string name="pendingReview">Your stream is being reviewed by moderators.</string>
+  <string name="pleaseFillIn">Please fill in your streamer information, and upload a picture.</string>
+  <string name="whenReady">When you are ready to be listed as a Lishogi streamer, %s</string>
+  <string name="requestReview">request a moderator review</string>
+  <string name="anotherLanguage">If your stream is in a language other than English, include the correct language tag (%s), enclosed in square brackets, at the start of your stream title.
+As examples, you can include \"[RU]\" for Russian, \"[TR]\" for Turkish, \"[FR]\" for French, etc.
+Put this in the stream title in the Twitch or YouTube page, not in the Lishogi stream settings.
+If your stream is in English, there is no need to include a language tag.</string>
+  <string name="twitchUsername">Your Twitch username or URL</string>
+  <string name="optionalOrEmpty">Optional. Leave empty if none</string>
+  <string name="youtubeChannel">Your YouTube channel ID or URL</string>
+  <string name="streamerName">Your streamer name on Lishogi</string>
   <plurals name="keepItShort">
-    <item quantity="one">Σύντομη περιγραφή: %s χαρακτήρας το πολύ</item>
-    <item quantity="other">Σύντομη περιγραφή: %s χαρακτήρες το πολύ</item>
+    <item quantity="one">Keep it short: %s character max</item>
+    <item quantity="other">Keep it short: %s characters max</item>
   </plurals>
-  <string name="visibility">Ορατή στη σελίδα μεταδοτών</string>
-  <string name="whenApproved">Όταν εγκριθεί από τους διαχειριστές</string>
-  <string name="headline">Κεφαλίδα</string>
-  <string name="tellUsAboutTheStream">Σε μια πρόταση, περιγράψτε μας την μετάδοσή σας</string>
-  <string name="longDescription">Πλήρης περιγραφή</string>
-  <string name="xStreamerPicture">%s εικόνα μεταδότη</string>
-  <string name="changePicture">Αλλαγή/διαγραφή εικόνας</string>
-  <string name="uploadPicture">Ανέβασμα εικόνας</string>
-  <string name="deletePicture">Διαγραφή εικόνας</string>
-  <string name="maxSize">Μέγιστο μέγεθος: %s</string>
-  <string name="installBlocker">Εγκαταστήστε έναν malware blocker!</string>
-  <string name="beSafe">Για να είστε ασφαλείς από διαφημίσεις και
-παρακολούθηση από το Twitch και το YouTube.
-To Lishogi προτείνει το uBlock Origin που είναι
-δωρεάν και ανοικτού κώδικα λογισμικό.</string>
+  <string name="visibility">Visible on the streamers page</string>
+  <string name="whenApproved">When approved by moderators</string>
+  <string name="headline">Headline</string>
+  <string name="tellUsAboutTheStream">Tell us about your stream in one sentence</string>
+  <string name="longDescription">Long description</string>
+  <string name="xStreamerPicture">%s streamer picture</string>
+  <string name="changePicture">Change/delete your picture</string>
+  <string name="uploadPicture">Upload a picture</string>
+  <string name="deletePicture">Delete picture</string>
+  <string name="maxSize">Max size: %s</string>
+  <string name="installBlocker">Install a malware blocker!</string>
+  <string name="beSafe">Be safe from ads and trackers
+infesting Twitch and YouTube.
+Lishogi recommends uBlock Origin
+which is free and open-source.</string>
 </resources>
