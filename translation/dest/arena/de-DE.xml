@@ -1,42 +1,43 @@
-<?xml version='1.0' encoding='utf-8'?>
-<resources><string name="arenaTournaments">Arena-Turniere</string>
-  <string name="isItRated">Sind die Partien gewertet?</string>
-  <string name="willBeNotified">Du wirst benachrichtigt, wenn das Turnier beginnt. Es ist somit möglich, während der Wartezeit in einem anderen Tab zu spielen.</string>
-  <string name="isRated">Dieses Turnier ist gewertet und wird deine Wertungszahl beeinflussen.</string>
-  <string name="isNotRated">Dieses Turnier ist *nicht* gewertet und wird deine Wertungszahl *nicht* beeinflussen.</string>
-  <string name="someRated">Manche Turniere sind gewertet und werden deine Wertungszahl beeinflussen.</string>
-  <string name="howAreScoresCalculated">Wie werden die Punkte berechnet?</string>
-  <string name="howAreScoresCalculatedAnswer">Grundsätzlich gibt es für einen Sieg 2 Punkte, 1 Punkt für Remis und 0 Punkte für eine Niederlage.
-Gewinnst du zwei Partien in Folge, beginnst du eine Serie mit verdoppelter Punktzahl (dargestellt durch ein Flammensymbol). Für die nachfolgenden Partien erhältst du solange die doppelte Punktzahl, bis du eine Partie nicht gewinnst.
-Das bedeutet, dass du für einen Sieg vier, für ein Remis zwei und für eine Niederlage keine Punkte bekommst.
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="arenaTournaments">Arena tournaments</string>
+  <string name="isItRated">Is it rated?</string>
+  <string name="willBeNotified">You will be notified when the tournament starts, so it is safe to play in another tab while waiting.</string>
+  <string name="isRated">This tournament is rated and will affect your rating.</string>
+  <string name="isNotRated">This tournament is *not* rated and will *not* affect your rating.</string>
+  <string name="someRated">Some tournaments are rated and will affect your rating.</string>
+  <string name="howAreScoresCalculated">How are scores calculated?</string>
+  <string name="howAreScoresCalculatedAnswer">A win has a base score of 2 points, a draw 1 point, and a loss is worth no points.
+If you win two games consecutively you will start a double point streak, represented by a flame icon.
+The following games will continue to be worth double points until you fail to win a game.
+That is, a win will be worth 4 points, a draw 2 points, and a loss will still not award any points.
 
-Beispiel: Zwei Siege, gefolgt von einem Remis sind 6 Punkte wert: 2 + 2 + (2 * 1)</string>
+For example, two wins followed by a draw will be worth 6 points: 2 + 2 + (2 x 1)</string>
   <string name="berserk">Arena Berserk</string>
-  <string name="berserkAnswer">Wenn ein Spieler den \"Berserk\"-Knopf zu Beginn der Partie drückt, verliert er die Hälfte seiner Zeit auf der Uhr, aber ein Sieg wird mit einem zusätzlichen Turnierpunkt honoriert.
+  <string name="berserkAnswer">When a player clicks the Berserk button at the beginning of the game, they lose half of their clock time, but the win is worth one extra tournament point.
 
-In einem Zeitmodus mit Inkrement entfernt \"Berserk\" das Inkrement. (1+2 ist eine Ausnahme, es wird zu 1+0.)
+Going Berserk in time controls with an increment also cancels the increment (1+2 is an exception, it gives 1+0).
 
-Für Partien ohne Grundbedenkzeit (0+1, 0+2) ist \"Berserk\" nicht verfügbar.
+Berserk is not available for games with zero initial time (0+1, 0+2).
 
-Der zusätzliche Punkt für \"Berserk\" wird nur vergeben, wenn du mindestens sieben Züge in der Partie gemacht hast.</string>
-  <string name="howIsTheWinnerDecided">Wie wird der Gewinner ermittelt?</string>
-  <string name="howIsTheWinnerDecidedAnswer">Der oder die Spieler mit den meisten Punkten am Turnierende werden als Gewinner bekanntgegeben.
+Berserk only grants an extra point if you play at least 7 moves in the game.</string>
+  <string name="howIsTheWinnerDecided">How is the winner decided?</string>
+  <string name="howIsTheWinnerDecidedAnswer">The player(s) with the most points at the conclusion of the tournament\'s set time limit will be announced winner(s).
 
-Wenn zwei oder mehr Spieler die gleiche Punktzahl besitzen, entscheidet die Turnierleistung als Feinwertung.</string>
-  <string name="howDoesPairingWork">Wie werden die Turnierpaarungen ermittelt?</string>
-  <string name="howDoesPairingWorkAnswer">Zu Beginn des Turniers werden die Spieler auf Grundlage der Wertungszahl zugeteilt.
-Sobald du ein Spiel beendet hast, kannst du zur Turnierübersicht zurückkehren. Dir wird dann ein Spieler mit ähnlichem Rang zugeteilt. Dadurch wird eine kurze Wartezeit erreicht, allerdings kann es sein, dass du nicht gegen alle anderen Spieler in diesem Turnier spielen wirst.
-Spiele schnell und kehre zur Turnierübersicht zurück, um mehr Spiele zu spielen und eine höhere Punktzahl zu erzielen.</string>
-  <string name="howDoesItEnd">Wann endet das Turnier?</string>
-  <string name="howDoesItEndAnswer">Während des Turniers wird die Zeit heruntergezählt. Wenn sie null erreicht, wird die Rangliste eingefroren und der Gewinner bekanntgegeben.
-Laufende Partien müssen beendet werden, zählen aber nicht mehr für das Turnier.</string>
-  <string name="otherRules">Andere wichtige Regeln</string>
-  <string name="thereIsACountdown">Es gibt einen Countdown für deinen ersten Zug. Ziehst du nicht innerhalb dieser Zeit, wird der Sieg deinem Gegner zugesprochen.</string>
+When two or more players have the same number of points, the tournament performance is the tie break.</string>
+  <string name="howDoesPairingWork">How does the pairing work?</string>
+  <string name="howDoesPairingWorkAnswer">At the beginning of the tournament, players are paired based on their rating.
+As soon as you finish a game, return to the tournament lobby: you will then be paired with a player close to your ranking. This ensures minimum wait time, however you may not face all other players in the tournament.
+Play fast and return to the lobby to play more games and win more points.</string>
+  <string name="howDoesItEnd">How does it end?</string>
+  <string name="howDoesItEndAnswer">The tournament has a countdown clock. When it reaches zero, the tournament rankings are frozen, and the winner is announced. Games in progress must be finished, however they don\'t count for the tournament.</string>
+  <string name="otherRules">Other important rules</string>
+  <string name="thereIsACountdown">There is a countdown for your first move. Failing to make a move within this time will forfeit the game to your opponent.</string>
   <plurals name="drawingWithinNbMoves">
-    <item quantity="one">Remis innerhalb des ersten Zugs wird keinem Spieler Punkte einbringen.</item>
-    <item quantity="other">Bei Remis innerhalb der ersten %s Züge werden keinem Spieler Punkte gut geschrieben.</item>
+    <item quantity="one">Drawing the game within the first %s move will earn neither player any points.</item>
+    <item quantity="other">Drawing the game within the first %s moves will earn neither player any points.</item>
   </plurals>
-  <string name="thisIsPrivate">Dies ist ein privates Turnier</string>
-  <string name="shareUrl">Teile diese URL, um andere einzuladen: %s</string>
-  <string name="drawStreak">Remis-Strähnen: Wenn ein Spieler aufeinanderfolgende Remis in einer Arena oder einem Teamkampf erzielt, wird nur für das erste Remis ein Punkt vergeben, oder aber für ein Remis mit mehr als %s Zügen. Eine Remis-Strähne kann nur durch einen Sieg unterbrochen werden, nicht durch eine verlorene Partie oder ein Unentschieden.</string>
+  <string name="thisIsPrivate">This is a private tournament</string>
+  <string name="shareUrl">Share this URL to let people join: %s</string>
+  <string name="drawStreak">Draw streaks: When a player has consecutive draws in an arena, only the first draw will result in a point, or draws lasting more than %s moves. The draw streak can only be broken by a win, not a loss or a draw.</string>
 </resources>
