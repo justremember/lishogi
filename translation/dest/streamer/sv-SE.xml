@@ -1,55 +1,58 @@
-<?xml version='1.0' encoding='utf-8'?>
-<resources><string name="live">DIREKTSÄNDNING!</string>
-  <string name="offline">FRÅNKOPPLAD</string>
-  <string name="currentlyStreaming">Direktsänder video nu: %s</string>
-  <string name="lastStream">Senaste videosändning %s</string>
-  <string name="becomeStreamer">Börja sända video från Lishogi</string>
-  <string name="doYouHaveStream">Har du en kanal på Twitch eller YouTube?</string>
-  <string name="hereWeGo">Låt oss börja!</string>
-  <string name="allStreamers">Alla videokanaler</string>
-  <string name="editPage">Redigera direktsändnings-sida</string>
-  <string name="yourPage">Din direktsändnings-sida</string>
-  <string name="downloadKit">Hämta sändningstillbehör</string>
-  <string name="xIsStreaming">%s direktsänder video</string>
-  <string name="rules">Regler för videosändningar</string>
-  <string name="rule1">Inkludera nyckelordet \"lishogi.org\" i din kanaltitel när du direktsänder från Lishogi.</string>
-  <string name="rule2">Ta bort sökordet när du inte sänder Lishogi-saker.</string>
-  <string name="rule3">Lishogi kommer att upptäcka din sändning automatiskt och ge dig följande fördelar:</string>
-  <string name="perks">Fördelar med att direktsända med sökordet</string>
-  <string name="perk1">Få en glödande mikrofon-ikon på din Lishogi-profil.</string>
-  <string name="perk2">Flyttas upp till toppen av listan på videokanaler.</string>
-  <string name="perk3">Avisera dina Lishogi-följare.</string>
-  <string name="perk4">Visa din videosändnling i dina partier, turneringar och studier.</string>
-  <string name="approved">Din videokanal har godkänts.</string>
-  <string name="pendingReview">Din videokanal granskas av moderatorer.</string>
-  <string name="pleaseFillIn">Vänligen fyll i din kanalinformation och ladda upp en bild.</string>
-  <string name="whenReady">När du är redo att lista din Lishogi-kanal, %s</string>
-  <string name="requestReview">begär en moderatorgranskning</string>
-  <string name="anotherLanguage">Om din sändning är på ett annat språk än engelska, inkludera rätt språktagg (%s), innesluten i hakparenteser, i början av din kanaltitel.
-Till exempel: inkludera \"[RU]\" för ryska, \"[TR]\" för turkiska, \"[FR]\" för franska, etc.
-Sätt det i kanaltiteln på Twitch eller YouTube-sidan, inte i Lishogi inställningar.
-Om din sändning är på engelska, behöver du inte inkludera en språktagg.</string>
-  <string name="twitchUsername">Ditt användarnamn eller din URL på Twitch</string>
-  <string name="optionalOrEmpty">Valfritt. Lämna tomt om ingen</string>
-  <string name="youtubeChannel">Ditt kanal-ID eller din URL på YouTube</string>
-  <string name="streamerName">Ditt sändningsnamn på Lishogi</string>
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="lishogiStreamers">Lishogi streamers</string>
+  <string name="lishogiStreamer">Lishogi streamer</string>
+  <string name="live">LIVE!</string>
+  <string name="offline">OFFLINE</string>
+  <string name="currentlyStreaming">Currently streaming: %s</string>
+  <string name="lastStream">Last stream %s</string>
+  <string name="becomeStreamer">Become a Lishogi streamer</string>
+  <string name="doYouHaveStream">Do you have a Twitch or YouTube channel?</string>
+  <string name="hereWeGo">Here we go!</string>
+  <string name="allStreamers">All streamers</string>
+  <string name="editPage">Edit streamer page</string>
+  <string name="yourPage">Your streamer page</string>
+  <string name="downloadKit">Download streamer kit</string>
+  <string name="xIsStreaming">%s is streaming</string>
+  <string name="rules">Streaming rules</string>
+  <string name="rule1">Include the keyword \"lishogi.org\" in your stream title and use the category \"Chess\" when you stream on Lishogi.</string>
+  <string name="rule2">Remove the keyword when you stream non-Lishogi stuff.</string>
+  <string name="rule3">Lishogi will detect your stream automatically and enable the following perks:</string>
+  <string name="perks">Benefits of streaming with the keyword</string>
+  <string name="perk1">Get a flaming streamer icon on your Lishogi profile.</string>
+  <string name="perk2">Get bumped up to the top of the streamers list.</string>
+  <string name="perk3">Notify your Lishogi followers.</string>
+  <string name="perk4">Show your stream in your games, tournaments and studies.</string>
+  <string name="approved">Your stream is approved.</string>
+  <string name="pendingReview">Your stream is being reviewed by moderators.</string>
+  <string name="pleaseFillIn">Please fill in your streamer information, and upload a picture.</string>
+  <string name="whenReady">When you are ready to be listed as a Lishogi streamer, %s</string>
+  <string name="requestReview">request a moderator review</string>
+  <string name="anotherLanguage">If your stream is in a language other than English, include the correct language tag (%s), enclosed in square brackets, at the start of your stream title.
+As examples, you can include \"[RU]\" for Russian, \"[TR]\" for Turkish, \"[FR]\" for French, etc.
+Put this in the stream title in the Twitch or YouTube page, not in the Lishogi stream settings.
+If your stream is in English, there is no need to include a language tag.</string>
+  <string name="twitchUsername">Your Twitch username or URL</string>
+  <string name="optionalOrEmpty">Optional. Leave empty if none</string>
+  <string name="youtubeChannel">Your YouTube channel ID or URL</string>
+  <string name="streamerName">Your streamer name on Lishogi</string>
   <plurals name="keepItShort">
-    <item quantity="one">Behåll kort: max %s tecken</item>
-    <item quantity="other">Behåll kort: max %s tecken</item>
+    <item quantity="one">Keep it short: %s character max</item>
+    <item quantity="other">Keep it short: %s characters max</item>
   </plurals>
-  <string name="visibility">Synlig på videokanal-sidan</string>
-  <string name="whenApproved">Efter godkännande från moderatorer</string>
-  <string name="headline">Rubrik</string>
-  <string name="tellUsAboutTheStream">I en mening, berätta om din videokanal</string>
-  <string name="longDescription">Lång beskrivning</string>
-  <string name="xStreamerPicture">%s profilbild</string>
-  <string name="changePicture">Ändra/ta bort din bild</string>
-  <string name="uploadPicture">Ladda upp en bild</string>
-  <string name="deletePicture">Ta bort bild</string>
-  <string name="maxSize">Max storlek: %s</string>
-  <string name="installBlocker">Installera en malware-blockerare!</string>
-  <string name="beSafe">Skydda dig mot annonser och trackers
-som översvämmar Twitch och YouTube.
-Lishogi rekommenderar uBlock Origin
-som är fri och öppen källkod.</string>
+  <string name="visibility">Visible on the streamers page</string>
+  <string name="whenApproved">When approved by moderators</string>
+  <string name="headline">Headline</string>
+  <string name="tellUsAboutTheStream">Tell us about your stream in one sentence</string>
+  <string name="longDescription">Long description</string>
+  <string name="xStreamerPicture">%s streamer picture</string>
+  <string name="changePicture">Change/delete your picture</string>
+  <string name="uploadPicture">Upload a picture</string>
+  <string name="deletePicture">Delete picture</string>
+  <string name="maxSize">Max size: %s</string>
+  <string name="installBlocker">Install a malware blocker!</string>
+  <string name="beSafe">Be safe from ads and trackers
+infesting Twitch and YouTube.
+Lishogi recommends uBlock Origin
+which is free and open-source.</string>
 </resources>
