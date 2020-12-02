@@ -1,69 +1,70 @@
-<?xml version='1.0' encoding='utf-8'?>
-<resources><string name="activity">Verlauf</string>
-  <string name="hostedALiveStream">Hat einen Livestream veranstaltet</string>
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="activity">Activity</string>
+  <string name="hostedALiveStream">Hosted a live stream</string>
   <plurals name="supportedNbMonths">
-    <item quantity="one">Unterstützt lishogi.org seit %1$s Monat als %2$s</item>
-    <item quantity="other">Unterstützt lishogi.org seit %1$s Monaten als %2$s</item>
+    <item quantity="one">Supported lishogi.org for %1$s month as a %2$s</item>
+    <item quantity="other">Supported lishogi.org for %1$s months as a %2$s</item>
   </plurals>
   <plurals name="practicedNbPositions">
-    <item quantity="one">Hat %1$s Stellung bei %2$s geübt</item>
-    <item quantity="other">Hat %1$s Stellungen bei %2$s geübt</item>
+    <item quantity="one">Practised %1$s position on %2$s</item>
+    <item quantity="other">Practised %1$s positions on %2$s</item>
   </plurals>
   <plurals name="solvedNbPuzzles">
-    <item quantity="one">Hat %s Taktikaufgabe gelöst</item>
-    <item quantity="other">Hat %s Taktikaufgaben gelöst</item>
+    <item quantity="one">Solved %s tactical puzzle</item>
+    <item quantity="other">Solved %s tactical puzzles</item>
   </plurals>
   <plurals name="playedNbGames">
-    <item quantity="one">Hat %1$s Partie %2$s gespielt</item>
-    <item quantity="other">Hat %1$s Partien %2$s gespielt</item>
+    <item quantity="one">Played %1$s %2$s game</item>
+    <item quantity="other">Played %1$s %2$s games</item>
   </plurals>
   <plurals name="postedNbMessages">
-    <item quantity="one">Hat %1$s Nachricht in %2$s geschrieben</item>
-    <item quantity="other">Hat %1$s Nachrichten in %2$s geschrieben</item>
+    <item quantity="one">Posted %1$s message in %2$s</item>
+    <item quantity="other">Posted %1$s messages in %2$s</item>
   </plurals>
   <plurals name="playedNbMoves">
-    <item quantity="one">Spielte %1$s Zug</item>
-    <item quantity="other">Spielte %1$s Züge</item>
+    <item quantity="one">Played %1$s move</item>
+    <item quantity="other">Played %1$s moves</item>
   </plurals>
   <plurals name="inNbCorrespondenceGames">
-    <item quantity="one">in %1$s Fernschachpartie</item>
-    <item quantity="other">in %1$s Fernschachpartien</item>
+    <item quantity="one">in %1$s correspondence game</item>
+    <item quantity="other">in %1$s correspondence games</item>
   </plurals>
   <plurals name="completedNbGames">
-    <item quantity="one">Hat %s Fernschachpartie gespielt</item>
-    <item quantity="other">Hat %s Fernschachpartien gespielt</item>
+    <item quantity="one">Completed %s correspondence game</item>
+    <item quantity="other">Completed %s correspondence games</item>
   </plurals>
   <plurals name="followedNbPlayers">
-    <item quantity="one">Folgt %s Spieler</item>
-    <item quantity="other">Folgt %s Spielern</item>
+    <item quantity="one">Started following %s player</item>
+    <item quantity="other">Started following %s players</item>
   </plurals>
   <plurals name="gainedNbFollowers">
-    <item quantity="one">Hat %s neuen Follower</item>
-    <item quantity="other">Hat %s neue Follower</item>
+    <item quantity="one">Gained %s new follower</item>
+    <item quantity="other">Gained %s new followers</item>
   </plurals>
   <plurals name="hostedNbSimuls">
-    <item quantity="one">Hat %s Simultanvorstellung gegeben</item>
-    <item quantity="other">Hat %s Simultanvorstellungen gegeben</item>
+    <item quantity="one">Hosted %s simultaneous exhibition</item>
+    <item quantity="other">Hosted %s simultaneous exhibitions</item>
   </plurals>
   <plurals name="joinedNbSimuls">
-    <item quantity="one">Hat an %s Simultanvorstellung teilgenommen</item>
-    <item quantity="other">Hat an %s Simultanvorstellungen teilgenommen</item>
+    <item quantity="one">Participated in %s simultaneous exhibition</item>
+    <item quantity="other">Participated in %s simultaneous exhibitions</item>
   </plurals>
   <plurals name="createdNbStudies">
-    <item quantity="one">Hat %s neue Studie erstellt</item>
-    <item quantity="other">Hat %s neue Studien erstellt</item>
+    <item quantity="one">Created %s new study</item>
+    <item quantity="other">Created %s new studies</item>
   </plurals>
   <plurals name="competedInNbTournaments">
-    <item quantity="one">Hat an %s Turnier teilgenommen</item>
-    <item quantity="other">Hat an %s Turnieren teilgenommen</item>
+    <item quantity="one">Competed in %s tournament</item>
+    <item quantity="other">Competed in %s tournaments</item>
   </plurals>
   <plurals name="rankedInTournament">
-    <item quantity="one">Hat Platz #%1$s (obere %2$s%%) mit %3$s Spiel in %4$s erreicht</item>
-    <item quantity="other">Hat Platz #%1$s (obere %2$s%%) mit %3$s Spielen in %4$s erreicht</item>
+    <item quantity="one">Ranked #%1$s (top %2$s%%) with %3$s game in %4$s</item>
+    <item quantity="other">Ranked #%1$s (top %2$s%%) with %3$s games in %4$s</item>
   </plurals>
-  <string name="signedUp">Hat sich bei Lishogi angemeldet</string>
+  <string name="signedUp">Signed up to lishogi.org</string>
   <plurals name="joinedNbTeams">
-    <item quantity="one">Ist %s Team beigetreten</item>
-    <item quantity="other">Ist %s Teams beigetreten</item>
+    <item quantity="one">Joined %s team</item>
+    <item quantity="other">Joined %s teams</item>
   </plurals>
 </resources>
