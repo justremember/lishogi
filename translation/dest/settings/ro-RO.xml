@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="settings">Settings</string>
-  <string name="closeAccount">Close account</string>
-  <string name="closingIsDefinitive">Closing is definitive. There is no going back. Are you sure?</string>
-  <string name="cantOpenSimilarAccount">You will not be allowed to open a new account with the same name, even if the case is different.</string>
-  <string name="changedMindDoNotCloseAccount">I changed my mind, don\'t close my account</string>
-  <string name="closeAccountExplanation">Are you sure you want to close your account? Closing your account is a permanent decision. You will NEVER be able to log in EVER AGAIN.</string>
-  <string name="thisAccountIsClosed">This account is closed.</string>
+  <string name="settings">Setări</string>
+  <string name="closeAccount">Închide contul</string>
+  <string name="closingIsDefinitive">Închiderea este definitivă. Nu există cale de întoarcere. Ești sigur?</string>
+  <string name="cantOpenSimilarAccount">Nu îți va fi permis să creezi un cont nou cu același nume, indiferent dacă literele sunt minuscule sau majuscule.</string>
+  <string name="changedMindDoNotCloseAccount">M-am răzgandit, nu îmi închide contul.</string>
+  <string name="closeAccountExplanation">Ești sigur că vrei să-ți închizi contul? Închiderea contului este o decizie permanentă. NU te vei mai putea conecta NICIODATĂ.</string>
+  <string name="thisAccountIsClosed">Contul este închis.</string>
 </resources>
