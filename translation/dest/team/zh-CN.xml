@@ -1,41 +1,42 @@
-<?xml version='1.0' encoding='utf-8'?>
-<resources><string name="team">团队</string>
-  <string name="teams">团队</string>
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="team">Team</string>
+  <string name="teams">Teams</string>
   <plurals name="nbMembers">
-    <item quantity="other">%s位成员</item>
+    <item quantity="other">%s members</item>
   </plurals>
-  <string name="allTeams">所有团队</string>
-  <string name="newTeam">建立团队</string>
-  <string name="myTeams">我的团队</string>
-  <string name="noTeamFound">你不在任何团队中</string>
-  <string name="joinTeam">加入团队</string>
-  <string name="quitTeam">退出团队</string>
-  <string name="anyoneCanJoin">对所有人开放</string>
-  <string name="aConfirmationIsRequiredToJoin">本团队需申请批准后方可加入</string>
-  <string name="joiningPolicy">团队加入政策</string>
+  <string name="allTeams">All teams</string>
+  <string name="newTeam">New team</string>
+  <string name="myTeams">My teams</string>
+  <string name="noTeamFound">No team found</string>
+  <string name="joinTeam">Join team</string>
+  <string name="quitTeam">Leave team</string>
+  <string name="anyoneCanJoin">Free for all</string>
+  <string name="aConfirmationIsRequiredToJoin">A confirmation is required to join</string>
+  <string name="joiningPolicy">Joining policy</string>
   <plurals name="teamLeaders">
-    <item quantity="other">领队</item>
+    <item quantity="other">Team leaders</item>
   </plurals>
-  <string name="teamBestPlayers">本队最佳棋手</string>
-  <string name="teamRecentMembers">本队新成员</string>
-  <string name="kickSomeone">把一个用户退出团队</string>
-  <string name="whoToKick">您想把谁退出团队？</string>
+  <string name="teamBestPlayers">Best players</string>
+  <string name="teamRecentMembers">Recent members</string>
+  <string name="kickSomeone">Kick someone out of the team</string>
+  <string name="whoToKick">Who do you want to kick out of the team?</string>
   <plurals name="xJoinRequests">
-    <item quantity="other">%s 件加入请求</item>
+    <item quantity="other">%s join requests</item>
   </plurals>
-  <string name="willBeReviewed">您的加入请求将由队长审查。</string>
-  <string name="beingReviewed">队长正在审查您的加入请求。</string>
-  <string name="teamBattle">团队战斗</string>
-  <string name="teamBattleOverview">一场由多个团队组成的战斗，每个玩家都可以为其团队得分</string>
-  <string name="teamTournament">团队比赛</string>
-  <string name="teamTournamentOverview">只有您的团队成员可以加入的竞技场比赛</string>
-  <string name="messageAllMembers">向所有成员发送消息</string>
-  <string name="messageAllMembersOverview">发送一条私密消息给团队中的每个玩家</string>
-  <string name="messageAllMembersLongDescription">向团队的所有成员发送私信。
-你可以用此功能来呼叫玩家参加锦标赛或团队战。
-玩家如果不喜欢接收您的消息将会离开团队。</string>
-  <string name="teamsIlead">我领导的团队</string>
-  <string name="youWayWantToLinkOneOfTheseTournaments">您可能想要链接这些即将到来的锦标赛中的一个？</string>
-  <string name="usersWhoCanManageThisTeam">可以管理此团队的用户</string>
-  <string name="leadersChat">领队聊天</string>
+  <string name="willBeReviewed">Your join request will be reviewed by the team leader.</string>
+  <string name="beingReviewed">Your join request is being reviewed by the team leader.</string>
+  <string name="teamBattle">Team Battle</string>
+  <string name="teamBattleOverview">A battle of multiple teams, each player scores points for their team</string>
+  <string name="teamTournament">Team tournament</string>
+  <string name="teamTournamentOverview">An Arena tournament that only members of your team can join</string>
+  <string name="messageAllMembers">Message all members</string>
+  <string name="messageAllMembersOverview">Send a private message to every member of the team</string>
+  <string name="messageAllMembersLongDescription">Send a private message to ALL members of the team.
+You can use this to call players to join a tournament or a team battle.
+Players who don\'t like receiving your messages might leave the team.</string>
+  <string name="teamsIlead">Teams I lead</string>
+  <string name="youWayWantToLinkOneOfTheseTournaments">You may want to link one of these upcoming tournaments?</string>
+  <string name="usersWhoCanManageThisTeam">Users who can manage this team</string>
+  <string name="leadersChat">Leaders chat</string>
 </resources>
