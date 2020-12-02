@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="settings">Settings</string>
-  <string name="closeAccount">Close account</string>
-  <string name="closingIsDefinitive">Closing is definitive. There is no going back. Are you sure?</string>
-  <string name="cantOpenSimilarAccount">You will not be allowed to open a new account with the same name, even if the case is different.</string>
-  <string name="changedMindDoNotCloseAccount">I changed my mind, don\'t close my account</string>
-  <string name="closeAccountExplanation">Are you sure you want to close your account? Closing your account is a permanent decision. You will NEVER be able to log in EVER AGAIN.</string>
-  <string name="thisAccountIsClosed">This account is closed.</string>
+  <string name="settings">Configuració</string>
+  <string name="closeAccount">Tancar el compte</string>
+  <string name="closingIsDefinitive">El tancament és definitiu. No es pot tornar enrere. N\'esteu segurs?</string>
+  <string name="cantOpenSimilarAccount">No està permès crear un nou comte amb el mateix nom, ni tan sols si hi ha diferents majúscules i minúscules.</string>
+  <string name="changedMindDoNotCloseAccount">He canviat d\'opinió, no tanqueu el meu compte</string>
+  <string name="closeAccountExplanation">Esteu segur de que voleu eliminar el compte? Eliminar-lo és una decisió permanent. No us podreu tornar a connectar MAI.</string>
+  <string name="thisAccountIsClosed">Aquest compte està tancat.</string>
 </resources>
