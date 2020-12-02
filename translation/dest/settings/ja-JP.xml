@@ -1,9 +1,10 @@
-<?xml version='1.0' encoding='utf-8'?>
-<resources><string name="settings">設定</string>
-  <string name="closeAccount">アカウント停止</string>
-  <string name="closingIsDefinitive">アカウント停止は不可逆で、元には戻せません。ほんとうに停止しますか？</string>
-  <string name="cantOpenSimilarAccount">同じ名前（大文字・小文字が違っていても）で別のアカウントを作ることもできません。</string>
-  <string name="changedMindDoNotCloseAccount">気が変わったのでアカウントを停止しない</string>
-  <string name="closeAccountExplanation">ほんとうにアカウントを停止しますか？　これは永久的な決定です。このアカウントには二度とログインできなくなります。</string>
-  <string name="thisAccountIsClosed">このアカウントは停止されました</string>
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="settings">Settings</string>
+  <string name="closeAccount">Close account</string>
+  <string name="closingIsDefinitive">Closing is definitive. There is no going back. Are you sure?</string>
+  <string name="cantOpenSimilarAccount">You will not be allowed to open a new account with the same name, even if the case is different.</string>
+  <string name="changedMindDoNotCloseAccount">I changed my mind, don\'t close my account</string>
+  <string name="closeAccountExplanation">Are you sure you want to close your account? Closing your account is a permanent decision. You will NEVER be able to log in EVER AGAIN.</string>
+  <string name="thisAccountIsClosed">This account is closed.</string>
 </resources>
