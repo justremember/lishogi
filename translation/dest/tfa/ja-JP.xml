@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='utf-8'?>
-<resources><string name="twoFactorAuth">2 要素認証</string>
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="twoFactorAuth">2 要素認証</string>
   <string name="twoFactorHelp">2 要素認証はアカウントのセキュリティを高めます。</string>
   <string name="twoFactorApp">2 要素認証のためのアプリ（たとえば%1$s、%2$s 用の Google Authenticator）を手に入れてください。</string>
   <string name="scanTheCode">そのアプリで QR コードをスキャンします。</string>
