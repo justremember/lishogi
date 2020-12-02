@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<string name="search">Search</string>
-	<string name="advancedSearch">Advanced search</string>
+	<string name="search">بحث</string>
+	<string name="advancedSearch">بحث متقدم</string>
 	<plurals name="searchInXGames">
 		<item quantity="zero">Search in %s shogi games</item>
 		<item quantity="one">Search in %s shogi game</item>
@@ -18,18 +18,18 @@
 		<item quantity="many">%s games found</item>
 		<item quantity="other">%s games found</item>
 	</plurals>
-	<string name="opponentName">Opponent name</string>
-	<string name="loser">Loser</string>
-	<string name="from">From</string>
-	<string name="to">To</string>
-	<string name="humanOrComputer">Whether the player\'s opponent was human or a computer</string>
-	<string name="aiLevel">A.I. level</string>
-	<string name="source">Source</string>
-	<string name="nbTurns">Number of turns</string>
-	<string name="result">Result</string>
-	<string name="winnerColor">Winner color</string>
-	<string name="date">Date</string>
-	<string name="sortBy">Sort by</string>
-	<string name="analysis">Analysis</string>
-	<string name="onlyAnalysed">Only games where a computer analysis is available</string>
+	<string name="opponentName">اسم الخصم</string>
+	<string name="loser">الخاسر</string>
+	<string name="from">من</string>
+	<string name="to">الى</string>
+	<string name="humanOrComputer">سواء كان اللاعب الخصم بشرياً او جهاز كمبيوتر</string>
+	<string name="aiLevel">مستوى الذكاء الاصطناعي</string>
+	<string name="source">المصدر</string>
+	<string name="nbTurns">عدد الادوار</string>
+	<string name="result">نتيجة</string>
+	<string name="winnerColor">لون الفائز</string>
+	<string name="date">تاريخ</string>
+	<string name="sortBy">ترتيب حسب</string>
+	<string name="analysis">تحليل</string>
+	<string name="onlyAnalysed">فقط الادوار حيث يتوفر تحليل الكمبيوتر</string>
 </resources>
