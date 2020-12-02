@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="isLishogiLagging">Is Lishogi lagging?</string>
+  <string name="measurementInProgressThreeDot">Målingar pågår...</string>
+  <string name="noAndYourNetworkIsGood">Nei. Og nettsambandet ditt er godt.</string>
+  <string name="noAndYourNetworkIsBad">Nei. Og nettsambandet ditt er dårleg.</string>
+  <string name="yesItWillBeFixedSoon">Ja. Det vil bli ordna ganske snart!</string>
+  <string name="andNowTheLongAnswerLagComposedOfTwoValues">Og no kjem det lange svaret! Speleforseinkinga er sett saman av to verdiar utan samanhang med kvarande (lågare er betre):</string>
+  <string name="lishogiServerLatency">Lishogi server latency</string>
+  <string name="lishogiServerLatencyExplanation">The time it takes to process a move on the server. It\'s the same for everybody, and only depends on the server load. The more players and the higher it gets, but Lishogi developers do their best to keep it low. It rarely exceeds 10ms.</string>
+  <string name="networkBetweenLishogiAndYou">Network between Lishogi and you</string>
+  <string name="networkBetweenLishogiAndYouExplanation">The time it takes to send a move from your computer to Lishogi server, and get the response back. It\'s specific to your distance to Lishogi (France), and to the quality of your Internet connection. Lishogi developers cannot fix your wifi or make light go faster.</string>
+  <string name="youCanFindTheseValuesAtAnyTimeByClickingOnYourUsername">Du kan når som helst finne begge desse verdiane ved å klikke på brukarnamnet ditt i den øvste linja.</string>
+  <string name="lagCompensation">Kompensasjon for etterheng</string>
+  <string name="lagCompensationExplanation">Liches kompenserar for nettverkslugging. Dette omfattar vedvarande forseinkingar og tilfeldige, kortvarige tilfelle. Det finst rammer og heuristikk basert på tidskontroll og kompensert tidsetterslep, slik at resultatet blir mest mogleg rettvist for begge spelarane. Dermed er det ikkje er eit handicap å ha høgare nettveksetterslep enn motspelaren din har!</string>
+</resources>
