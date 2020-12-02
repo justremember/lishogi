@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
 	<string name="search">Search</string>
 	<string name="advancedSearch">Advanced search</string>
@@ -14,7 +14,7 @@
 	<string name="loser">Loser</string>
 	<string name="from">From</string>
 	<string name="to">To</string>
-	<string name="humanOrComputer">Whether the player's opponent was human or a computer</string>
+	<string name="humanOrComputer">Whether the player\'s opponent was human or a computer</string>
 	<string name="aiLevel">A.I. level</string>
 	<string name="source">Source</string>
 	<string name="nbTurns">Number of turns</string>
