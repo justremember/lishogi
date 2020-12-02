@@ -1,9 +1,10 @@
-<?xml version='1.0' encoding='utf-8'?>
-<resources><string name="settings">Inställningar</string>
-  <string name="closeAccount">Avsluta konto</string>
-  <string name="closingIsDefinitive">Stängningen är definitiv, det finns ingen återvändo. Är du säker?</string>
-  <string name="cantOpenSimilarAccount">Du får inte öppna ett nytt konto med samma namn, även om du byter gemener till versaler eller tvärtom.</string>
-  <string name="changedMindDoNotCloseAccount">Jag ändrade mig, avsluta inte mitt konto</string>
-  <string name="closeAccountExplanation">Är du säker på att du vill avsluta ditt konto? Att avsluta ditt konto är ett permanent beslut. Du kommer ALDRIG kunna logga in NÅGONSIN IGEN.</string>
-  <string name="thisAccountIsClosed">Det här kontot är avslutat</string>
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="settings">Settings</string>
+  <string name="closeAccount">Close account</string>
+  <string name="closingIsDefinitive">Closing is definitive. There is no going back. Are you sure?</string>
+  <string name="cantOpenSimilarAccount">You will not be allowed to open a new account with the same name, even if the case is different.</string>
+  <string name="changedMindDoNotCloseAccount">I changed my mind, don\'t close my account</string>
+  <string name="closeAccountExplanation">Are you sure you want to close your account? Closing your account is a permanent decision. You will NEVER be able to log in EVER AGAIN.</string>
+  <string name="thisAccountIsClosed">This account is closed.</string>
 </resources>
