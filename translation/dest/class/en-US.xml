@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
 	<string name="lishogiClasses">Classes</string>
 	<string name="teachClassesOfChessStudents">Teach classes of shogi students with the Lishogi Classes tool suite.</string>
@@ -18,7 +18,7 @@
 	<string name="removedStudents">Removed</string>
 	<string name="inviteTheStudentBack">Invite the student back</string>
 	<string name="sendAMessage">Send a message to all students.</string>
-	<string name="aLinkToTheClassWillBeAdded">A link to the class will be automatically added at the end of the message, so you don't need to include it yourself.</string>
+	<string name="aLinkToTheClassWillBeAdded">A link to the class will be automatically added at the end of the message, so you don\'t need to include it yourself.</string>
 	<string name="className">Class name</string>
 	<string name="classDescription">Class description</string>
 	<string name="visibleByBothStudentsAndTeachers">Visible by both teachers and students of the class</string>
@@ -43,7 +43,7 @@ Password: %3$s</string>
 	<string name="inviteDesc3">Important: only invite students you know, and who actively want to join the class.</string>
 	<string name="inviteDesc4">Never send unsolicited invites to arbitrary players.</string>
 	<string name="createANewLishogiAccount">Create a new Lishogi account</string>
-	<string name="createDesc1">If the student doesn't have a Lishogi account yet, you can create one for them here.</string>
+	<string name="createDesc1">If the student doesn\'t have a Lishogi account yet, you can create one for them here.</string>
 	<string name="createDesc2">No email address is required. A password will be generated, and you will have to transmit it to the student, so they can log in.</string>
 	<string name="createDesc3">Important: a student must not have multiple accounts.</string>
 	<string name="createDesc4">If they already have one, use the invite form instead.</string>
@@ -51,7 +51,7 @@ Password: %3$s</string>
 	<string name="generateANewUsername">Generate a new username</string>
 	<string name="welcomeToClass">Welcome to your class: %s.
 Here is the link to access the class.</string>
-	<string name="invitationToClass">You are invited to join the class "%s" as a student.</string>
+	<string name="invitationToClass">You are invited to join the class \"%s\" as a student.</string>
 	<string name="clickToViewInvitation">Click the link to view the invitation:</string>
 	<plurals name="nbPendingInvitations">
 		<item quantity="one">One pending invitation</item>
@@ -91,7 +91,7 @@ Here is the link to access the class.</string>
 	<string name="notifyAllStudents">Notify all students</string>
 	<string name="nothingHere">Nothing here, yet.</string>
 	<string name="newsEdit1">All class news in a single field.</string>
-	<string name="newsEdit2">Add the recent news at the top. Don't delete previous news.</string>
+	<string name="newsEdit2">Add the recent news at the top. Don\'t delete previous news.</string>
 	<string name="newsEdit3">Separate news with ---
 It will display a horizontal line.</string>
 	<string name="markdownAvailable">%s is available for more advanced syntax.</string>
