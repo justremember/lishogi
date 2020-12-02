@@ -2,18 +2,18 @@
 <resources>
   <string name="lishogiStreamers">Lishogi streamers</string>
   <string name="lishogiStreamer">Lishogi streamer</string>
-  <string name="live">LIVE!</string>
+  <string name="live">TRỰC TIẾP!</string>
   <string name="offline">OFFLINE</string>
-  <string name="currentlyStreaming">Currently streaming: %s</string>
-  <string name="lastStream">Last stream %s</string>
-  <string name="becomeStreamer">Become a Lishogi streamer</string>
-  <string name="doYouHaveStream">Do you have a Twitch or YouTube channel?</string>
+  <string name="currentlyStreaming">Đang livestream: %s</string>
+  <string name="lastStream">Lần stream cuối %s</string>
+  <string name="becomeStreamer">Trở thành một streamer Lishogi</string>
+  <string name="doYouHaveStream">Bạn có kênh YouTube hoặc Twitch không?</string>
   <string name="hereWeGo">Here we go!</string>
   <string name="allStreamers">All streamers</string>
   <string name="editPage">Edit streamer page</string>
   <string name="yourPage">Your streamer page</string>
   <string name="downloadKit">Download streamer kit</string>
-  <string name="xIsStreaming">%s is streaming</string>
+  <string name="xIsStreaming">%s đang livestream</string>
   <string name="rules">Streaming rules</string>
   <string name="rule1">Include the keyword \"lishogi.org\" in your stream title and use the category \"Chess\" when you stream on Lishogi.</string>
   <string name="rule2">Remove the keyword when you stream non-Lishogi stuff.</string>
@@ -33,7 +33,7 @@ As examples, you can include \"[RU]\" for Russian, \"[TR]\" for Turkish, \"[FR]\
 Put this in the stream title in the Twitch or YouTube page, not in the Lishogi stream settings.
 If your stream is in English, there is no need to include a language tag.</string>
   <string name="twitchUsername">Your Twitch username or URL</string>
-  <string name="optionalOrEmpty">Optional. Leave empty if none</string>
+  <string name="optionalOrEmpty">Tùy chọn. Bỏ trống nếu không có</string>
   <string name="youtubeChannel">Your YouTube channel ID or URL</string>
   <string name="streamerName">Your streamer name on Lishogi</string>
   <plurals name="keepItShort">
