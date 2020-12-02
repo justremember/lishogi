@@ -1,40 +1,42 @@
-<?xml version='1.0' encoding='utf-8'?>
-<resources><string name="arenaTournaments">錦標賽</string>
-  <string name="isItRated">這一局棋會被評分嗎?</string>
-  <string name="willBeNotified">您將會在錦標賽開始時收到通知，所以您可以放心的在錦標賽開始前下其他的棋局</string>
-  <string name="isRated">這場錦標賽將會評分，並且影響到您的評分</string>
-  <string name="isNotRated">這場錦標賽不會評分，並且它不會影響到您的評分</string>
-  <string name="someRated">一些錦標賽將會評分，並且影響到您的評分</string>
-  <string name="howAreScoresCalculated">分數是如何計算的?</string>
-  <string name="howAreScoresCalculatedAnswer">贏家將會得到2積分，平局1積分，輸家0分。
-如果您連續贏了2場(或以上)棋局，您將會開始您的連勝機制，以火焰符號標示。
-接下來的棋局您將會的到兩倍的積分直到您沒有獲勝，
-也就是:贏家4積分，平局2積分，但是輸家依舊沒有積分。
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="arenaTournaments">Arena tournaments</string>
+  <string name="isItRated">Is it rated?</string>
+  <string name="willBeNotified">You will be notified when the tournament starts, so it is safe to play in another tab while waiting.</string>
+  <string name="isRated">This tournament is rated and will affect your rating.</string>
+  <string name="isNotRated">This tournament is *not* rated and will *not* affect your rating.</string>
+  <string name="someRated">Some tournaments are rated and will affect your rating.</string>
+  <string name="howAreScoresCalculated">How are scores calculated?</string>
+  <string name="howAreScoresCalculatedAnswer">A win has a base score of 2 points, a draw 1 point, and a loss is worth no points.
+If you win two games consecutively you will start a double point streak, represented by a flame icon.
+The following games will continue to be worth double points until you fail to win a game.
+That is, a win will be worth 4 points, a draw 2 points, and a loss will still not award any points.
 
-例如:連贏兩場加上一局平局，您將會得到 2 + 2 + ( 2 x 1 ) = 6 積分  </string>
-  <string name="berserk">狂暴選項</string>
-  <string name="berserkAnswer">當玩家在棋局開始前點擊了狂暴按鈕，他們的下棋思考時間將會被砍半，但是在獲勝時將會多得到1積分
+For example, two wins followed by a draw will be worth 6 points: 2 + 2 + (2 x 1)</string>
+  <string name="berserk">Arena Berserk</string>
+  <string name="berserkAnswer">When a player clicks the Berserk button at the beginning of the game, they lose half of their clock time, but the win is worth one extra tournament point.
 
-在狂暴模式下，時間增加機制將會被取消(1+2是一個例外，它將會改為1+0)
+Going Berserk in time controls with an increment also cancels the increment (1+2 is an exception, it gives 1+0).
 
-狂暴模式將不會被允許在 0初始時間模式 時開啟(例如:0+1，0+2)
+Berserk is not available for games with zero initial time (0+1, 0+2).
 
-狂暴模式只會在您下了7步棋以上才會得到加成分數</string>
-  <string name="howIsTheWinnerDecided">名次是怎麼排名的?</string>
-  <string name="howIsTheWinnerDecidedAnswer">在錦標賽中獲得最多積分的人將獲勝，當兩位(或以上)玩家擁有相同積分時，這場錦標賽將會被視為平手</string>
-  <string name="howDoesPairingWork">對手是如何配對的?</string>
-  <string name="howDoesPairingWorkAnswer">在錦標賽開始時，系統將會以您的模式評分為基礎分配對手。
-在您完成了第一場棋局後，系統將會分配與您排名相近的玩家作為對手，這會需要一點時間做分配。
-迅速完成棋局並獲勝就可以得到更多積分。</string>
-  <string name="howDoesItEnd">錦標賽何時會結束?</string>
-  <string name="howDoesItEndAnswer">每場錦標賽都會有一個倒數計時器，當它歸零時，錦標賽的排名就會固定，排名將會被顯示。如果有比賽在錦標賽結束後還沒完成，您還是得完成它，但是積分將不會被算進錦標賽的積分裡。</string>
-  <string name="otherRules">其他重要的規則</string>
-  <string name="thereIsACountdown">在您開始您的第一步棋前將會有一個倒數計時器，在倒數結束前如果沒有下出您的第一步，您的對手將會直接獲勝</string>
+Berserk only grants an extra point if you play at least 7 moves in the game.</string>
+  <string name="howIsTheWinnerDecided">How is the winner decided?</string>
+  <string name="howIsTheWinnerDecidedAnswer">The player(s) with the most points at the conclusion of the tournament\'s set time limit will be announced winner(s).
+
+When two or more players have the same number of points, the tournament performance is the tie break.</string>
+  <string name="howDoesPairingWork">How does the pairing work?</string>
+  <string name="howDoesPairingWorkAnswer">At the beginning of the tournament, players are paired based on their rating.
+As soon as you finish a game, return to the tournament lobby: you will then be paired with a player close to your ranking. This ensures minimum wait time, however you may not face all other players in the tournament.
+Play fast and return to the lobby to play more games and win more points.</string>
+  <string name="howDoesItEnd">How does it end?</string>
+  <string name="howDoesItEndAnswer">The tournament has a countdown clock. When it reaches zero, the tournament rankings are frozen, and the winner is announced. Games in progress must be finished, however they don\'t count for the tournament.</string>
+  <string name="otherRules">Other important rules</string>
+  <string name="thereIsACountdown">There is a countdown for your first move. Failing to make a move within this time will forfeit the game to your opponent.</string>
   <plurals name="drawingWithinNbMoves">
-    <item quantity="other">在%s步內平局的棋局將不會得到積分</item>
+    <item quantity="other">Drawing the game within the first %s moves will earn neither player any points.</item>
   </plurals>
-  <string name="thisIsPrivate">這是一個非公開的錦標賽</string>
-  <string name="shareUrl">分享這個網址讓其他人加入這場錦標賽:%s</string>
-  <string name="drawStreak">連續平手機制:當一位玩家連續在錦標賽中或的平局，只有第一場平局會獲得積分，或是在下超過%s步時才會獲得積分。
-連續平手機制只會在獲勝或輸的時候被解除。</string>
+  <string name="thisIsPrivate">This is a private tournament</string>
+  <string name="shareUrl">Share this URL to let people join: %s</string>
+  <string name="drawStreak">Draw streaks: When a player has consecutive draws in an arena, only the first draw will result in a point, or draws lasting more than %s moves. The draw streak can only be broken by a win, not a loss or a draw.</string>
 </resources>
