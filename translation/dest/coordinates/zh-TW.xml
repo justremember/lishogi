@@ -1,9 +1,13 @@
-<?xml version='1.0' encoding='utf-8'?>
-<resources><string name="coordinates">座標</string>
-  <string name="coordinateTraining">座標訓練</string>
-  <string name="averageScoreAsWhiteX">白棋方平均分數: %s</string>
-  <string name="averageScoreAsBlackX">黑棋方平均分數: %s</string>
-  <string name="youCanAnalyseAGameMoreEffectively">如果能夠快速地辨認座標，可以更有效率的分析一場棋局。</string>
-  <string name="aSquareNameAppears">一個座標會出現在棋盤上，你必須點擊相對應的格子。你要在30秒內點擊正確的格子，越多越好！</string>
-  <string name="startTraining">開始訓練</string>
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="coordinates">Coordinates</string>
+	<string name="coordinateTraining">Coordinate training</string>
+	<string name="averageScoreAsWhiteX">Average score as white: %s</string>
+	<string name="averageScoreAsBlackX">Average score as black: %s</string>
+	<string name="knowingTheShogiBoard">Knowing the shogiboard coordinates is a very important shogi skill:</string>
+	<string name="mostShogiCourses">All shogi courses and exercises use some kind of a shogi notation. You can pick between the Japanese one and the western one.</string>
+	<string name="talkToYourShogiFriends">It makes it easier to talk to your shogi friends, since you both understand the \'language of shogi\'.</string>
+	<string name="youCanAnalyseAGameMoreEffectively">You can analyse a game more effectively if you can quickly recognise coordinates.</string>
+	<string name="aSquareNameAppears">A coordinate appears on the board and you must click on the corresponding square. You have 30 seconds to correctly map as many squares as possible!</string>
+	<string name="startTraining">Start training</string>
 </resources>
