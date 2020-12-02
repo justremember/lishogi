@@ -1,44 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
   <string name="arenaTournaments">Arena tournaments</string>
-  <string name="isItRated">Is it rated?</string>
-  <string name="willBeNotified">You will be notified when the tournament starts, so it is safe to play in another tab while waiting.</string>
-  <string name="isRated">This tournament is rated and will affect your rating.</string>
-  <string name="isNotRated">This tournament is *not* rated and will *not* affect your rating.</string>
-  <string name="someRated">Some tournaments are rated and will affect your rating.</string>
-  <string name="howAreScoresCalculated">How are scores calculated?</string>
-  <string name="howAreScoresCalculatedAnswer">A win has a base score of 2 points, a draw 1 point, and a loss is worth no points.
-If you win two games consecutively you will start a double point streak, represented by a flame icon.
-The following games will continue to be worth double points until you fail to win a game.
-That is, a win will be worth 4 points, a draw 2 points, and a loss will still not award any points.
+  <string name="isItRated">Este evaluat?</string>
+  <string name="willBeNotified">Vei fi notificat când competiția începe, deci este în regulă să joci în altă filă în timp ce aștepți.</string>
+  <string name="isRated">Această competiție este evaluată și-ți va afecta scorul.</string>
+  <string name="isNotRated">Această competiție *nu* este evaluată și *nu* îți va afecta scorul.</string>
+  <string name="someRated">Unele competiții sunt evaluate și-ți vor afecta scorul.</string>
+  <string name="howAreScoresCalculated">Cum sunt punctele calculate?</string>
+  <string name="howAreScoresCalculatedAnswer">Un câștig valorează 2 puncte, o remiză: 1 punct, iar o înfrângere nu valorează nimic.
+Dacă câștigi două meciuri consecutiv, punctele vor fi dublate pentru următoarele meciuri și sunt reprezentate de o pictogramă în flăcări.
+Următoarele meciuri vor valora punctaj dublu până se va întrerupe șirul de câștiguri consecutive.
+Asta înseamnă că: un câștig va valora 4 puncte, o remiză: 2 puncte, iar o înfrângere niciun punct.
 
-For example, two wins followed by a draw will be worth 6 points: 2 + 2 + (2 x 1)</string>
+De exemplu, două câștiguri urmate de o remiză vor valora 6 puncte: 2 + 2 + (2 x 1)</string>
   <string name="berserk">Arena Berserk</string>
-  <string name="berserkAnswer">When a player clicks the Berserk button at the beginning of the game, they lose half of their clock time, but the win is worth one extra tournament point.
+  <string name="berserkAnswer">Când un jucător apasă pe butonul Berserk la începutul meciului, li se va înjumătăți timpul, dar câștigul va valora un punct în plus.
 
-Going Berserk in time controls with an increment also cancels the increment (1+2 is an exception, it gives 1+0).
+Apăsând pe butonul Berserk, nu vei beneficia de incrementarea timpului. (1+2 este o excepție, va fi 1+0)
 
-Berserk is not available for games with zero initial time (0+1, 0+2).
+Modul Berserk nu este valabil pentru meciurile cu timp inițial zero (0+1, 0+2).
 
-Berserk only grants an extra point if you play at least 7 moves in the game.</string>
-  <string name="howIsTheWinnerDecided">How is the winner decided?</string>
-  <string name="howIsTheWinnerDecidedAnswer">The player(s) with the most points at the conclusion of the tournament\'s set time limit will be announced winner(s).
-
-When two or more players have the same number of points, the tournament performance is the tie break.</string>
-  <string name="howDoesPairingWork">How does the pairing work?</string>
-  <string name="howDoesPairingWorkAnswer">At the beginning of the tournament, players are paired based on their rating.
-As soon as you finish a game, return to the tournament lobby: you will then be paired with a player close to your ranking. This ensures minimum wait time, however you may not face all other players in the tournament.
-Play fast and return to the lobby to play more games and win more points.</string>
-  <string name="howDoesItEnd">How does it end?</string>
-  <string name="howDoesItEndAnswer">The tournament has a countdown clock. When it reaches zero, the tournament rankings are frozen, and the winner is announced. Games in progress must be finished, however they don\'t count for the tournament.</string>
-  <string name="otherRules">Other important rules</string>
-  <string name="thereIsACountdown">There is a countdown for your first move. Failing to make a move within this time will forfeit the game to your opponent.</string>
+Modul Berserk îți va oferi un punct în plus doar dacă vei juca cel puțin 7 mutări în joc.</string>
+  <string name="howIsTheWinnerDecided">Cum este decis câștigătorul?</string>
+  <string name="howIsTheWinnerDecidedAnswer">Jucătorul(-ii) cu cele mai multe puncte la finalul timpului competiției va fi anunțat câștigătorul(-ii).</string>
+  <string name="howDoesPairingWork">Cum funcționează potrivirea jucătorilor?</string>
+  <string name="howDoesPairingWorkAnswer">La începutul competiției, jucătorii sunt potriviți în funcție de scorul lor.
+De îndată ce termini un meci și te întorci la lobby-ul competiției, vei fi potrivit cu un jucător al cărui scor este apropiat de scorul tău. Aceasta asigură un timp de așteptare minim, în orice caz este posibil să nu joci cu toți jucătorii din competiție.
+Joacă rapid și întoarce-te la lobby pentru a juca mai multe meciuri și pentru a câștiga mai multe puncte.</string>
+  <string name="howDoesItEnd">Cum se termină?</string>
+  <string name="howDoesItEndAnswer">Competiția are un o limită de timp. Când ajunge la zero, scorurile din competiție sunt înghețate și câștigătorul este anunțat. Meciurile în desfășurare trebuie terminate, deși nu sunt luate în considerare pentru competiție.</string>
+  <string name="otherRules">Alte reguli importante</string>
+  <string name="thereIsACountdown">Există o numărătoare inversă pentru prima dvs. mutare. Eșuarea efectuării unei mutări în această limită de timp va duce la abandonarea meciului.</string>
   <plurals name="drawingWithinNbMoves">
-    <item quantity="one">Drawing the game within the first %s move will earn neither player any points.</item>
-    <item quantity="few">Drawing the game within the first %s moves will earn neither player any points.</item>
-    <item quantity="other">Drawing the game within the first %s moves will earn neither player any points.</item>
+    <item quantity="one">Efectuarea unei remize în prima %s mutare nu va aduce niciun punct niciunui jucător.</item>
+    <item quantity="few">Efectuarea unei remize în primele %s mutări nu va aduce niciun punct niciunui jucător.</item>
+    <item quantity="other">Efectuarea unei remize în primele %s mutări nu va aduce niciun punct niciunui jucător.</item>
   </plurals>
-  <string name="thisIsPrivate">This is a private tournament</string>
-  <string name="shareUrl">Share this URL to let people join: %s</string>
+  <string name="thisIsPrivate">Acesta este o competiție privată</string>
+  <string name="shareUrl">Pentru a distribui, folosiți acest URL: %s</string>
   <string name="drawStreak">Draw streaks: When a player has consecutive draws in an arena, only the first draw will result in a point, or draws lasting more than %s moves. The draw streak can only be broken by a win, not a loss or a draw.</string>
 </resources>
