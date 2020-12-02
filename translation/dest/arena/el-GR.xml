@@ -1,39 +1,43 @@
-<?xml version='1.0' encoding='utf-8'?>
-<resources><string name="isItRated">Είναι βαθμολογημένο;</string>
-  <string name="willBeNotified">Θα ειδοποιηθείτε όταν ξεκινήσει το πρωτάθλημα, έτσι είναι ασφαλές να παίξετε σε άλλη καρτέλα όσο περιμένετε.</string>
-  <string name="isRated">Αυτό το πρωτάθλημα είναι βαθμολογημένο και θα επηρεάσει την βαθμολογία σας.</string>
-  <string name="isNotRated">Αυτό το πρωτάθλημα *δεν* είναι βαθμολογημένο και *δεν* θα επηρεάσει την βαθμολογία σας.</string>
-  <string name="someRated">Ορισμένα πρωταθλήματα είναι βαθμολογημένα και θα επηρεάσουν την βαθμολογία σας.</string>
-  <string name="howAreScoresCalculated">Πως υπολογίζονται οι βαθμολογίες;</string>
-  <string name="howAreScoresCalculatedAnswer">Η νίκη αξίζει 2 πόντους, η ισοπαλία 1 πόντο, και η ήττα κανένα.
-Αν νικήσετε δύο παρτίδες συνεχόμενα αποδίδονται διπλάσιοι πόντοι,
-που αντιπροσωπεύονται από ένα εικονίδιο φλόγας.
-Οι επόμενες παρτίδες θα αξίζουν διπλάσιους πόντους μέχρι να χάσετε μία. Επομένως, η νίκη θα βαθμολογείται με 4 πόντους, η ισοπαλία 2 πόντους, και η ήττα 0.
-Για παράδειγμα, δύο νίκες και μία ισοπαλία αξίζουν 6 πόντους: 2 + 2 + (2 x 1)</string>
-  <string name="berserk">Αρένα Berserk</string>
-  <string name="berserkAnswer">Όταν ο παίκτης πατήσει το πλήκτρο Berserk στην έναρξη της παρτίδας, χάνει τον μισό χρόνο στο ρολόι, αλλά η νίκη αξίζει ένα έξτρα πόντο στο τουρνουά.
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="arenaTournaments">Arena tournaments</string>
+  <string name="isItRated">Is it rated?</string>
+  <string name="willBeNotified">You will be notified when the tournament starts, so it is safe to play in another tab while waiting.</string>
+  <string name="isRated">This tournament is rated and will affect your rating.</string>
+  <string name="isNotRated">This tournament is *not* rated and will *not* affect your rating.</string>
+  <string name="someRated">Some tournaments are rated and will affect your rating.</string>
+  <string name="howAreScoresCalculated">How are scores calculated?</string>
+  <string name="howAreScoresCalculatedAnswer">A win has a base score of 2 points, a draw 1 point, and a loss is worth no points.
+If you win two games consecutively you will start a double point streak, represented by a flame icon.
+The following games will continue to be worth double points until you fail to win a game.
+That is, a win will be worth 4 points, a draw 2 points, and a loss will still not award any points.
 
-Πατώντας Berserk σε χρόνους με προσαύξηση, ακυρώνεται η προσαύξηση (εξαιρείται το 1+2, που γίνεται 1+0). 
+For example, two wins followed by a draw will be worth 6 points: 2 + 2 + (2 x 1)</string>
+  <string name="berserk">Arena Berserk</string>
+  <string name="berserkAnswer">When a player clicks the Berserk button at the beginning of the game, they lose half of their clock time, but the win is worth one extra tournament point.
 
-To Berserk δεν ισχύει για παρτίδες με μηδενικό αρχικό χρόνο (0+1, 0+2).
+Going Berserk in time controls with an increment also cancels the increment (1+2 is an exception, it gives 1+0).
 
-Το Berserk προσθέτει ένα έξτρα πόντο μόνο αν παιχθούν τουλάχιστον 7 κινήσεις στην παρτίδα.</string>
-  <string name="howIsTheWinnerDecided">Πως αναδεικνύεται ο νικητής;</string>
-  <string name="howIsTheWinnerDecidedAnswer">Ο παίκτης(-ες) με τους περισσότερους πόντους στην λήξη του προκαθορισμένου χρόνου του πρωταθλήματος αναδεικνύεται νικητής(-ες).
+Berserk is not available for games with zero initial time (0+1, 0+2).
 
-Όταν δύο ή περισσότεροι παίκτες έχουν τους ίδιους πόντους, η επίδοση στο πρωτάθλημα καθορίζει τον νικητή.</string>
-  <string name="howDoesPairingWork">Πως λειτουργεί η αντιστοίχιση;</string>
-  <string name="howDoesPairingWorkAnswer">Στην αρχή του πρωταθλήματος, οι παίκτες αντιστοιχίζονται βάσει της βαθμολογίας τους.
-Μόλις τελειώσει η παρτίδα σας, επιστρέφετε στο δωμάτιο αναμονής του πρωταθλήματος όπου θα κληρωθείτε με παίκτη κοντά στην κατάταξή σας. Αυτό εξασφαλίζει μικρό χρόνο αναμονής, ωστόσο μπορεί να μην αντιμετωπίσετε όλους τους άλλους παίκτες στο πρωτάθλημα.
-Παίξτε γρήγορα και επιστρέψτε στο δωμάτιο αναμονής για να παίξετε περισσότερες παρτίδες και να κερδίσετε περισσότερους πόντους.</string>
-  <string name="howDoesItEnd">Πως τελειώνει;</string>
-  <string name="howDoesItEndAnswer">Το πρωτάθλημα έχει ρολόι αντίστροφης μέτρησης. Όταν αυτό φτάσει στο μηδέν, η βαθμολογίες των παικτών κλειδώνουν, και αναδεικνύεται ο νικητής. Οι παρτίδες σε εξέλιξη πρέπει να ολοκληρωθούν, ωστόσο το αποτέλεσμα τους δεν μετράει για το πρωτάθλημα.</string>
-  <string name="otherRules">Άλλοι σημαντικοί κανόνες</string>
-  <string name="thereIsACountdown">Υπάρχει αντίστροφη μέτρηση για την πρώτη κίνηση. Αποτυχία πραγματοποίησης κίνησης σε αυτό το χρόνο θα κατακυρώσει την παρτίδα ως νίκη για τον αντίπαλό σας.</string>
+Berserk only grants an extra point if you play at least 7 moves in the game.</string>
+  <string name="howIsTheWinnerDecided">How is the winner decided?</string>
+  <string name="howIsTheWinnerDecidedAnswer">The player(s) with the most points at the conclusion of the tournament\'s set time limit will be announced winner(s).
+
+When two or more players have the same number of points, the tournament performance is the tie break.</string>
+  <string name="howDoesPairingWork">How does the pairing work?</string>
+  <string name="howDoesPairingWorkAnswer">At the beginning of the tournament, players are paired based on their rating.
+As soon as you finish a game, return to the tournament lobby: you will then be paired with a player close to your ranking. This ensures minimum wait time, however you may not face all other players in the tournament.
+Play fast and return to the lobby to play more games and win more points.</string>
+  <string name="howDoesItEnd">How does it end?</string>
+  <string name="howDoesItEndAnswer">The tournament has a countdown clock. When it reaches zero, the tournament rankings are frozen, and the winner is announced. Games in progress must be finished, however they don\'t count for the tournament.</string>
+  <string name="otherRules">Other important rules</string>
+  <string name="thereIsACountdown">There is a countdown for your first move. Failing to make a move within this time will forfeit the game to your opponent.</string>
   <plurals name="drawingWithinNbMoves">
-    <item quantity="one">Αποδοχή ισοπαλίας στην πρώτη %s κίνηση της παρτίδας, δεν αποφέρει πόντους σε κανένα παίκτη.</item>
-    <item quantity="other">Αποδοχή ισοπαλίας στις πρώτες %s κινήσεις της παρτίδας, δεν αποφέρει πόντους σε κανένα παίκτη.</item>
+    <item quantity="one">Drawing the game within the first %s move will earn neither player any points.</item>
+    <item quantity="other">Drawing the game within the first %s moves will earn neither player any points.</item>
   </plurals>
-  <string name="thisIsPrivate">Αυτό είναι ιδιωτικό πρωτάθλημα</string>
-  <string name="shareUrl">Μοιραστείτε αυτήν την διεύθυνση URL για να συμμετάσχουν άλλα άτομα: %s</string>
+  <string name="thisIsPrivate">This is a private tournament</string>
+  <string name="shareUrl">Share this URL to let people join: %s</string>
+  <string name="drawStreak">Draw streaks: When a player has consecutive draws in an arena, only the first draw will result in a point, or draws lasting more than %s moves. The draw streak can only be broken by a win, not a loss or a draw.</string>
 </resources>
