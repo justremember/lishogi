@@ -1,54 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="activity">Activity</string>
-  <string name="hostedALiveStream">Hosted a live stream</string>
+  <string name="activity">活動</string>
+  <string name="hostedALiveStream">ライブ配信</string>
   <plurals name="supportedNbMonths">
-    <item quantity="other">Supported lishogi.org for %1$s months as a %2$s</item>
+    <item quantity="other">%2$s として lishogi.org を %1$s か月間支援</item>
   </plurals>
   <plurals name="practicedNbPositions">
-    <item quantity="other">Practised %1$s positions on %2$s</item>
+    <item quantity="other">%1$s 局面を %2$s で練習</item>
   </plurals>
   <plurals name="solvedNbPuzzles">
-    <item quantity="other">Solved %s tactical puzzles</item>
+    <item quantity="other">%s 問のタクティクス問題に解答</item>
   </plurals>
   <plurals name="playedNbGames">
-    <item quantity="other">Played %1$s %2$s games</item>
+    <item quantity="other">%1$s 局の %2$s をプレイ</item>
   </plurals>
   <plurals name="postedNbMessages">
-    <item quantity="other">Posted %1$s messages in %2$s</item>
+    <item quantity="other">%1$s 件のメッセージを %2$s に投稿</item>
   </plurals>
   <plurals name="playedNbMoves">
-    <item quantity="other">Played %1$s moves</item>
+    <item quantity="other">%1$s 手をプレイ</item>
   </plurals>
   <plurals name="inNbCorrespondenceGames">
-    <item quantity="other">in %1$s correspondence games</item>
+    <item quantity="other">（通信戦 %1$s 局で）</item>
   </plurals>
   <plurals name="completedNbGames">
-    <item quantity="other">Completed %s correspondence games</item>
+    <item quantity="other">%s 局の通信戦を完了</item>
   </plurals>
   <plurals name="followedNbPlayers">
-    <item quantity="other">Started following %s players</item>
+    <item quantity="other">%s 人をフォロー開始</item>
   </plurals>
   <plurals name="gainedNbFollowers">
-    <item quantity="other">Gained %s new followers</item>
+    <item quantity="other">%s 人の新規フォロワーを獲得</item>
   </plurals>
   <plurals name="hostedNbSimuls">
-    <item quantity="other">Hosted %s simultaneous exhibitions</item>
+    <item quantity="other">%s 回の同時対局を主催</item>
   </plurals>
   <plurals name="joinedNbSimuls">
-    <item quantity="other">Participated in %s simultaneous exhibitions</item>
+    <item quantity="other">%s 回の同時対局に参加</item>
   </plurals>
   <plurals name="createdNbStudies">
-    <item quantity="other">Created %s new studies</item>
+    <item quantity="other">%s 件の研究を作成</item>
   </plurals>
   <plurals name="competedInNbTournaments">
-    <item quantity="other">Competed in %s tournaments</item>
+    <item quantity="other">%s 回のトーナメントに参加</item>
   </plurals>
   <plurals name="rankedInTournament">
-    <item quantity="other">Ranked #%1$s (top %2$s%%) with %3$s games in %4$s</item>
+    <item quantity="other">%1$s 位（上位 %2$s %%）（%4$s %3$s 局で）</item>
   </plurals>
-  <string name="signedUp">Signed up to lishogi.org</string>
+  <string name="signedUp">Lishogi に登録</string>
   <plurals name="joinedNbTeams">
-    <item quantity="other">Joined %s teams</item>
+    <item quantity="other">%s チームに参加</item>
   </plurals>
 </resources>
