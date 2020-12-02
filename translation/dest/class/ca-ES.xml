@@ -30,7 +30,7 @@
 	<string name="passwordX">Password: %s</string>
 	<string name="generateANewPassword">Generate a new password for the student</string>
 	<string name="invitedToXByY">Invited to %1$s by %2$s</string>
-	<string name="realName">Real name</string>
+	<string name="realName">Nom real</string>
 	<string name="privateWillNeverBeShown">Private. Will never be shown outside the class. Helps remember who the student is.</string>
 	<string name="addStudent">Add student</string>
 	<string name="lishogiProfileXCreatedForY">Lishogi profile %1$s created for %2$s.</string>
@@ -58,14 +58,14 @@ Here is the link to access the class.</string>
 		<item quantity="other">%s pending invitations</item>
 	</plurals>
 	<string name="noPendingInvitations">No pending invitations</string>
-	<string name="onlyVisibleToTeachers">Only visible to the class teachers</string>
+	<string name="onlyVisibleToTeachers">Només visible pels mestres de la classe</string>
 	<string name="lastActiveDate">Active</string>
-	<string name="managed">Managed</string>
-	<string name="thisStudentAccountIsManaged">This student account is managed</string>
-	<string name="upgradeFromManaged">Upgrade from managed to autonomous</string>
-	<string name="release">Release</string>
-	<string name="releaseTheAccount">Release the account so the student can manage it autonomously.</string>
-	<string name="releaseDesc1">A released account cannot be made managed again. The student will be able to toggle kid mode and reset password themselves.</string>
+	<string name="managed">Gestionada</string>
+	<string name="thisStudentAccountIsManaged">Aquest compte d\'estudiant està gestionat</string>
+	<string name="upgradeFromManaged">Actualitza de \"gestionat\" a \"autònom\"</string>
+	<string name="release">Desvincula</string>
+	<string name="releaseTheAccount">Desvincula el compte per tal que l\'estudiant pugui gestionar-lo de forma autònoma.</string>
+	<string name="releaseDesc1">Un compte alliberat no pot ser gestionat de nou. L\'estudiant podrà desactivar el control parental i canviar la contrasenya tot sol.</string>
 	<string name="releaseDesc2">The student will remain in the class after their account is released.</string>
 	<string name="realUniqueEmail">Real, unique email address of the student. We will send a confirmation email to it, with a link to release the account.</string>
 	<string name="teachers">Teachers</string>
