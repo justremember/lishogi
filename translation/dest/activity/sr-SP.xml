@@ -1,85 +1,86 @@
-<?xml version='1.0' encoding='utf-8'?>
-<resources><string name="activity">Активност</string>
-  <string name="hostedALiveStream">Приказује се уживо</string>
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="activity">Activity</string>
+  <string name="hostedALiveStream">Hosted a live stream</string>
   <plurals name="supportedNbMonths">
-    <item quantity="one">Подржали lishogi.org на %1$s месец као %2$s</item>
-    <item quantity="few">Подржали lishogi.org на %1$s месеца као %2$s</item>
-    <item quantity="other">Подржали lishogi.org на %1$s месеци као %2$s</item>
+    <item quantity="one">Supported lishogi.org for %1$s month as a %2$s</item>
+    <item quantity="few">Supported lishogi.org for %1$s months as a %2$s</item>
+    <item quantity="other">Supported lishogi.org for %1$s months as a %2$s</item>
   </plurals>
   <plurals name="practicedNbPositions">
-    <item quantity="one">Вежбао/ла %1$s позицију на %2$s</item>
-    <item quantity="few">Вежбао/ла %1$s позиције на %2$s</item>
-    <item quantity="other">Вежбао/ла %1$s позиције на %2$s</item>
+    <item quantity="one">Practised %1$s position on %2$s</item>
+    <item quantity="few">Practised %1$s positions on %2$s</item>
+    <item quantity="other">Practised %1$s positions on %2$s</item>
   </plurals>
   <plurals name="solvedNbPuzzles">
-    <item quantity="one">Решио/ла %s тактички проблем</item>
-    <item quantity="few">Решио/ла %s тактичка проблема</item>
-    <item quantity="other">Решио/ла %s тактичких проблема</item>
+    <item quantity="one">Solved %s tactical puzzle</item>
+    <item quantity="few">Solved %s tactical puzzles</item>
+    <item quantity="other">Solved %s tactical puzzles</item>
   </plurals>
   <plurals name="playedNbGames">
-    <item quantity="one">Одиграо/ла %1$s %2$s игру</item>
-    <item quantity="few">Одиграо/ла %1$s %2$s игре</item>
-    <item quantity="other">Одиграо/ла %1$s %2$s игара</item>
+    <item quantity="one">Played %1$s %2$s game</item>
+    <item quantity="few">Played %1$s %2$s games</item>
+    <item quantity="other">Played %1$s %2$s games</item>
   </plurals>
   <plurals name="postedNbMessages">
-    <item quantity="one">Поставили %1$s поруку у %2$s</item>
-    <item quantity="few">Поставили %1$s поруке у %2$s</item>
-    <item quantity="other">Поставили %1$s порука у %2$s</item>
+    <item quantity="one">Posted %1$s message in %2$s</item>
+    <item quantity="few">Posted %1$s messages in %2$s</item>
+    <item quantity="other">Posted %1$s messages in %2$s</item>
   </plurals>
   <plurals name="playedNbMoves">
-    <item quantity="one">Одиграо\ла %1$s потез</item>
-    <item quantity="few">Одиграо\ла %1$s потеза</item>
-    <item quantity="other">Одиграо\ла %1$s потеза</item>
+    <item quantity="one">Played %1$s move</item>
+    <item quantity="few">Played %1$s moves</item>
+    <item quantity="other">Played %1$s moves</item>
   </plurals>
   <plurals name="inNbCorrespondenceGames">
-    <item quantity="one">у %1$s дописној партији</item>
-    <item quantity="few">у %1$s дописне партије</item>
-    <item quantity="other">у %1$s дописних партија</item>
+    <item quantity="one">in %1$s correspondence game</item>
+    <item quantity="few">in %1$s correspondence games</item>
+    <item quantity="other">in %1$s correspondence games</item>
   </plurals>
   <plurals name="completedNbGames">
-    <item quantity="one">Завршили %s кореспондску партију</item>
-    <item quantity="few">Завршили %s кореспондске партије</item>
-    <item quantity="other">Завршили %s кореспондске партије</item>
+    <item quantity="one">Completed %s correspondence game</item>
+    <item quantity="few">Completed %s correspondence games</item>
+    <item quantity="other">Completed %s correspondence games</item>
   </plurals>
   <plurals name="followedNbPlayers">
-    <item quantity="one">Почели пратити %s играча</item>
-    <item quantity="few">Почели пратити %s играча</item>
-    <item quantity="other">Почели пратити %s играча</item>
+    <item quantity="one">Started following %s player</item>
+    <item quantity="few">Started following %s players</item>
+    <item quantity="other">Started following %s players</item>
   </plurals>
   <plurals name="gainedNbFollowers">
-    <item quantity="one">Стекли %s новог пратиоца</item>
-    <item quantity="few">Стекли %s нова пратиоца</item>
-    <item quantity="other">Стекли %s нова пратиоца</item>
+    <item quantity="one">Gained %s new follower</item>
+    <item quantity="few">Gained %s new followers</item>
+    <item quantity="other">Gained %s new followers</item>
   </plurals>
   <plurals name="hostedNbSimuls">
-    <item quantity="one">Направили %s симултанку</item>
-    <item quantity="few">Направили %s симултанке</item>
-    <item quantity="other">Направили %s симултанке</item>
+    <item quantity="one">Hosted %s simultaneous exhibition</item>
+    <item quantity="few">Hosted %s simultaneous exhibitions</item>
+    <item quantity="other">Hosted %s simultaneous exhibitions</item>
   </plurals>
   <plurals name="joinedNbSimuls">
-    <item quantity="one">Учествовали у %s симултанки</item>
-    <item quantity="few">Учествовали у %s симултанке</item>
-    <item quantity="other">Учествовали у %s симултанке</item>
+    <item quantity="one">Participated in %s simultaneous exhibition</item>
+    <item quantity="few">Participated in %s simultaneous exhibitions</item>
+    <item quantity="other">Participated in %s simultaneous exhibitions</item>
   </plurals>
   <plurals name="createdNbStudies">
-    <item quantity="one">Направили %s ново учење</item>
-    <item quantity="few">Направили %s нова учења</item>
-    <item quantity="other">Направили %s нова учења</item>
+    <item quantity="one">Created %s new study</item>
+    <item quantity="few">Created %s new studies</item>
+    <item quantity="other">Created %s new studies</item>
   </plurals>
   <plurals name="competedInNbTournaments">
-    <item quantity="one">Учествовали у %s турниру</item>
-    <item quantity="few">Учествовали у %s турнира</item>
-    <item quantity="other">Учествовали у %s турнира</item>
+    <item quantity="one">Competed in %s tournament</item>
+    <item quantity="few">Competed in %s tournaments</item>
+    <item quantity="other">Competed in %s tournaments</item>
   </plurals>
   <plurals name="rankedInTournament">
-    <item quantity="one">Рангиран #%1$s (првих %2$s%%) са %3$s игром у %4$s</item>
-    <item quantity="few">Рангиран #%1$s (првих %2$s%%) са %3$s игре у %4$s</item>
-    <item quantity="other">Рангиран #%1$s (првих %2$s%%) са %3$s игре у %4$s</item>
+    <item quantity="one">Ranked #%1$s (top %2$s%%) with %3$s game in %4$s</item>
+    <item quantity="few">Ranked #%1$s (top %2$s%%) with %3$s games in %4$s</item>
+    <item quantity="other">Ranked #%1$s (top %2$s%%) with %3$s games in %4$s</item>
   </plurals>
-  <string name="signedUp">Пријављени на Личесу</string>
+  <string name="signedUp">Signed up to lishogi.org</string>
   <plurals name="joinedNbTeams">
-    <item quantity="one">Ушли у %s тим</item>
-    <item quantity="few">Ушли у %s тима</item>
-    <item quantity="other">Ушли у %s тима</item>
+    <item quantity="one">Joined %s team</item>
+    <item quantity="few">Joined %s teams</item>
+    <item quantity="other">Joined %s teams</item>
   </plurals>
 </resources>
