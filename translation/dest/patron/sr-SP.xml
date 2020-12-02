@@ -18,7 +18,7 @@
 	<string name="payLifetimeOnce">Pay %s once. Be a Lishogi Patron forever!</string>
 	<string name="lifetimePatron">Lifetime Lishogi Patron</string>
 	<string name="makeExtraDonation">Make an extra donation?</string>
-	<string name="monthly">Monthly</string>
+	<string name="monthly">Месечно</string>
 	<string name="recurringBilling">Recurring billing, renewing your Patron wings every month.</string>
 	<string name="onetime">One-time</string>
 	<string name="singleDonation">A single donation that grants you the Patron wings for one month.</string>
