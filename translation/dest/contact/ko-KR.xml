@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="contact">Contact</string>
+  <string name="contact">연락처</string>
   <string name="contactLishogi">Contact Lishogi</string>
-  <string name="whatCanWeHelpYouWith">What can we help you with?</string>
-  <string name="visitThisPage">Visit this page to solve the issue</string>
-  <string name="iCantLogIn">I can\'t log in</string>
-  <string name="noConfirmationEmail">I didn\'t receive my confirmation email</string>
-  <string name="forgotPassword">I forgot my password</string>
-  <string name="forgotUsername">I forgot my username</string>
+  <string name="whatCanWeHelpYouWith">어떻게 도와드릴까요?</string>
+  <string name="visitThisPage">이 페이지를 방문해 문제를 해결하십시오</string>
+  <string name="iCantLogIn">로그인이 되지 않습니다</string>
+  <string name="noConfirmationEmail">확인 이메일을 받지 못했습니다</string>
+  <string name="forgotPassword">비밀번호를 잊어버렸습니다</string>
+  <string name="forgotUsername">사용자 이름을 잊어버렸습니다</string>
   <string name="youCanLoginWithEmail">You can login with the email address you signed up with</string>
   <string name="lost2FA">I lost access to my two-factor authentication codes</string>
   <string name="doPasswordReset">Complete a password reset to remove your second factor</string>
@@ -45,7 +45,7 @@
   <string name="reportBugInDiscord">In the Lishogi Discord server</string>
   <string name="howToReportBug">Please describe what the bug looks like, what you expected to happen instead, and the steps to reproduce the bug.</string>
   <string name="illegalPawnCapture">Illegal pawn capture</string>
-  <string name="calledEnPassant">It is called \"en passant\" and is one of the rules of chess.</string>
+  <string name="calledEnPassant">\'앙 파상\' 이라고 불리는 체스의 규칙입니다.</string>
   <string name="tryEnPassant">Try this little interactive game to learn more about \"en passant\".</string>
   <string name="illegalCastling">Illegal or impossible castling</string>
   <string name="castlingPrevented">Castling is only prevented if the king goes through a controlled square.</string>
