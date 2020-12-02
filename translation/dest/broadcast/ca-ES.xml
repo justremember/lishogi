@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="broadcasts">Broadcasts</string>
-  <string name="liveBroadcasts">Live tournament broadcasts</string>
-  <string name="newBroadcast">New live broadcast</string>
-  <string name="ongoing">Ongoing</string>
-  <string name="upcoming">Upcoming</string>
-  <string name="completed">Completed</string>
-  <string name="eventName">Event name</string>
-  <string name="eventDescription">Short event description</string>
-  <string name="fullDescription">Full event description</string>
-  <string name="fullDescriptionHelp">Optional long description of the broadcast. %1$s is available. Length must be less than %2$s characters.</string>
-  <string name="sourceUrl">Source URL</string>
-  <string name="sourceUrlHelp">URL that Lishogi will check to get PGN updates. It must be publicly accessible from the Internet.</string>
-  <string name="roundNumber">Round number</string>
-  <string name="startDate">Start date in your own timezone</string>
-  <string name="startDateHelp">Optional, if you know when the event starts</string>
-  <string name="credits">Credit the source</string>
-  <string name="cloneBroadcast">Clone the broadcast</string>
-  <string name="resetBroadcast">Reset the broadcast</string>
+  <string name="broadcasts">Emissions</string>
+  <string name="liveBroadcasts">Emissions de tornejos en directe</string>
+  <string name="newBroadcast">Noves emissions en directe</string>
+  <string name="ongoing">En curs</string>
+  <string name="upcoming">Properes</string>
+  <string name="completed">Acabada</string>
+  <string name="eventName">Nom de l\'esdeveniment</string>
+  <string name="eventDescription">Breu descripció de l\'esdeveniment</string>
+  <string name="fullDescription">Descripció total de l\'esdeveniment</string>
+  <string name="fullDescriptionHelp">Opció de llarga descripció de l\'esdeveniment. %1$s és disponible. Ha de tenir menys de %2$s lletres.</string>
+  <string name="sourceUrl">Adreça URL d\'origen</string>
+  <string name="sourceUrlHelp">URL que Lishogi comprovarà per a obtenir actualitzacions PGN. Ha de ser públicament accessible des d\'Internet.</string>
+  <string name="roundNumber">Ronda número</string>
+  <string name="startDate">Data d\'inici en la teva zona horària</string>
+  <string name="startDateHelp">Opcional, si saps quan comença l\'esdeveniment</string>
+  <string name="credits">Cita la font</string>
+  <string name="cloneBroadcast">Clona l\'emissió</string>
+  <string name="resetBroadcast">Restableix l\'emissió</string>
 </resources>
