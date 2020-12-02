@@ -1,9 +1,10 @@
-<?xml version='1.0' encoding='utf-8'?>
-<resources><string name="settings">Einstellungen</string>
-  <string name="closeAccount">Benutzerkonto schließen</string>
-  <string name="closingIsDefinitive">Die Kontoschließung ist endgültig. Es gibt kein Zurück. Bist du sicher?</string>
-  <string name="cantOpenSimilarAccount">Du darfst kein neues Benutzerkonto mit dem gleichen Namen eröffnen, selbst wenn die Groß-/Kleinschreibung unterschiedlich ist.</string>
-  <string name="changedMindDoNotCloseAccount">Ich habe meine Meinung geändert, mein Benutzerkonto doch nicht schließen</string>
-  <string name="closeAccountExplanation">Bist du dir sicher, dass du dein Benutzerkonto schließen möchtest? Das ist eine endgültige Entscheidung. Du wirst NIE mehr in der Lage sein dich JEMALS wieder einzuloggen.</string>
-  <string name="thisAccountIsClosed">Dieses Benutzerkonto ist geschlossen.</string>
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="settings">Settings</string>
+  <string name="closeAccount">Close account</string>
+  <string name="closingIsDefinitive">Closing is definitive. There is no going back. Are you sure?</string>
+  <string name="cantOpenSimilarAccount">You will not be allowed to open a new account with the same name, even if the case is different.</string>
+  <string name="changedMindDoNotCloseAccount">I changed my mind, don\'t close my account</string>
+  <string name="closeAccountExplanation">Are you sure you want to close your account? Closing your account is a permanent decision. You will NEVER be able to log in EVER AGAIN.</string>
+  <string name="thisAccountIsClosed">This account is closed.</string>
 </resources>
