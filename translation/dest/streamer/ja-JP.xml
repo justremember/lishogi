@@ -1,5 +1,8 @@
-<?xml version='1.0' encoding='utf-8'?>
-<resources><string name="live">ライブ配信中</string>
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="lishogiStreamers">Lishogi streamers</string>
+  <string name="lishogiStreamer">Lishogi streamer</string>
+  <string name="live">ライブ配信中</string>
   <string name="offline">オフライン</string>
   <string name="currentlyStreaming">現在配信中：%s</string>
   <string name="lastStream">最後の配信 %s</string>
