@@ -38,7 +38,7 @@ Na przykład, szacowany czas trwania gry 5+3 wynosi 5 * 60 + 40 * 3 = 420 sekund
 	<string name="durationFormula">(czas podstawowy) + 40 * (czas dodatkowy)</string>
 	<string name="inferiorThanXsEqualYtimeControl">≤ %1$ss = %2$s</string>
 	<string name="superiorThanXsEqualYtimeControl">≥ %1$ss = %2$s</string>
-	<string name="whatVariantsCanIplay">W jakie warianty szachów mogę zagrać na Lishogi?</string>
+	<string name="whatVariantsCanIplay">W jakie warianty shogi mogę zagrać na Lishogi?</string>
 	<string name="lishogiSupportChessAnd">Lishogi umożliwia grę w standardowe shogi oraz %1$s.</string>
 	<string name="eightVariants">8 wariantów szachów</string>
 	<string name="whatIsACPL">Czym jest średnia strata setnej części piona (ACPL - average centipawn loss)?</string>
@@ -65,7 +65,7 @@ tak, jakby został przesunięty tylko o jedno pole. Takie bicie może być wykon
 
 Zobacz nasze %3$s, aby poćwiczyć ten specjalny ruch.</string>
 	<string name="goodIntroduction">dobre wprowadzenie</string>
-	<string name="officialRulesPDF">oficjalnych przepisów gry w szachy (pdf)</string>
+	<string name="officialRulesPDF">oficjalnych przepisów gry w shogi (pdf)</string>
 	<string name="lishogiTraining">Nauka</string>
 	<string name="threefoldRepetition">Trzykrotne powtórzenie pozycji</string>
 	<string name="threefoldRepetitionExplanation">Jeśli pozycja występuje trzykrotnie, gracze mogą zgłosić remis poprzez %1$s. Lishogi wprowadza oficjalne zasady FIDE, opisane w Artykule 9.2 (d) %2$s.</string>
@@ -85,7 +85,7 @@ Zobacz nasze %3$s, aby poćwiczyć ten specjalny ruch.</string>
   Zweryfikowanie Cię jako utytułowanego gracza na Lishogi pozwoli Ci na dostęp do gry w turniejach Titled Arena.
 
   Szczególnym tytułem jest %2$s.</string>
-	<string name="asWellAsManyNMtitles">wiele krajowych tytułów szachowych</string>
+	<string name="asWellAsManyNMtitles">wiele krajowych tytułów mistrzowskich</string>
 	<string name="verificationForm">formularz weryfikacyjny</string>
 	<string name="canIbecomeLM">Czy mogę zdobyć tytuł Lishogi Master (LM)?</string>
 	<string name="noUpperCaseDot">Nie.</string>
