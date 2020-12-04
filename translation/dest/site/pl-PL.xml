@@ -58,7 +58,7 @@
 	<string name="analysis">Analiza partii</string>
 	<string name="depthX">Głębokość %s</string>
 	<string name="usingServerAnalysis">Analiza zdalna</string>
-	<string name="loadingEngine">Wczytywanie silnika szachowego...</string>
+	<string name="loadingEngine">Wczytywanie silnika...</string>
 	<string name="cloudAnalysis">Analiza w chmurze</string>
 	<string name="goDeeper">Analizuj głębiej</string>
 	<string name="showThreat">Pokaż zagrożenia</string>
@@ -155,7 +155,7 @@
 	<string name="signIn">Zaloguj się</string>
 	<string name="youNeedAnAccountToDoThat">Do tego potrzebne jest konto</string>
 	<string name="signUp">Zarejestruj się</string>
-	<string name="computersAreNotAllowedToPlay">Partie graczy komputerowych lub grających z jego pomocą są zabronione. Podczas gry niedozwolone jest korzystanie z pomocy programów szachowych, baz danych oraz innych graczy. Odradzamy zakładanie wielu kont, a utrata umiaru w tym zakresie skutkować będzie zablokowaniem.</string>
+	<string name="computersAreNotAllowedToPlay">Komputerom i graczom wspomagającym się komputerami zabrania się grać. Podczas gry niedozwolone jest korzystanie z pomocy programów szachowych, baz danych oraz innych graczy. Odradzamy zakładanie wielu kont, a utrata umiaru w tym zakresie skutkować będzie zablokowaniem.</string>
 	<string name="games">Partie</string>
 	<string name="forum">Forum</string>
 	<string name="xPostedInForumY">%1$s napisał/a w temacie %2$s</string>
@@ -548,7 +548,7 @@
 	</plurals>
 	<string name="automaticallyProceedToNextGameAfterMoving">Po ruchu automatycznie przejdź do kolejnej partii</string>
 	<string name="autoSwitch">Przełącz po ruchu</string>
-	<string name="puzzles">Zadania szachowe</string>
+	<string name="puzzles">Zadania shogi</string>
 	<string name="latestUpdates">Aktualności</string>
 	<string name="tournamentWinners">Zwycięzcy turniejów</string>
 	<string name="name">Nazwa</string>
