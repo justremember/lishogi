@@ -129,7 +129,7 @@ Wykonaj dowolny ruch, aby kontynuować.</string>
 	<string name="placeTheQueen">Ustaw hetmana! Umieść go na polu jego własnego koloru.</string>
 	<string name="placeTheKing">Ustaw króla! Umieść go obok hetmana.</string>
 	<string name="pawnsFormTheFrontLine">Piony tworzą linię frontu. Wykonaj dowolny ruch, aby kontynuować.</string>
-	<string name="boardSetupComplete">Gratulacje! Wiesz jak ustawiać bierki na planszy.</string>
+	<string name="boardSetupComplete">Gratulacje! Wiesz jak ustawiać bierki na szachownicy.</string>
 	<string name="stalemate">Pat</string>
 	<string name="theGameIsADraw">Partia zakończona remisem</string>
 	<string name="stalemateIntro">Kiedy gracz nie jest szachowany i nie może zrobić żadnego prawidłowego ruchu to jest to pat. Partia jest zakończona remisem: nikt nie wygrywa, nikt nie przegrywa.</string>
@@ -167,7 +167,7 @@ Pionek – 1</string>
 	<string name="getAFreeLishogiAccount">Załóż darmowe konto Lishogi</string>
 	<string name="practice">Ćwiczenia</string>
 	<string name="learnCommonChessPositions">Poznaj częste pozycje shogi</string>
-	<string name="puzzles">Zadania szachowe</string>
+	<string name="puzzles">Zadania shogi</string>
 	<string name="exerciseYourTacticalSkills">Ćwicz umiejętności taktyczne</string>
 	<string name="videos">Filmy</string>
 	<string name="watchInstructiveChessVideos">Oglądaj filmy instruktażowe</string>
