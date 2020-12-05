@@ -73,10 +73,10 @@
 	<string name="silverIntro">Otra pieza con movimientos inusuales, pero ésta es la última. ¡Promesa!</string>
 	<string name="silverPromotion">Cuando se promociona al general de plata sus movimientos son los mismos que el general de oro.</string>
 	<string name="silverSummary">Seguro que recordarás estos movimientos con un poco de práctica.</string>
-	<string name="psilverSummary">Same as the gold general, you will see this a lot.</string>
-	<string name="silverComplete">Congratulations! You are on a roll.</string>
-	<string name="promotion">This piece can be promoted.</string>
-	<string name="yourPieceReachedThePromotionZone">Your piece reached the promotion zone!</string>
+	<string name="psilverSummary">Al igual que el general oro, verás esto mucho.</string>
+	<string name="silverComplete">¡Felicidades! Estás en racha.</string>
+	<string name="promotion">Esta pieza puede ser promocionada.</string>
+	<string name="yourPieceReachedThePromotionZone">¡Tu pieza llegó a la zona de promoción!</string>
 	<string name="itNowPromotesToAStrongerPiece">Ahora se puede promover a una pieza más fuerte.</string>
 	<string name="selectThePieceYouWant">¡Selecciona la pieza que quieras!</string>
 	<string name="fundamentals">Básico</string>
@@ -86,7 +86,7 @@
 	<string name="takeTheBlackPieces">¡Captura las piezas negras!</string>
 	<string name="takeTheBlackPiecesAndDontLoseYours">¡Captura las piezas negras!
 Y no pierdas las tuyas.</string>
-	<string name="captureComplete">Congratulations! You know how to fight with shogi pieces!</string>
+	<string name="captureComplete">¡Felicidades!¡Ya sabes cómo capturar con las piezas de shogi!</string>
 	<string name="protection">Protección</string>
 	<string name="keepYourPiecesSafe">Mantén tus piezas a salvo</string>
 	<string name="protectionIntro">¡Identifica las piezas que tu oponente amenaza y defiéndelas!</string>
@@ -97,7 +97,7 @@ Y no pierdas las tuyas.</string>
 	<string name="combat">Combate</string>
 	<string name="captureAndDefendPieces">Captura y defiende piezas</string>
 	<string name="combatIntro">¡Un buen guerrero sabe atacar y defender!</string>
-	<string name="combatComplete">Congratulations! You know how to fight with shogi pieces!</string>
+	<string name="combatComplete">¡Felicidades!¡Ya sabes cómo capturar con las piezas de shogi!</string>
 	<string name="checkInOne">Jaque en una</string>
 	<string name="attackTheOpponentsKing">Ataca al rey enemigo</string>
 	<string name="checkInOneIntro">Da jaque al rey rival ¡Está obligado a defenderlo!</string>
