@@ -29,7 +29,7 @@
 	<string name="bishopIntro">A continuació anem a aprendre com fer anar l\'àlfil!</string>
 	<string name="bishopPromotion">Promocionar el teu alfil el farà més fort, es tornarà en una peça anomenada \"el caball\"</string>
 	<string name="bishopSummary">L\'alfil es mou en qualsevol direcció diagonal.</string>
-	<string name="horseSummary">The promoted bishop moves also diagonally, but it can also go one square up, down, left or right as well.</string>
+	<string name="horseSummary">L\'alfil promogut també es mou diagonalment, però també pot moure\'s un quadrat endevant, enrerre, i cap als costats.</string>
 	<string name="bishopComplete">Felicitats! Pots dirigit un àlfil.</string>
 	<string name="theKing">El rei</string>
 	<string name="theMostImportantPiece">La peça més important</string>
