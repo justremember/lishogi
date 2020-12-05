@@ -22,13 +22,13 @@
 	<string name="rookSummary">La torre pot pujar, baixar, anar a la dreta o esquerra tot lo que vulgui.</string>
 	<string name="dragonSummary">Es pot moure com la torre no promoguda, però també un quadrat en totes les diagonals, fent-la molt més forta.</string>
 	<string name="grabAllTheStars">Captura totes les estrelles!</string>
-	<string name="theFewerMoves">The fewer moves you make, the more points you win!</string>
+	<string name="theFewerMoves">Com menys moviments facis, més punts guanyes!</string>
 	<string name="rookComplete">Felicitats! Has aconseguit dominar la torre.</string>
 	<string name="theBishop">L\'àlfil</string>
 	<string name="itMovesDiagonally">Es mou en diagonal</string>
 	<string name="bishopIntro">A continuació anem a aprendre com fer anar l\'àlfil!</string>
-	<string name="bishopPromotion">Promoting your bishop will make it stronger, it will turn into a piece called \"the horse\".</string>
-	<string name="bishopSummary">The bishop moves in any diagonal direction.</string>
+	<string name="bishopPromotion">Promocionar el teu alfil el farà més fort, es tornarà en una peça anomenada \"el caball\"</string>
+	<string name="bishopSummary">L\'alfil es mou en qualsevol direcció diagonal.</string>
 	<string name="horseSummary">The promoted bishop moves also diagonally, but it can also go one square up, down, left or right as well.</string>
 	<string name="bishopComplete">Felicitats! Pots dirigit un àlfil.</string>
 	<string name="theKing">El rei</string>
