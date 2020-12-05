@@ -236,7 +236,7 @@
 	<string name="recipient">收件人</string>
 	<string name="send">发送</string>
 	<string name="incrementInSeconds">步时</string>
-	<string name="freeOnlineChess">Free Online Shogi</string>
+	<string name="freeOnlineChess">免税线上将棋</string>
 	<string name="spectators">观众：</string>
 	<plurals name="nbRated">
 		<item quantity="other">%s排位赛</item>
@@ -302,7 +302,7 @@
 	<string name="mustBeInTeam">您必须属于 %s 队</string>
 	<string name="youAreNotInTeam">您不属于 %s 队</string>
 	<string name="backToGame">返回棋局</string>
-	<string name="siteDescription">Free online shogi server. Play shogi in a clean interface. No registration, no ads, no plugin required. Play shogi with the computer, friends or random opponents.</string>
+	<string name="siteDescription">免费在线将棋平台。简洁界面上下棋。免注册，无广告，无需插件。与电脑，朋友或随机对一局。</string>
 	<string name="xJoinedTeamY">%1$s加入%2$s队</string>
 	<string name="xCreatedTeamY">%1$s组建%2$s队</string>
 	<string name="xStartedStreaming">%s 开始直播</string>
@@ -372,7 +372,7 @@
 	<string name="advancedSettings">高级设置</string>
 	<string name="safeTournamentName">为锦标赛提出一个无争议的名称。</string>
 	<string name="inappropriateNameWarning">即使只有一点点违规的内容都可能导致您的帐号被封禁。</string>
-	<string name="emptyTournamentName">Leave empty to name the tournament after a notable shogi player.</string>
+	<string name="emptyTournamentName">这一栏留空，将会用随机的将棋大师的名字命名这比赛。</string>
 	<string name="recommendNotTouching">我们建议您不要碰这些设置。</string>
 	<string name="fewerPlayers">如果您设置参赛条件，您的锦标赛的玩家将会更少。</string>
 	<string name="showAdvancedSettings">显示高级设置</string>
