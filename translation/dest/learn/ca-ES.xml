@@ -43,11 +43,11 @@
 	<string name="knightsHaveAFancyWay">Els cavalls tenen una peculiar manera de saltar!</string>
 	<string name="knightsCanJumpOverObstacles">Els cavalls poden saltar per sobre d\'obstacles!</string>
 	<string name="knightSummary">El cavall pot saltar en forma de L endevant, però només dos quadrats endevant i un quadrat cap el costat. El seu moviment no està restringit per altres peces - sols saltarà per sobre.</string>
-	<string name="pknightSummary">Promoted knight moves are completely different from the unpromoted knight, but you can notice it moves the same as the gold general, so make sure to study that one thoroughly.</string>
-	<string name="knightPromotion">The knight can also be promoted. His movements change a lot after that, so pay attention.</string>
+	<string name="pknightSummary">Els cavalls promoguts es mouen completament diferent dels no promoguts, però pots notar que es mou igual que el general d\'or, llavors estigues segur d\'estudiar-lo amb consciència.</string>
+	<string name="knightPromotion">El cavall també pot ser promocionat. Els seus moviments canvien molt després d\'això, estigues atent.</string>
 	<string name="knightComplete">Felicitats! Ja domines el cavall.</string>
 	<string name="thePawn">El peó</string>
-	<string name="itMovesForwardOnly">March forward!</string>
+	<string name="itMovesForwardOnly">Camina endevant!</string>
 	<string name="pawnIntro">Els peons són febles, però amaguen un munt de potencial.</string>
 	<string name="pawnsMoveOneSquareOnly">Pawns can move to the square directly in front of them, they capture the same way.</string>
 	<string name="pawnPromotion">The pawn can also be promoted, the moves are once again the same as the gold general.</string>
