@@ -2,6 +2,8 @@ package chess
 package format
 package pgn
 
+import play.api.libs.json._
+
 import scala._
 
 case class Pgn(
@@ -43,6 +45,97 @@ case class Pgn(
     val endStr  = tags(_.Result) | ""
     s"$tags\n\n$initStr$turnStr $endStr"
   }.trim
+
+  val destSymbols = Map(
+    "9" -> "一",
+    "8" -> "二",
+    "7" -> "三",
+    "6" -> "四",
+    "5" -> "五",
+    "4" -> "六",
+    "3" -> "七",
+    "2" -> "八",
+    "1" -> "九",
+    "a" ->  "９",
+    "b" ->  "８",
+    "c" ->  "７",
+    "d" ->  "６",
+    "e" ->  "５",
+    "f" ->  "４",
+    "g" ->  "３",
+    "h" ->  "２",
+    "i" ->  "１"
+  )
+  val origSymbols = Map(
+    "9" -> "1",
+    "8" -> "2",
+    "7" -> "3",
+    "6" -> "4",
+    "5" -> "5",
+    "4" -> "6",
+    "3" -> "7",
+    "2" -> "8",
+    "1" -> "9",
+    "a" ->  "9",
+    "b" ->  "8",
+    "c" ->  "7",
+    "d" ->  "6",
+    "e" ->  "5",
+    "f" ->  "4",
+    "g" ->  "3",
+    "h" ->  "2",
+    "i" ->  "1"
+  )
+  val pieceSymbols = Map(
+    "P" ->  "歩",
+    "L" ->  "香",
+    "N" ->  "桂",
+    "S" ->  "銀",
+    "B" ->  "角",
+    "R" ->  "飛",
+    "G" ->  "金",
+    "U" ->  "成香",
+    "M" ->  "成桂",
+    "A" ->  "成銀",
+    "T" ->  "と",
+    "H" ->  "馬",
+    "D" ->  "龍",
+    "K" ->  "玉"
+  )
+  val kifuSymbols = Map(
+    "+" ->  "成",
+    "same" -> "同　",
+    "*" -> "打"
+  )
+
+  def renderAsKifu(uciPgn: scala.collection.IndexedSeq[(String, String)]) = {
+    val movesHeader = "手数----指手---------消費時間--\n"
+    val moveStr = movesAsKifu(uciPgn.foldLeft(Vector[(String, String)]()) {_ :+ _}).zipWithIndex map { (move) => s"${move._2 + 1} ${move._1}" } mkString "\n"
+    s"$movesHeader$moveStr"
+  }
+
+  def movesAsKifu(uciPgn: Vector[(String, String)]): Vector[String] = {
+    uciPgn.foldLeft(Vector[String]()) { (prev, t) =>
+      // t is a tuple of (uci, pgn)
+      val movePattern = "([a-i])([1-9])([a-i])([1-9])(\\+?)".r
+      val dropPattern = "([A-Z])\\*([a-i])([1-9])".r
+      val pgnPattern = "([A-Z]).*".r
+      val kifuMove = t match {
+        case (movePattern(o1, o2, d1, d2, pro), pgnPattern(piece)) => {
+          val lastMovePattern = s"(.*)${origSymbols(o1)}${origSymbols(o2)}".r
+          (prev.lastOption match {
+            // check if 同 is needed
+            case Some(lastMovePattern(_)) => kifuSymbols("same")
+            // else use dest coords
+            case _ => destSymbols(d1) + destSymbols(d2)
+          }) + pieceSymbols(piece) + (if (pro == "+") kifuSymbols("+") else "") + "(" + origSymbols(o1) + origSymbols(o2) + ")"
+        }
+        case (dropPattern(piece, d1, d2), _) => destSymbols(d1) + destSymbols(d2) + pieceSymbols(piece) + kifuSymbols("*")
+        case _ => "UCI/PGN parse error"
+      }
+      prev :+ kifuMove
+    }
+  }
 
   override def toString = render
 }
