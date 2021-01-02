@@ -1,6 +1,7 @@
 package views.html.analyse
 
 import chess.variant.Standard
+import java.net.URI
 import play.api.i18n.Lang
 import play.api.libs.json.Json
 
@@ -51,7 +52,7 @@ object replay {
       a(dataIcon := "x", cls := "text", href := s"${routes.Game.exportOne(game.id)}?literate=1")(
         trans.downloadAnnotated()
       ),*/
-      a(dataIcon := "x", cls := "text", href := s"${routes.Game.exportOne(game.id)}?evals=0&clocks=0")(
+      game.variant == chess.variant.Standard option a(dataIcon := "x", cls := "text", href := s"data:text/plain;charset=utf-8,${new URI(null, null, kifu, null).getRawPath}", attr("download") := s"${game.createdAt}-${game.whitePlayer.userId | "Anonymous"}-vs-${game.blackPlayer.userId | "Anonymous"}.kifu")(
         trans.downloadRaw()
       ),
       game.isPgnImport option a(
@@ -148,7 +149,7 @@ object replay {
                     strong("Kifu"),
                     pgnLinks
                   ),
-                  div(cls := "pgn")(kifu)
+                  game.variant == chess.variant.Standard option div(cls := "pgn")(kifu)
                 ),
                 cross.map { c =>
                   div(cls := "ctable")(
@@ -170,7 +171,7 @@ object replay {
                   game.turns > 1 option span(dataPanel := "move-times")(trans.moveTimes()),
                   cross.isDefined option span(dataPanel := "ctable")(trans.crosstable())
                 ),
-                span(dataPanel := "fen-pgn")(raw("FEN &amp; PGN"))
+                span(dataPanel := "fen-pgn")(raw("SFEN &amp; Kifu"))
               )
             )
           )

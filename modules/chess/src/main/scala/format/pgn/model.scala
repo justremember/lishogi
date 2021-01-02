@@ -109,7 +109,9 @@ case class Pgn(
   )
 
   def renderAsKifu(uciPgn: scala.collection.IndexedSeq[(String, String)]) = {
-    val movesHeader = "手数----指手---------消費時間--\n"
+    val movesHeader = """手合割：平手
+手数----指手---------消費時間--
+"""
     val moveStr = movesAsKifu(uciPgn.foldLeft(Vector[(String, String)]()) {_ :+ _}).zipWithIndex map { (move) => s"${move._2 + 1} ${move._1}" } mkString "\n"
     s"$movesHeader$moveStr"
   }
