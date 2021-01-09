@@ -390,7 +390,6 @@
 	<string name="save">שמור</string>
 	<string name="leaderboard">טבלת השחקנים המובילים</string>
 	<string name="pasteTheFenStringHere">הדבק מחרוזת FEN כאן</string>
-	<string name="pasteThePgnStringHere">הדבק מחרוזת PGN כאן</string>
 	<string name="fromPosition">מהעמדה</string>
 	<string name="continueFromHere">המשך מכאן</string>
 	<string name="toStudy">לחקור</string>

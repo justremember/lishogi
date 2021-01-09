@@ -390,7 +390,6 @@
 	<string name="save">Збережи</string>
 	<string name="leaderboard">Найкращі гравці</string>
 	<string name="pasteTheFenStringHere">Встав FEN тут</string>
-	<string name="pasteThePgnStringHere">Встав PGN тут</string>
 	<string name="fromPosition">З розташови</string>
 	<string name="continueFromHere">Продовж звідси</string>
 	<string name="toStudy">Дослід</string>

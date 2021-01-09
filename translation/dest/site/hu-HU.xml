@@ -344,7 +344,6 @@
 	<string name="save">Mentés</string>
 	<string name="leaderboard">Ranglista</string>
 	<string name="pasteTheFenStringHere">Másold ide a FEN szöveget</string>
-	<string name="pasteThePgnStringHere">Másold ide a PGN szöveget</string>
 	<string name="fromPosition">Adott állásból</string>
 	<string name="continueFromHere">Folytatás innen</string>
 	<string name="toStudy">Tanulmány</string>

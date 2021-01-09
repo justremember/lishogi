@@ -390,7 +390,6 @@
 	<string name="save">Uložit</string>
 	<string name="leaderboard">Žebříček</string>
 	<string name="pasteTheFenStringHere">Zde vložte FEN řetězec</string>
-	<string name="pasteThePgnStringHere">Zde vložte PGN řetězec</string>
 	<string name="fromPosition">Z pozice</string>
 	<string name="continueFromHere">Pokračovat zde</string>
 	<string name="toStudy">Do studie</string>

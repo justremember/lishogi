@@ -344,7 +344,6 @@
 	<string name="save">Spara</string>
 	<string name="leaderboard">Topplista</string>
 	<string name="pasteTheFenStringHere">Klistra in FEN-koden här</string>
-	<string name="pasteThePgnStringHere">Klistra in PGN-koden här</string>
 	<string name="fromPosition">Från position</string>
 	<string name="continueFromHere">Fortsätt härifrån</string>
 	<string name="toStudy">Studera</string>

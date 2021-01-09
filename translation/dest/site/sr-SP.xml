@@ -367,7 +367,6 @@
 	<string name="save">Сачувај</string>
 	<string name="leaderboard">Табела</string>
 	<string name="pasteTheFenStringHere">Убаци FEN текст овде</string>
-	<string name="pasteThePgnStringHere">Убаци PGN текст овде</string>
 	<string name="fromPosition">Од позиције</string>
 	<string name="continueFromHere">Настави одавде</string>
 	<string name="toStudy">Проучи</string>

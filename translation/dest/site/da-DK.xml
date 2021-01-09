@@ -344,7 +344,6 @@
 	<string name="save">Gem</string>
 	<string name="leaderboard">Klassement</string>
 	<string name="pasteTheFenStringHere">Indsæt FEN-teksten her</string>
-	<string name="pasteThePgnStringHere">Indsæt PGN-teksten her</string>
 	<string name="fromPosition">Fra position</string>
 	<string name="continueFromHere">Fortsæt herfra</string>
 	<string name="toStudy">Studér</string>

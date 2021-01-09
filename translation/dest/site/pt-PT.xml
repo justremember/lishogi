@@ -344,7 +344,6 @@
 	<string name="save">Guardar</string>
 	<string name="leaderboard">Tabela de liderança</string>
 	<string name="pasteTheFenStringHere">Coloca a notação FEN aqui</string>
-	<string name="pasteThePgnStringHere">Coloca a notação PGN aqui</string>
 	<string name="fromPosition">A partir de uma posição</string>
 	<string name="continueFromHere">Continuar a partir daqui</string>
 	<string name="toStudy">Estudo</string>

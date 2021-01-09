@@ -367,7 +367,6 @@
 	<string name="save">Salvează</string>
 	<string name="leaderboard">Clasament</string>
 	<string name="pasteTheFenStringHere">Lipește FEN aici</string>
-	<string name="pasteThePgnStringHere">Lipește PGN aici</string>
 	<string name="fromPosition">De la poziția</string>
 	<string name="continueFromHere">Continuați de aici</string>
 	<string name="toStudy">Studiază</string>
