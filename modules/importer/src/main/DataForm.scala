@@ -1,6 +1,6 @@
 package lila.importer
 
-import chess.format.pgn.{ ParsedPgn, Parser, Reader, Tag, TagType, Tags }
+import chess.format.pgn.{ KifuUtils, ParsedPgn, Parser, Reader, Tag, TagType, Tags }
 import chess.format.{ FEN, Forsyth }
 import chess.{ Color, Mode, Replay, Status }
 import play.api.data._
@@ -14,12 +14,12 @@ final class DataForm {
 
   lazy val importForm = Form(
     mapping(
-      "pgn"     -> nonEmptyText.verifying("invalidPgn", p => checkPgn(p).isSuccess),
+      "kifu"     -> nonEmptyText.verifying("invalidKifu", p => checkKifu(p).isSuccess),
       "analyse" -> optional(nonEmptyText)
     )(ImportData.apply)(ImportData.unapply)
   )
 
-  def checkPgn(pgn: String): Valid[Preprocessed] = ImportData(pgn, none).preprocess(none)
+  def checkKifu(kifu: String): Valid[Preprocessed] = ImportData(kifu, none).preprocess(none)
 }
 
 private case class TagResult(status: Status, winner: Option[Color])
@@ -30,7 +30,9 @@ case class Preprocessed(
     parsed: ParsedPgn
 )
 
-case class ImportData(pgn: String, analyse: Option[String]) {
+case class ImportData(kifu: String, analyse: Option[String]) {
+
+  val pgn = KifuUtils.kifuToPgn(kifu)
 
   private type TagPicker = Tag.type => TagType
 

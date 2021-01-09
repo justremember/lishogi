@@ -19,7 +19,7 @@ object importGame {
       moreJs = jsTag("importer.js"),
       openGraph = lila.app.ui
         .OpenGraph(
-          title = "Paste PGN chess game",
+          title = "Paste Kifu shogi game",
           url = s"$netBaseUrl${routes.Importer.importGame().url}",
           description = trans.importGameKifuExplanation.txt()
         )
@@ -29,10 +29,10 @@ object importGame {
         h1(trans.importGame()),
         p(cls := "explanation")(trans.importGameKifuExplanation()),
         postForm(cls := "form3 import", action := routes.Importer.sendGame())(
-          form3.group(form("pgn"), trans.pasteThePgnStringHere())(form3.textarea(_)()),
-          form("pgn").value flatMap { pgn =>
+          form3.group(form("kifu"), trans.pasteTheKifuStringHere())(form3.textarea(_)()),
+          form("kifu").value flatMap { kifu =>
             lila.importer
-              .ImportData(pgn, none)
+              .ImportData(kifu, none)
               .preprocess(none)
               .fold(
                 err =>
@@ -44,8 +44,8 @@ object importGame {
                 _ => none
               )
           },
-          form3.group(form("pgnFile"), raw("Or upload a PGN file"), klass = "upload") { f =>
-            form3.file.pgn(f.name)
+          form3.group(form("kifuFile"), trans.orUploadKifuFile(), klass = "upload") { f =>
+            form3.file.kifu(f.name)
           },
           form3.checkbox(
             form("analyse"),

@@ -45,6 +45,7 @@ object KifuUtils {
     "h" ->  "２",
     "i" ->  "１"
   )
+  val destSymbolsInverted = destSymbols.map(_.swap)
   val origSymbols = Map(
     "9" -> "1",
     "8" -> "2",
@@ -65,6 +66,7 @@ object KifuUtils {
     "h" ->  "2",
     "i" ->  "1"
   )
+  val origSymbolsInverted = origSymbols.map(_.swap)
   val pieceSymbols = Map(
     "P" ->  "歩",
     "L" ->  "香",
@@ -81,6 +83,7 @@ object KifuUtils {
     "D" ->  "龍",
     "K" ->  "玉"
   )
+  val pieceSymbolsInverted = pieceSymbols.map(_.swap)
   val kifuSymbols = Map(
     "+" ->  "成",
     "same" -> "同　",
@@ -132,6 +135,10 @@ object KifuUtils {
       }
       prev :+ kifuMove
     }
+  }
+
+  def kifuToPgn(kifu: String): String = {
+    "1. Pc4 Pi6"
   }
 }
 //Result & Termination <-> saigo no te
