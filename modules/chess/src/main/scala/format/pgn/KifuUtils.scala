@@ -14,6 +14,7 @@ object KifuUtils {
     Tag.Black -> "後手",
     Tag.Opening -> "戦型"
   )
+  val tagParseInverted = tagParse.map(_.swap)
 
   val tagIndex = (List(
     Tag.Event,
@@ -46,16 +47,8 @@ object KifuUtils {
     "i" ->  "１"
   )
   val destSymbolsInverted = destSymbols.map(_.swap)
-  val origSymbols = Map(
-    "9" -> "1",
-    "8" -> "2",
-    "7" -> "3",
-    "6" -> "4",
-    "5" -> "5",
-    "4" -> "6",
-    "3" -> "7",
-    "2" -> "8",
-    "1" -> "9",
+  val destSymbolsPattern = "(" + destSymbols.values.mkString("|") + ")"
+  val origSymbols1 = Map(
     "a" ->  "9",
     "b" ->  "8",
     "c" ->  "7",
@@ -66,7 +59,18 @@ object KifuUtils {
     "h" ->  "2",
     "i" ->  "1"
   )
-  val origSymbolsInverted = origSymbols.map(_.swap)
+  val origSymbols2 = Map(
+    "9" -> "1",
+    "8" -> "2",
+    "7" -> "3",
+    "6" -> "4",
+    "5" -> "5",
+    "4" -> "6",
+    "3" -> "7",
+    "2" -> "8",
+    "1" -> "9"
+  )
+  val origSymbols1Inverted = origSymbols1.map(_.swap)
   val pieceSymbols = Map(
     "P" ->  "歩",
     "L" ->  "香",
@@ -84,6 +88,7 @@ object KifuUtils {
     "K" ->  "玉"
   )
   val pieceSymbolsInverted = pieceSymbols.map(_.swap)
+  val pieceSymbolsPattern = "(" + pieceSymbols.values.mkString("|") + ")"
   val kifuSymbols = Map(
     "+" ->  "成",
     "same" -> "同　",
@@ -122,15 +127,15 @@ object KifuUtils {
       val pgnPattern = "([A-Z]).*".r
       val kifuMove = t match {
         case (movePattern(o1, o2, d1, d2, pro), pgnPattern(piece)) => {
-          val lastMovePattern = s"(.*)${origSymbols(o1)}${origSymbols(o2)}".r
+          val lastMovePattern = s"(.*)${origSymbols1(o1)}${origSymbols2(o2)}".r
           (prev.lastOption match {
             // check if 同 is needed
-            case Some(lastMovePattern(_)) => kifuSymbols("same")
+            case Some(lastMovePattern(_)) => "同　"
             // else use dest coords
             case _ => destSymbols(d1) + destSymbols(d2)
-          }) + pieceSymbols(piece) + (if (pro == "+") kifuSymbols("+") else "") + "(" + origSymbols(o1) + origSymbols(o2) + ")"
+          }) + pieceSymbols(piece) + (if (pro == "+") "成" else "") + "(" + origSymbols1(o1) + origSymbols2(o2) + ")"
         }
-        case (dropPattern(piece, d1, d2), _) => destSymbols(d1) + destSymbols(d2) + pieceSymbols(piece) + kifuSymbols("*")
+        case (dropPattern(piece, d1, d2), _) => destSymbols(d1) + destSymbols(d2) + pieceSymbols(piece) + "打"
         case _ => "UCI/PGN parse error"
       }
       prev :+ kifuMove
@@ -138,7 +143,73 @@ object KifuUtils {
   }
 
   def kifuToPgn(kifu: String): String = {
-    "1. Pc4 Pi6"
+    val commentPattern = "#.*($|\\n)".r
+    val cleanKifu = commentPattern.replaceAllIn(kifu, "$1").replace("\r\n", "\n").replace("\r", "\n")
+    val kifuByLines = cleanKifu.split("\n")
+    val tagPattern = "(.*)：(.*)".r
+    pprint.log(kifu)
+    if (kifu.length > 27) {
+      pprint.log(cleanKifu(21))
+      pprint.log(cleanKifu(22))
+      pprint.log(cleanKifu(23))
+      pprint.log(cleanKifu(24))
+      pprint.log(cleanKifu(25))
+      pprint.log(cleanKifu(26))
+      pprint.log(cleanKifu(27))
+      pprint.log(kifuByLines)
+      pprint.log(kifuByLines(0))
+      pprint.log(kifuByLines(1))
+      pprint.log(kifuByLines(2))
+      pprint.log(kifuByLines(3))
+    }
+
+    val tagStr = kifuByLines map {
+      case tagPattern(tagName, tagValue) => {
+        pprint.log(tagName)
+        pprint.log(tagValue)
+        (tagParseInverted get tagName)
+          .fold(""){(tagEn: TagType) => s"""[$tagEn "$tagValue"]\n""" }
+      }
+      case _ => ""
+    } mkString ""
+
+    def movesStrRecurse(kifuLines: Array[String], i: Integer = 0, moveNum: Integer = 1, movesStr: String = ""): String = {
+      if (kifuLines.length == i) return movesStr
+      val movePattern = s"\\s*(\\d+)\\s*$destSymbolsPattern$destSymbolsPattern$pieceSymbolsPattern(成?)\\((\\d)(\\d)\\).*".r
+      val samePattern = s"\\s*(\\d+)\\s*同　$pieceSymbolsPattern(成?)\\((\\d)(\\d)\\).*".r
+      val dropPattern = s"\\s*(\\d+)\\s*$destSymbolsPattern$destSymbolsPattern${pieceSymbolsPattern}打.*".r
+      kifuLines(i) match {
+        case movePattern(mn, d1, d2, pc, pro, o1, o2) => {
+          if (moveNum != mn.toInt) movesStr else {
+            val proPlus = if (pro.length > 0) "+" else ""
+            val newMovesStr = movesStr + s" ${pieceSymbolsInverted(pc)}${origSymbols1Inverted(o1)}${10 - o2.toInt}${destSymbolsInverted(d1)}${destSymbolsInverted(d2)}${proPlus}"
+            movesStrRecurse(kifuLines, i + 1, moveNum + 1, newMovesStr)
+          }
+        }
+        case samePattern(mn, pc, pro, o1, o2) => {
+          if (moveNum != mn.toInt) movesStr else {
+            val lastDest = movesStr takeRight 3
+            val lastDest2 = if ((lastDest takeRight 1) == "+") lastDest take 2 else lastDest takeRight 2
+            val d1 = lastDest2 take 1
+            val d2 = lastDest2 takeRight 1
+            val proPlus = if (pro.length > 0) "+" else ""
+            val newMovesStr = movesStr + s" ${pieceSymbolsInverted(pc)}${origSymbols1Inverted(o1)}${10 - o2.toInt}${d1}${d2}${proPlus}"
+            movesStrRecurse(kifuLines, i + 1, moveNum + 1, newMovesStr)
+          }
+        }
+        case dropPattern(mn, d1, d2, pc) => {
+          if (moveNum != mn.toInt) movesStr else {
+            val newMovesStr = movesStr + s" ${pieceSymbolsInverted(pc)}*${destSymbolsInverted(d1)}${destSymbolsInverted(d2)}"
+            movesStrRecurse(kifuLines, i + 1, moveNum + 1, newMovesStr)
+          }
+        }
+        case _ => movesStrRecurse(kifuLines, i + 1, moveNum, movesStr)
+      }
+
+    }
+    val movesStr = movesStrRecurse(kifuByLines)
+
+    s"$tagStr\n$movesStr".pp
   }
 }
 //Result & Termination <-> saigo no te
