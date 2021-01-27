@@ -28,7 +28,7 @@ export default function (ctrl: LobbyController) {
   }).length;
   const active = ctrl.tab;
   return [
-    //ctrl.isBot ? undefined : tab(ctrl, 'pools', active, [ctrl.trans.noarg('quickPairing')]),
+    ctrl.isBot ? undefined : tab(ctrl, 'pools', active, [ctrl.trans.noarg('quickPairing')]),
     ctrl.isBot
       ? undefined
       : tab(ctrl, "real_time", active, [ctrl.trans.noarg("lobby")]),

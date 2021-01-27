@@ -21,6 +21,8 @@ export interface Pool {
   id: PoolId;
   lim: number;
   inc: number;
+  byo: number;
+  per: number;
   perf: string
 }
 

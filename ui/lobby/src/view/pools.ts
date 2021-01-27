@@ -28,7 +28,7 @@ export function render(ctrl: LobbyController) {
       },
       attrs: { 'data-id': pool.id }
     }, [
-      h('div.clock', pool.lim + '+' + pool.inc),
+      h('div.clock', pool.lim + (pool.inc ? '+' + pool.inc : '') + (!pool.inc || pool.byo ? '|' + pool.byo : '') + (pool.per && pool.byo ? '(' + pool.per + 'x)' : '')),
       (active && member!.range) ? renderRange(member!.range!) : h('div.perf', pool.perf),
       active ? spinner() : null
     ]);
