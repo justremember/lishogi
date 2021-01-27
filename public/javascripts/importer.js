@@ -11,10 +11,23 @@ $(function () {
       var file = this.files[0];
       if (!file) return;
       var reader = new FileReader();
+
       reader.onload = function (e) {
-        $form.find("textarea").val(e.target.result);
+        var codes = new Uint8Array(e.target.result);
+        var unicodeString = Encoding.convert(codes, {
+          to: 'unicode',
+          from: 'auto',
+          type: 'string'
+        });
+        $form.find("input[type=hidden]").change(function() {
+          $form.find("textarea").val(unicodeString);
+        }).val(kifToPgn(unicodeString)).change();
       };
-      reader.readAsText(file);
+      reader.readAsArrayBuffer(file);
     });
   } else $form.find(".upload").remove();
+
+  var kifToPgn = function(kif) {
+    return kif;
+  }
 });
